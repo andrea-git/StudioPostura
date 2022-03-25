@@ -1,0 +1,33 @@
+       FD  param.
+       01 prm-rec.
+           05 prm-chiave.
+               10 prm-codice       PIC  xx.
+           05 prm-dati.
+               10 prm-anno         PIC  9(4).
+               10 prm-fatture.
+                   15 prm-fatture-num  PIC  9(6).
+                   15 prm-fatture-data PIC  9(8).
+               10 prm-corrisp.
+                   15 prm-corrisp-num  PIC  9(6).
+                   15 prm-corrisp-data PIC  9(8).
+               10 prm-notecr.
+                   15 prm-notecr-num   PIC  9(6).
+                   15 prm-notecr-data  PIC  9(8).
+               10 prm-IBAN1        PIC  x(30).
+               10 prm-IBAN2        PIC  x(30).
+               10 prm-intestazione.
+                   15 prm-ragsoc       PIC  x(50).
+                   15 prm-indirizzo    PIC  x(50).
+                   15 prm-citta        PIC  x(50).
+                   15 prm-cap          PIC  x(5).
+                   15 prm-prov         PIC  xx.
+                   15 prm-piva         PIC  x(11).
+                   15 prm-codfis       PIC  x(16).
+                   15 prm-cciaa        PIC  x(20).
+                   15 prm-logo         PIC  x(256).
+               10 prm-IVA          PIC  x(3).
+               10 prm-vuoti.
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).

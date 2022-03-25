@@ -1,0 +1,17 @@
+ 
+;;;DOCUMENTI FISCALI DAL 00/00/0000 AL 99/99/9999
+ 
+Num.;Documento;Data;Cliente;Importo;IVA;Totale
+ 
+         1;FATTURA   ;15/06/2012;EVENTI ANDREA                                     ;        120,00;         25,20;        145,20
+         2;FATTURA   ;15/06/2012;EVENTI ANDREA                                     ;        110,00;         23,10;        133,10
+         3;FATTURA   ;15/06/2012;RESET                                             ;        190,00;         39,90;        229,90
+         6;FATTURA   ;15/06/2012;RESET                                             ;     10.000,00;          0,00;     10.000,00
+         7;FATTURA   ;15/06/2012;EVENTI ANDREA                                     ;     50.000,00;     10.500,00;     60.500,00
+         8;FATTURA   ;15/06/2012;EVENTI ANDREA                                     ;        105,45;         22,14;        127,59
+         9;FATTURA   ;15/06/2012;EVENTI ANDREA                                     ;        105,45;         22,14;        127,59
+        10;FATTURA   ;15/06/2012;EVENTI ANDREA                                     ;         95,00;         19,95;        114,95
+        11;FATTURA   ;15/06/2012;RESET                                             ;          9,50;          0,00;          9,50
+;;;TOTALE AL 15/06/2012;     60.735,40;     10.652,43;     71.387,83
+ 
+;;;TOTALE DOCUMENTI;     60.735,40;     10.652,43;     71.387,83

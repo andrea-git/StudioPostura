@@ -1,0 +1,12 @@
+       FD  articoli.
+       01 art-rec.
+           05 art-chiave.
+               10 art-codice       PIC  x(6).
+           05 art-dati.
+               10 art-descrizione  PIC  x(50).
+               10 art-note         PIC  x(200).
+               10 art-vuoti.
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).

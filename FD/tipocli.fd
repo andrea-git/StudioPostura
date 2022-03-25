@@ -1,0 +1,12 @@
+       FD  tipocli.
+       01 tcl-rec.
+           05 tcl-chiave.
+               10 tcl-codice       PIC  x(6).
+           05 tcl-dati.
+               10 tcl-descrizione  PIC  x(50).
+               10 tcl-sconto       PIC  9(3)v99.
+               10 tcl-vuoti.
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).

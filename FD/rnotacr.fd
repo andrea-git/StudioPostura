@@ -1,0 +1,19 @@
+       FD  rnotacr.
+       01 rno-rec.
+           05 rno-chiave.
+               10 rno-chiave-testa.
+                   15 rno-anno         PIC  9(4).
+                   15 rno-numero       PIC  9(6).
+               10 rno-riga         PIC  9(6).
+           05 rno-dati.
+               10 rno-articolo     PIC  x(6).
+               10 rno-descrizione  PIC  x(50).
+               10 rno-qta          PIC  9(6).
+               10 rno-prz          PIC  9(6)v99.
+               10 rno-iva          PIC  x(3).
+               10 rno-vuoti.
+                   15 rno-listino      PIC  9(6)v99.
+                   15 FILLER           PIC  9(10).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).

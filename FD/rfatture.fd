@@ -1,0 +1,21 @@
+       FD  rfatture.
+       01 rfa-rec.
+           05 rfa-chiave.
+               10 rfa-chiave-testa.
+                   15 rfa-anno         PIC  9(4).
+                   15 rfa-numero       PIC  9(6).
+               10 rfa-riga         PIC  9(6).
+           05 rfa-dati.
+               10 rfa-articolo     PIC  x(6).
+               10 rfa-descrizione  PIC  x(50).
+               10 rfa-qta          PIC  9(6).
+               10 rfa-prz          PIC  9(6)v99.
+               10 rfa-iva          PIC  x(3).
+               10 rfa-vuoti.
+                   15 rfa-listino      PIC  9(6)v99.
+      *(( XFD NAME = rfa-listino_1 ))
+                   15 rfa-sconto       PIC  9(3)v99.
+                   15 FILLER           PIC  9(5).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).

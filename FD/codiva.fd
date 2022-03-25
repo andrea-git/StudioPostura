@@ -1,0 +1,12 @@
+       FD  codiva.
+       01 iva-rec.
+           05 iva-chiave.
+               10 iva-codice       PIC  x(3).
+           05 iva-dati.
+               10 iva-descrizione  PIC  x(50).
+               10 iva-aliquota     PIC  9(3)v99.
+               10 iva-vuoti.
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).

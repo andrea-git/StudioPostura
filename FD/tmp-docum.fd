@@ -1,0 +1,15 @@
+      *(( XFD FILE = tmp-docum ))
+       FD  tmp-docum.
+       01 tdoc-rec.
+           05 tdoc-chiave.
+               10 tdoc-data        PIC  9(8).
+               10 tdoc-tipo        PIC  x(10).
+                   88 tdoc-corrisp VALUE IS "CORRISP". 
+                   88 tdoc-fattura VALUE IS "FATTURA". 
+                   88 tdoc-notacr VALUE IS "NOTA CR". 
+               10 tdoc-numero      PIC  9(10).
+           05 tdoc-dati.
+               10 tdoc-cliente     PIC  x(50).
+               10 tdoc-importo     PIC  s9(6)v99.
+               10 tdoc-iva         PIC  s9(6)v99.
+               10 tdoc-totale      PIC  s9(8)v99.

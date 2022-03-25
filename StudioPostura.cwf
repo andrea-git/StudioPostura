@@ -1,0 +1,3151 @@
+; CaseMaker Totem Workspace File, Version 6.1
+; WARNING: DO NOT MODIFY THIS FILE!
+
+[MONITOR_FILE]
+
+
+[WORKSPACE_CONTENT]
+WORKSPACE_UNIQUE_CODE=TOTEM-7DC59125738-768-167934620
+PROJECT_LIST=StudioPostura
+CONFIGURATION_LIST=Debug Mode,Release Mode
+CURRENT_CONFIGURATION=Debug Mode
+
+[FILE_DEFINITION_CONTENT]
+VERSION=1
+VARIABLE0=%acudir%\sample\def\acugui.def
+VARIABLE1=%acudir%\sample\def\acucobol.def
+VARIABLE2=%acudir%\sample\def\fonts.def
+VARIABLE3=%acudir%\sample\def\palette.def
+VARIABLE4=%acudir%\sample\def\crtvars.def
+VARIABLE5=%acudir%\sample\def\activex.def
+VARIABLE6=%acudir%\sample\def\opensave.def
+VARIABLE7=%acudir%\sample\def\showmsg.def
+VARIABLE8=%totemdir%\sample\totem.def
+VARIABLE9=%copydir%\comune.def
+VARIABLE10=%copydir%\custom.def
+VARIABLE11=%copydir%\UTYDATA.DEF
+
+[PROJECT_CONTENT-StudioPostura]
+RELATIVE_PATH=.
+REMOTE_PATH=myserver:5632:/
+MAIN_PROGRAM_TYPE=2
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM1]
+RELATIVE_PATH=CPF\selprint.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM2]
+RELATIVE_PATH=cpf\menu.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM3]
+RELATIVE_PATH=CPF\gparam.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM4]
+RELATIVE_PATH=CPF\tcodiva.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM5]
+RELATIVE_PATH=CPF\browser.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM6]
+RELATIVE_PATH=CPF\ttipocli.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM7]
+RELATIVE_PATH=CPF\gclienti.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM8]
+RELATIVE_PATH=CPF\garticoli.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM9]
+RELATIVE_PATH=CPF\glistini.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM10]
+RELATIVE_PATH=CPF\schedacli.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM11]
+RELATIVE_PATH=CPF\fatcli.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM12]
+RELATIVE_PATH=cpf\docum.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM13]
+RELATIVE_PATH=cpf\vdocum.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM14]
+RELATIVE_PATH=CPF\selnota.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM15]
+RELATIVE_PATH=CPF\notacr.cpf
+
+[PROGRAM_CONTENT-StudioPostura:PROGRAM16]
+RELATIVE_PATH=CPF\appuntamenti.cpf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT1]
+RELATIVE_PATH=FD\STAMPA.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT2]
+RELATIVE_PATH=FD\clienti.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT3]
+RELATIVE_PATH=FD\articoli.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT4]
+RELATIVE_PATH=FD\codiva.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT5]
+RELATIVE_PATH=FD\tipocli.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT6]
+RELATIVE_PATH=FD\param.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT7]
+RELATIVE_PATH=FD\tlistini.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT8]
+RELATIVE_PATH=FD\rlistini.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT9]
+RELATIVE_PATH=FD\lineseq.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT10]
+RELATIVE_PATH=FD\comuni.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT11]
+RELATIVE_PATH=FD\pro_piva.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT12]
+RELATIVE_PATH=FD\tschede.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT13]
+RELATIVE_PATH=FD\rschede.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT14]
+RELATIVE_PATH=FD\tfatture.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT15]
+RELATIVE_PATH=FD\rfatture.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT16]
+RELATIVE_PATH=FD\tcorrisp.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT17]
+RELATIVE_PATH=FD\rcorrisp.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT18]
+RELATIVE_PATH=FD\tnotacr.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT19]
+RELATIVE_PATH=FD\rnotacr.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT20]
+RELATIVE_PATH=FD\tmp-docum.clf
+
+[DATALAYOUT_CONTENT-StudioPostura:DATALAYOUT21]
+RELATIVE_PATH=FD\appuntamenti.clf
+
+[FOLDER_CONTENT-StudioPostura:Source]
+ACCEPTED_FILE_EXTENSION=*.cbl;*.cob
+CREATED_TIME=14:57:38, mercoledì 9 maggio 2012
+
+[FOLDER_CONTENT-StudioPostura:Screen]
+ACCEPTED_FILE_EXTENSION=*.scr;*.stf
+CREATED_TIME=14:57:38, mercoledì 9 maggio 2012
+
+[FOLDER_CONTENT-StudioPostura:Report]
+ACCEPTED_FILE_EXTENSION=*.rpt;*.wtf
+CREATED_TIME=14:57:38, mercoledì 9 maggio 2012
+
+[FOLDER_CONTENT-StudioPostura:Copylib]
+ACCEPTED_FILE_EXTENSION=*.cpy;*.wrk;*.lnk;*.lks;*.mnu;*.prd;*.evt;*.def
+CREATED_TIME=14:57:38, mercoledì 9 maggio 2012
+
+[FOLDER_CONTENT-StudioPostura:Object]
+ACCEPTED_FILE_EXTENSION=*.acu;*.cbx;*.obj;*.lib
+CREATED_TIME=14:57:38, mercoledì 9 maggio 2012
+
+[FOLDER_CONTENT-StudioPostura:List]
+ACCEPTED_FILE_EXTENSION=*.lst;*.log;*.asq
+CREATED_TIME=14:57:38, mercoledì 9 maggio 2012
+
+[FOLDER_CONTENT-StudioPostura:Resource]
+ACCEPTED_FILE_EXTENSION=*.ico;*.bmp;*.jpg;*.jpe;*.jpeg
+CREATED_TIME=14:57:38, mercoledì 9 maggio 2012
+
+[FOLDER_CONTENT-StudioPostura:FD]
+ACCEPTED_FILE_EXTENSION=*.fd;*.sl
+CREATED_TIME=14:57:38, mercoledì 9 maggio 2012
+
+[FOLDER_CONTENT-StudioPostura:Remote]
+ACCEPTED_FILE_EXTENSION=*.acu;*.cbx;*.obj;*.lib
+CREATED_TIME=14:57:38, mercoledì 9 maggio 2012
+
+[FILE_CONTENT-StudioPostura:FILE1]
+RELATIVE_PATH=Source\zoom-gt.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE2]
+RELATIVE_PATH=Source\utydata.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE3]
+RELATIVE_PATH=Source\spooler.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE4]
+RELATIVE_PATH=Source\selprint.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE5]
+RELATIVE_PATH=Source\seldata.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE6]
+RELATIVE_PATH=Source\colors.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE7]
+RELATIVE_PATH=Source\genfiles.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE8]
+RELATIVE_PATH=Source\menu.cbl
+FOLDER_NAME=Source
+OWNER_PATH=cpf\menu.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE9]
+RELATIVE_PATH=Source\blockpgm.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE10]
+RELATIVE_PATH=Source\gparam.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\gparam.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE11]
+RELATIVE_PATH=Source\tcodiva.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\tcodiva.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE12]
+RELATIVE_PATH=Source\codfis.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE13]
+RELATIVE_PATH=Source\browser.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\browser.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE14]
+RELATIVE_PATH=Source\ttipocli.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\ttipocli.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE15]
+RELATIVE_PATH=Source\gclienti.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\gclienti.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE16]
+RELATIVE_PATH=Source\garticoli.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\garticoli.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE17]
+RELATIVE_PATH=Source\glistini.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\glistini.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE18]
+RELATIVE_PATH=Source\schedacli.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\schedacli.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE19]
+RELATIVE_PATH=Source\fatcli.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\fatcli.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE20]
+RELATIVE_PATH=Source\docum.cbl
+FOLDER_NAME=Source
+OWNER_PATH=cpf\docum.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE21]
+RELATIVE_PATH=Source\vdocum.cbl
+FOLDER_NAME=Source
+OWNER_PATH=cpf\vdocum.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE22]
+RELATIVE_PATH=Source\notacr.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\notacr.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE23]
+RELATIVE_PATH=Source\selnota.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\selnota.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE24]
+RELATIVE_PATH=Source\st-cli-det.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE25]
+RELATIVE_PATH=Source\st-schedacli.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE26]
+RELATIVE_PATH=Source\st-docum.cbl
+FOLDER_NAME=Source
+
+[FILE_CONTENT-StudioPostura:FILE27]
+RELATIVE_PATH=Source\appuntamenti.cbl
+FOLDER_NAME=Source
+OWNER_PATH=CPF\appuntamenti.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE28]
+RELATIVE_PATH=C:\ACUCORP\ACUCBL610\ACUGT\SAMPLE\DEF\ACUGUI.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\zoom-gt.cbl
+
+[FILE_CONTENT-StudioPostura:FILE29]
+RELATIVE_PATH=C:\ACUCORP\ACUCBL610\ACUGT\SAMPLE\DEF\ACUCOBOL.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\zoom-gt.cbl
+
+[FILE_CONTENT-StudioPostura:FILE30]
+RELATIVE_PATH=C:\ACUCORP\ACUCBL610\ACUGT\SAMPLE\DEF\CRTVARS.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\zoom-gt.cbl
+
+[FILE_CONTENT-StudioPostura:FILE31]
+RELATIVE_PATH=Copylib\xzoom-common.def
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\zoom-gt.cbl
+
+[FILE_CONTENT-StudioPostura:FILE32]
+RELATIVE_PATH=Copylib\xzoom3.def
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\zoom-gt.cbl
+
+[FILE_CONTENT-StudioPostura:FILE33]
+RELATIVE_PATH=Copylib\externals.def
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\zoom-gt.cbl
+
+[FILE_CONTENT-StudioPostura:FILE34]
+RELATIVE_PATH=Copylib\UTYDATA.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\seldata.cbl
+
+[FILE_CONTENT-StudioPostura:FILE35]
+RELATIVE_PATH=C:\ACUCORP\ACUCBL610\ACUGT\SAMPLE\DEF\WINPRINT.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\spooler.cbl
+
+[FILE_CONTENT-StudioPostura:FILE36]
+RELATIVE_PATH=Copylib\spooler.def
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\spooler.cbl
+
+[FILE_CONTENT-StudioPostura:FILE37]
+RELATIVE_PATH=C:\ACUCORP\ACUCBL610\ACUGT\SAMPLE\DEF\FONTS.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE38]
+RELATIVE_PATH=C:\ACUCORP\ACUCBL610\ACUGT\SAMPLE\DEF\SHOWMSG.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE39]
+RELATIVE_PATH=C:\TOTEM61\SAMPLE\TOTEM.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE40]
+RELATIVE_PATH=F:\SOAVI\COPYLIB\SELPRINT.LKS
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE41]
+RELATIVE_PATH=Copylib\comune.def
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE42]
+RELATIVE_PATH=Copylib\messaggi.def
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE43]
+RELATIVE_PATH=Copylib\custom.def
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE44]
+RELATIVE_PATH=C:\ACUCORP\ACUCBL610\ACUGT\SAMPLE\DEF\CONTROLS.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE45]
+RELATIVE_PATH=C:\ACUCORP\ACUCBL610\ACUGT\SAMPLE\DEF\PALETTE.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\colors.cbl
+
+[FILE_CONTENT-StudioPostura:FILE46]
+RELATIVE_PATH=Copylib\blockpgm.lks
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\blockpgm.cbl
+
+[FILE_CONTENT-StudioPostura:FILE47]
+RELATIVE_PATH=Copylib\gparam-ELENCO-ID.cpy
+FOLDER_NAME=Copylib
+OWNER_PATH=CPF\gparam.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE48]
+RELATIVE_PATH=Copylib\ABILITA-TOOLBAR.CPY
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\gparam.cbl
+
+[FILE_CONTENT-StudioPostura:FILE49]
+RELATIVE_PATH=Copylib\COLOR-CUSTOM.CPY
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\gparam.cbl
+
+[FILE_CONTENT-StudioPostura:FILE50]
+RELATIVE_PATH=Copylib\utydata.cpy
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\gparam.cbl
+
+[FILE_CONTENT-StudioPostura:FILE51]
+RELATIVE_PATH=Copylib\status.cpy
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\gparam.cbl
+
+[FILE_CONTENT-StudioPostura:FILE52]
+RELATIVE_PATH=Copylib\codfis.lks
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\codfis.cbl
+
+[FILE_CONTENT-StudioPostura:FILE53]
+RELATIVE_PATH=C:\ACUCORP\ACUCBL610\ACUGT\SAMPLE\DEF\LMRESIZE.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\browser.cbl
+
+[FILE_CONTENT-StudioPostura:FILE54]
+RELATIVE_PATH=Copylib\link-browser.def
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\browser.cbl
+
+[FILE_CONTENT-StudioPostura:FILE55]
+RELATIVE_PATH=Copylib\gclienti-ELENCO-ID.cpy
+FOLDER_NAME=Copylib
+OWNER_PATH=CPF\gclienti.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE56]
+RELATIVE_PATH=Copylib\opensave.def
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\gclienti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE57]
+RELATIVE_PATH=Copylib\garticoli-ELENCO-ID.cpy
+FOLDER_NAME=Copylib
+OWNER_PATH=CPF\garticoli.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE58]
+RELATIVE_PATH=Copylib\glistini-ELENCO-ID.cpy
+FOLDER_NAME=Copylib
+OWNER_PATH=CPF\glistini.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE59]
+RELATIVE_PATH=Copylib\schedacli-ELENCO-ID.cpy
+FOLDER_NAME=Copylib
+OWNER_PATH=CPF\schedacli.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE60]
+RELATIVE_PATH=Copylib\fatcli-ELENCO-ID.cpy
+FOLDER_NAME=Copylib
+OWNER_PATH=CPF\fatcli.cpf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE61]
+RELATIVE_PATH=Copylib\link-vdocum.def
+FOLDER_NAME=Copylib
+
+[FILE_CONTENT-StudioPostura:FILE62]
+RELATIVE_PATH=Copylib\selprint.lks
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\st-cli-det.cbl
+
+[FILE_CONTENT-StudioPostura:FILE63]
+RELATIVE_PATH=C:\PROGRAM FILES (X86)\MICRO FOCUS\ACUCBL910\ACUGT\SAMPLE\DEF\ACUGUI.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE64]
+RELATIVE_PATH=C:\PROGRAM FILES (X86)\MICRO FOCUS\ACUCBL910\ACUGT\SAMPLE\DEF\ACUCOBOL.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE65]
+RELATIVE_PATH=C:\PROGRAM FILES (X86)\MICRO FOCUS\ACUCBL910\ACUGT\SAMPLE\DEF\FONTS.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE66]
+RELATIVE_PATH=C:\PROGRAM FILES (X86)\MICRO FOCUS\ACUCBL910\ACUGT\SAMPLE\DEF\CRTVARS.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE67]
+RELATIVE_PATH=C:\PROGRAM FILES (X86)\MICRO FOCUS\ACUCBL910\ACUGT\SAMPLE\DEF\SHOWMSG.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE68]
+RELATIVE_PATH=C:\PROGRAM FILES (X86)\MICRO FOCUS\ACUCBL910\ACUGT\SAMPLE\DEF\CONTROLS.DEF
+FOLDER_NAME=Copylib
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE69]
+RELATIVE_PATH=object\zoom-gt.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\zoom-gt.cbl
+
+[FILE_CONTENT-StudioPostura:FILE70]
+RELATIVE_PATH=object\utydata.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\utydata.cbl
+
+[FILE_CONTENT-StudioPostura:FILE71]
+RELATIVE_PATH=object\seldata.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\seldata.cbl
+
+[FILE_CONTENT-StudioPostura:FILE72]
+RELATIVE_PATH=object\spooler.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\spooler.cbl
+
+[FILE_CONTENT-StudioPostura:FILE73]
+RELATIVE_PATH=object\selprint.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE74]
+RELATIVE_PATH=object\colors.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\colors.cbl
+
+[FILE_CONTENT-StudioPostura:FILE75]
+RELATIVE_PATH=object\genfiles.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\genfiles.cbl
+
+[FILE_CONTENT-StudioPostura:FILE76]
+RELATIVE_PATH=object\menu.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\menu.cbl
+
+[FILE_CONTENT-StudioPostura:FILE77]
+RELATIVE_PATH=object\blockpgm.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\blockpgm.cbl
+
+[FILE_CONTENT-StudioPostura:FILE78]
+RELATIVE_PATH=object\gparam.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\gparam.cbl
+
+[FILE_CONTENT-StudioPostura:FILE79]
+RELATIVE_PATH=object\tcodiva.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\tcodiva.cbl
+
+[FILE_CONTENT-StudioPostura:FILE80]
+RELATIVE_PATH=object\codfis.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\codfis.cbl
+
+[FILE_CONTENT-StudioPostura:FILE81]
+RELATIVE_PATH=object\browser.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\browser.cbl
+
+[FILE_CONTENT-StudioPostura:FILE82]
+RELATIVE_PATH=object\ttipocli.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\ttipocli.cbl
+
+[FILE_CONTENT-StudioPostura:FILE83]
+RELATIVE_PATH=object\gclienti.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\gclienti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE84]
+RELATIVE_PATH=object\garticoli.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\garticoli.cbl
+
+[FILE_CONTENT-StudioPostura:FILE85]
+RELATIVE_PATH=object\glistini.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\glistini.cbl
+
+[FILE_CONTENT-StudioPostura:FILE86]
+RELATIVE_PATH=object\schedacli.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\schedacli.cbl
+
+[FILE_CONTENT-StudioPostura:FILE87]
+RELATIVE_PATH=object\fatcli.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\fatcli.cbl
+
+[FILE_CONTENT-StudioPostura:FILE88]
+RELATIVE_PATH=object\docum.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE89]
+RELATIVE_PATH=object\vdocum.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\vdocum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE90]
+RELATIVE_PATH=object\vnota.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\vnota.cbl
+
+[FILE_CONTENT-StudioPostura:FILE91]
+RELATIVE_PATH=object\notacr.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\notacr.cbl
+
+[FILE_CONTENT-StudioPostura:FILE92]
+RELATIVE_PATH=object\selnota.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\selnota.cbl
+
+[FILE_CONTENT-StudioPostura:FILE93]
+RELATIVE_PATH=object\st-cli-det.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\st-cli-det.cbl
+
+[FILE_CONTENT-StudioPostura:FILE94]
+RELATIVE_PATH=object\st-schedacli.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\st-schedacli.cbl
+
+[FILE_CONTENT-StudioPostura:FILE95]
+RELATIVE_PATH=object\st-docum.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\st-docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE96]
+RELATIVE_PATH=object\appuntamenti.acu
+FOLDER_NAME=Object
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE97]
+RELATIVE_PATH=Resource\anteprima.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE98]
+RELATIVE_PATH=Resource\bottone-annulla.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE99]
+RELATIVE_PATH=Resource\bottone-ok.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\selprint.cbl
+
+[FILE_CONTENT-StudioPostura:FILE100]
+RELATIVE_PATH=Resource\quadrato_medio2.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\menu.cbl
+
+[FILE_CONTENT-StudioPostura:FILE101]
+RELATIVE_PATH=Resource\strip-menu.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\menu.cbl
+
+[FILE_CONTENT-StudioPostura:FILE102]
+RELATIVE_PATH=Resource\toolbar.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\gparam.cbl
+
+[FILE_CONTENT-StudioPostura:FILE103]
+RELATIVE_PATH=Resource\logo_piccolo.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\gparam.cbl
+
+[FILE_CONTENT-StudioPostura:FILE104]
+RELATIVE_PATH=Resource\toolbar-browser.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\browser.cbl
+
+[FILE_CONTENT-StudioPostura:FILE105]
+RELATIVE_PATH=Resource\quadrato_medio.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\gclienti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE106]
+RELATIVE_PATH=Resource\docum.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\gclienti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE107]
+RELATIVE_PATH=Resource\cancella_singolo.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\glistini.cbl
+
+[FILE_CONTENT-StudioPostura:FILE108]
+RELATIVE_PATH=Resource\excel.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\glistini.cbl
+
+[FILE_CONTENT-StudioPostura:FILE109]
+RELATIVE_PATH=Resource\cambia-cliente.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\schedacli.cbl
+
+[FILE_CONTENT-StudioPostura:FILE110]
+RELATIVE_PATH=Resource\note_cliente.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\schedacli.cbl
+
+[FILE_CONTENT-StudioPostura:FILE111]
+RELATIVE_PATH=Resource\fatcli.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\fatcli.cbl
+
+[FILE_CONTENT-StudioPostura:FILE112]
+RELATIVE_PATH=Resource\cerca.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\fatcli.cbl
+
+[FILE_CONTENT-StudioPostura:FILE113]
+RELATIVE_PATH=Resource\allegati.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\fatcli.cbl
+
+[FILE_CONTENT-StudioPostura:FILE114]
+RELATIVE_PATH=Resource\strip-docum.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE115]
+RELATIVE_PATH=Resource\singola.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE116]
+RELATIVE_PATH=Resource\vedi-doc.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE117]
+RELATIVE_PATH=Resource\esci.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE118]
+RELATIVE_PATH=C:\STUDIOPOSTURA\RESOURCE\STAMPE\SFONDO_FATTURE.JPG
+FOLDER_NAME=Resource
+OWNER_PATH=Source\st-docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE119]
+RELATIVE_PATH=C:\STUDIOPOSTURA\RESOURCE\STAMPE\SFONDO_CORRISP.JPG
+FOLDER_NAME=Resource
+OWNER_PATH=Source\st-docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE120]
+RELATIVE_PATH=C:\STUDIOPOSTURA\RESOURCE\STAMPE\SFONDO_NOTE.JPG
+FOLDER_NAME=Resource
+OWNER_PATH=Source\st-docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE121]
+RELATIVE_PATH=Resource\ToExcel.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE122]
+RELATIVE_PATH=Resource\vedi-eti.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE123]
+RELATIVE_PATH=Resource\vedi-ele.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE124]
+RELATIVE_PATH=Resource\ele-730.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE125]
+RELATIVE_PATH=Resource\ele-U.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE126]
+RELATIVE_PATH=Resource\ele-730-U.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\docum.cbl
+
+[FILE_CONTENT-StudioPostura:FILE127]
+RELATIVE_PATH=Resource\calendar.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE128]
+RELATIVE_PATH=Resource\edit-icon.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE129]
+RELATIVE_PATH=Resource\ToExcel2.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE130]
+RELATIVE_PATH=Resource\stampa2.bmp
+FOLDER_NAME=Resource
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE131]
+RELATIVE_PATH=C:\DF\STUDIOPOSTURA\RESOURCE\LOGO_PICCOLO.BMP
+FOLDER_NAME=Resource
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE132]
+RELATIVE_PATH=C:\DF\STUDIOPOSTURA\RESOURCE\CALENDAR.BMP
+FOLDER_NAME=Resource
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE133]
+RELATIVE_PATH=C:\DF\STUDIOPOSTURA\RESOURCE\CERCA.BMP
+FOLDER_NAME=Resource
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE134]
+RELATIVE_PATH=C:\DF\STUDIOPOSTURA\RESOURCE\FATCLI.BMP
+FOLDER_NAME=Resource
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE135]
+RELATIVE_PATH=C:\DF\STUDIOPOSTURA\RESOURCE\TOEXCEL2.BMP
+FOLDER_NAME=Resource
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE136]
+RELATIVE_PATH=C:\DF\STUDIOPOSTURA\RESOURCE\STAMPA2.BMP
+FOLDER_NAME=Resource
+OWNER_PATH=Source\appuntamenti.cbl
+
+[FILE_CONTENT-StudioPostura:FILE137]
+RELATIVE_PATH=FD\STAMPA.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\STAMPA.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE138]
+RELATIVE_PATH=FD\STAMPA.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\STAMPA.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE139]
+RELATIVE_PATH=FD\clienti.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\clienti.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE140]
+RELATIVE_PATH=FD\clienti.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\clienti.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE141]
+RELATIVE_PATH=FD\articoli.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\articoli.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE142]
+RELATIVE_PATH=FD\articoli.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\articoli.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE143]
+RELATIVE_PATH=FD\codiva.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\codiva.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE144]
+RELATIVE_PATH=FD\codiva.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\codiva.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE145]
+RELATIVE_PATH=FD\tipocli.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\tipocli.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE146]
+RELATIVE_PATH=FD\tipocli.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\tipocli.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE147]
+RELATIVE_PATH=FD\param.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\param.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE148]
+RELATIVE_PATH=FD\param.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\param.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE149]
+RELATIVE_PATH=FD\tlistini.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\tlistini.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE150]
+RELATIVE_PATH=FD\tlistini.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\tlistini.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE151]
+RELATIVE_PATH=FD\rlistini.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\rlistini.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE152]
+RELATIVE_PATH=FD\rlistini.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\rlistini.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE153]
+RELATIVE_PATH=FD\lineseq.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\lineseq.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE154]
+RELATIVE_PATH=FD\lineseq.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\lineseq.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE155]
+RELATIVE_PATH=FD\comuni.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\comuni.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE156]
+RELATIVE_PATH=FD\comuni.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\comuni.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE157]
+RELATIVE_PATH=FD\pro_piva.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\pro_piva.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE158]
+RELATIVE_PATH=FD\pro_piva.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\pro_piva.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE159]
+RELATIVE_PATH=FD\tschede.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\tschede.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE160]
+RELATIVE_PATH=FD\tschede.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\tschede.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE161]
+RELATIVE_PATH=FD\rschede.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\rschede.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE162]
+RELATIVE_PATH=FD\rschede.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\rschede.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE163]
+RELATIVE_PATH=FD\tfatture.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\tfatture.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE164]
+RELATIVE_PATH=FD\tfatture.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\tfatture.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE165]
+RELATIVE_PATH=FD\rfatture.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\rfatture.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE166]
+RELATIVE_PATH=FD\rfatture.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\rfatture.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE167]
+RELATIVE_PATH=FD\tcorrisp.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\tcorrisp.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE168]
+RELATIVE_PATH=FD\tcorrisp.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\tcorrisp.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE169]
+RELATIVE_PATH=FD\rcorrisp.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\rcorrisp.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE170]
+RELATIVE_PATH=FD\rcorrisp.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\rcorrisp.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE171]
+RELATIVE_PATH=FD\tnotacr.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\tnotacr.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE172]
+RELATIVE_PATH=FD\tnotacr.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\tnotacr.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE173]
+RELATIVE_PATH=FD\rnotacr.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\rnotacr.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE174]
+RELATIVE_PATH=FD\rnotacr.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\rnotacr.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE175]
+RELATIVE_PATH=FD\tmp-docum.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\tmp-docum.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE176]
+RELATIVE_PATH=FD\tmp-docum.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\tmp-docum.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE177]
+RELATIVE_PATH=FD\appuntamenti.fd
+FOLDER_NAME=FD
+OWNER_PATH=FD\appuntamenti.clf
+ATTRIBUTE=0
+
+[FILE_CONTENT-StudioPostura:FILE178]
+RELATIVE_PATH=FD\appuntamenti.sl
+FOLDER_NAME=FD
+OWNER_PATH=FD\appuntamenti.clf
+ATTRIBUTE=0
+
+[PROJECT_COMPILE_SETTING-StudioPostura:Debug Mode]
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=c:\a.txt
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[PROJECT_RUNTIME_SETTING-StudioPostura:Debug Mode]
+; Common Options
+NAME_CONFIGURATION_FILE=\etc\cblconfi
+; Io Options
+; Debug Options
+; ThinClient Options
+REMOTE_CONFIG_NAME=myserver:5632:/etc/cblconfig
+
+[PROJECT_ENVIRONMENT_SETTING-StudioPostura:Debug Mode]
+VARIABLE0=MYPROPERTY_PATH,%totemdir%\MyProperty\Object
+VARIABLE1=RUNNAME,Wrun32.exe
+VARIABLE2=COMPILERNAME,Ccbl32.exe
+VARIABLE3=CODE_PREFIX,%objectdir%
+VARIABLE4=ACUPATH,C:\Program files (x86)\Micro Focus\Acucbl910\AcuGT\bin
+VARIABLE5=SKELETON_PATH,..\skeleton61spandrea
+VARIABLE6=COPYPATH,%copydir%;%layoutdir%;%acudir%\sample\def;%totemdir%\sample;%copydir%;F:\StudioPostura\Copylib;F:\StudioPostura\FD;F:\StudioPostura\Resource
+VARIABLE7=THINNAME,AcuThin.exe
+
+[PROJECT_LIBRARY_SETTING-StudioPostura:Debug Mode]
+NAME_LIBRARY_FILE=%objectdir%\@.lib
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\appuntamenti.cbl]
+COPY_DEPENDENCE=FD\appuntamenti.sl;FD\clienti.sl;FD\lineseq.sl;FD\appuntamenti.fd;FD\clienti.fd;FD\lineseq.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\spooler.def;Copylib\selprint.lks;Copylib\blockpgm.lks;C:\DF\StudioPostura\Resource\logo_piccolo.bmp;C:\DF\StudioPostura\Resource\calendar.bmp;C:\DF\StudioPostura\Resource\cerca.bmp;C:\DF\StudioPostura\Resource\fatcli.bmp;C:\DF\StudioPostura\Resource\ToExcel2.bmp;C:\DF\StudioPostura\Resource\stampa2.bmp;Copylib\COLOR-CUSTOM.CPY;Copylib\utydata.cpy;Resource\edit-icon.bmp
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\blockpgm.cbl]
+COPY_DEPENDENCE=c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;Copylib\blockpgm.lks
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\browser.cbl]
+COPY_DEPENDENCE=c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;c:\Acucorp\Acucbl610\AcuGT\sample\def\lmresize.def;Copylib\link-browser.def;Resource\toolbar-browser.bmp
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\codfis.cbl]
+COPY_DEPENDENCE=FD\comuni.sl;FD\pro_piva.sl;FD\comuni.fd;FD\pro_piva.fd;Copylib\codfis.lks
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\colors.cbl]
+COPY_DEPENDENCE=c:\Acucorp\Acucbl610\AcuGT\sample\def\palette.def
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\docum.cbl]
+COPY_DEPENDENCE=FD\tfatture.sl;FD\tcorrisp.sl;FD\rfatture.sl;FD\rcorrisp.sl;FD\clienti.sl;FD\tipocli.sl;FD\rnotacr.sl;FD\tnotacr.sl;FD\tschede.sl;FD\rschede.sl;FD\tmp-docum.sl;FD\lineseq.sl;FD\tfatture.fd;FD\tcorrisp.fd;FD\rfatture.fd;FD\rcorrisp.fd;FD\clienti.fd;FD\tipocli.fd;FD\rnotacr.fd;FD\tnotacr.fd;FD\tschede.fd;FD\rschede.fd;FD\tmp-docum.fd;FD\lineseq.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\link-vdocum.def;Copylib\blockpgm.lks;Resource\logo_piccolo.bmp;Resource\strip-docum.bmp;Resource\singola.bmp;Resource\cerca.bmp;Resource\vedi-doc.bmp;Resource\esci.bmp;Resource\vedi-eti.bmp;Resource\ele-730.bmp;Resource\ele-U.bmp;Resource\ele-730-U.bmp;Resource\ToExcel.bmp;Copylib\utydata.cpy;Copylib\COLOR-CUSTOM.CPY
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\fatcli.cbl]
+COPY_DEPENDENCE=FD\rschede.sl;FD\tschede.sl;FD\clienti.sl;FD\articoli.sl;FD\tipocli.sl;FD\param.sl;FD\tfatture.sl;FD\rfatture.sl;FD\tcorrisp.sl;FD\rcorrisp.sl;FD\codiva.sl;FD\rschede.fd;FD\tschede.fd;FD\clienti.fd;FD\articoli.fd;FD\tipocli.fd;FD\param.fd;FD\tfatture.fd;FD\rfatture.fd;FD\tcorrisp.fd;FD\rcorrisp.fd;FD\codiva.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\opensave.def;Copylib\blockpgm.lks;Resource\fatcli.bmp;Resource\logo_piccolo.bmp;Resource\cerca.bmp;Resource\allegati.bmp;Copylib\COLOR-CUSTOM.CPY;Copylib\utydata.cpy
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\garticoli.cbl]
+COPY_DEPENDENCE=FD\articoli.sl;FD\articoli.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\blockpgm.lks;Resource\toolbar.bmp;Resource\logo_piccolo.bmp;Copylib\ABILITA-TOOLBAR.CPY;Copylib\COLOR-CUSTOM.CPY;Copylib\status.cpy
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\gclienti.cbl]
+COPY_DEPENDENCE=FD\codiva.sl;FD\clienti.sl;FD\tipocli.sl;FD\tfatture.sl;FD\tcorrisp.sl;FD\codiva.fd;FD\clienti.fd;FD\tipocli.fd;FD\tfatture.fd;FD\tcorrisp.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;Copylib\opensave.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\codfis.lks;Copylib\link-vdocum.def;Copylib\blockpgm.lks;Resource\docum.bmp;Resource\toolbar.bmp;Resource\logo_piccolo.bmp;Copylib\ABILITA-TOOLBAR.CPY;Copylib\COLOR-CUSTOM.CPY;Copylib\status.cpy;Copylib\utydata.cpy
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\genfiles.cbl]
+COPY_DEPENDENCE=FD\articoli.sl;FD\clienti.sl;FD\codiva.sl;FD\param.sl;FD\rlistini.sl;FD\tipocli.sl;FD\tlistini.sl;FD\tschede.sl;FD\rschede.sl;FD\tfatture.sl;FD\rfatture.sl;FD\tcorrisp.sl;FD\rcorrisp.sl;FD\tnotacr.sl;FD\rnotacr.sl;FD\appuntamenti.sl;FD\articoli.fd;FD\clienti.fd;FD\codiva.fd;FD\param.fd;FD\rlistini.fd;FD\tipocli.fd;FD\tlistini.fd;FD\tschede.fd;FD\rschede.fd;FD\tfatture.fd;FD\rfatture.fd;FD\tcorrisp.fd;FD\rcorrisp.fd;FD\tnotacr.fd;FD\rnotacr.fd;FD\appuntamenti.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\glistini.cbl]
+COPY_DEPENDENCE=FD\rlistini.sl;FD\tlistini.sl;FD\clienti.sl;FD\tipocli.sl;FD\articoli.sl;FD\lineseq.sl;FD\rlistini.fd;FD\tlistini.fd;FD\clienti.fd;FD\tipocli.fd;FD\articoli.fd;FD\lineseq.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\blockpgm.lks;Resource\toolbar.bmp;Resource\logo_piccolo.bmp;Resource\excel.bmp;Copylib\ABILITA-TOOLBAR.CPY;Copylib\COLOR-CUSTOM.CPY;Copylib\status.cpy;Copylib\utydata.cpy
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\gparam.cbl]
+COPY_DEPENDENCE=FD\param.sl;FD\codiva.sl;FD\param.fd;FD\codiva.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\link-browser.def;Copylib\codfis.lks;Copylib\blockpgm.lks;Resource\toolbar.bmp;Resource\toolbar.bmp;Resource\logo_piccolo.bmp;Copylib\ABILITA-TOOLBAR.CPY;Copylib\COLOR-CUSTOM.CPY;Copylib\utydata.cpy
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\menu.cbl]
+COPY_DEPENDENCE=FD\param.sl;FD\lineseq.sl;FD\param.fd;FD\lineseq.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\blockpgm.lks;Resource\strip-menu.bmp
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\notacr.cbl]
+COPY_DEPENDENCE=FD\tcorrisp.sl;FD\tnotacr.sl;FD\rnotacr.sl;FD\rfatture.sl;FD\tfatture.sl;FD\rcorrisp.sl;FD\clienti.sl;FD\codiva.sl;FD\param.sl;FD\articoli.sl;FD\tcorrisp.fd;FD\tnotacr.fd;FD\rnotacr.fd;FD\rfatture.fd;FD\tfatture.fd;FD\rcorrisp.fd;FD\clienti.fd;FD\codiva.fd;FD\param.fd;FD\articoli.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\link-vdocum.def;Resource\toolbar.bmp;Resource\logo_piccolo.bmp;Copylib\utydata.cpy;Copylib\COLOR-CUSTOM.CPY
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\schedacli.cbl]
+COPY_DEPENDENCE=FD\rschede.sl;FD\tschede.sl;FD\clienti.sl;FD\articoli.sl;FD\rlistini.sl;FD\tipocli.sl;FD\tlistini.sl;FD\rschede.fd;FD\tschede.fd;FD\clienti.fd;FD\articoli.fd;FD\rlistini.fd;FD\tipocli.fd;FD\tlistini.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\link-vdocum.def;Copylib\blockpgm.lks;Resource\note_cliente.bmp;Resource\cambia-cliente.bmp;Resource\toolbar.bmp;Resource\logo_piccolo.bmp;Copylib\ABILITA-TOOLBAR.CPY;Copylib\COLOR-CUSTOM.CPY;Copylib\status.cpy;Copylib\utydata.cpy
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\seldata.cbl]
+COPY_DEPENDENCE=c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;Copylib\UTYDATA.DEF
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\selnota.cbl]
+COPY_DEPENDENCE=FD\tfatture.sl;FD\tcorrisp.sl;FD\tfatture.fd;FD\tcorrisp.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\link-vdocum.def;Copylib\blockpgm.lks;Resource\fatcli.bmp;Resource\logo_piccolo.bmp;Resource\strip-docum.bmp;Resource\singola.bmp;Copylib\COLOR-CUSTOM.CPY
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\selprint.cbl]
+COPY_DEPENDENCE=c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;c:\Acucorp\Acucbl610\AcuGT\sample\def\winprint.def;\SOAVI\COPYLIB\SELPRINT.LKS;Resource\anteprima.bmp;Resource\bottone-annulla.bmp;Resource\bottone-ok.bmp
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\spooler.cbl]
+COPY_DEPENDENCE=FD\STAMPA.sl;FD\STAMPA.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\winprint.def;Copylib\spooler.def
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\st-cli-det.cbl]
+COPY_DEPENDENCE=FD\clienti.sl;FD\tipocli.sl;FD\codiva.sl;FD\clienti.fd;FD\tipocli.fd;FD\codiva.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;Copylib\spooler.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;Copylib\selprint.lks
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\st-docum.cbl]
+COPY_DEPENDENCE=FD\clienti.sl;FD\tfatture.sl;FD\rfatture.sl;FD\tcorrisp.sl;FD\rcorrisp.sl;FD\tnotacr.sl;FD\rnotacr.sl;FD\param.sl;FD\codiva.sl;FD\clienti.fd;FD\tfatture.fd;FD\rfatture.fd;FD\tcorrisp.fd;FD\rcorrisp.fd;FD\tnotacr.fd;FD\rnotacr.fd;FD\param.fd;FD\codiva.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;Copylib\spooler.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;Copylib\selprint.lks
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\st-schedacli.cbl]
+COPY_DEPENDENCE=FD\clienti.sl;FD\tschede.sl;FD\rschede.sl;FD\param.sl;FD\clienti.fd;FD\tschede.fd;FD\rschede.fd;FD\param.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;Copylib\spooler.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;Copylib\selprint.lks
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\tcodiva.cbl]
+COPY_DEPENDENCE=FD\codiva.sl;FD\codiva.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\blockpgm.lks;Resource\toolbar.bmp;Resource\logo_piccolo.bmp;Copylib\ABILITA-TOOLBAR.CPY;Copylib\COLOR-CUSTOM.CPY
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\ttipocli.cbl]
+COPY_DEPENDENCE=FD\tipocli.sl;FD\tipocli.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\blockpgm.lks;Resource\toolbar.bmp;Resource\logo_piccolo.bmp;Copylib\ABILITA-TOOLBAR.CPY;Copylib\COLOR-CUSTOM.CPY
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\utydata.cbl]
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\vdocum.cbl]
+COPY_DEPENDENCE=FD\tfatture.sl;FD\tcorrisp.sl;FD\rfatture.sl;FD\rcorrisp.sl;FD\clienti.sl;FD\param.sl;FD\codiva.sl;FD\rschede.sl;FD\rnotacr.sl;FD\tnotacr.sl;FD\tfatture.fd;FD\tcorrisp.fd;FD\rfatture.fd;FD\rcorrisp.fd;FD\clienti.fd;FD\param.fd;FD\codiva.fd;FD\rschede.fd;FD\rnotacr.fd;FD\tnotacr.fd;c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\fonts.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\showmsg.def;C:\Totem61\Sample\TOTEM.def;Copylib\comune.def;Copylib\messaggi.def;Copylib\custom.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\controls.def;Copylib\UTYDATA.DEF;Copylib\link-vdocum.def;Resource\toolbar.bmp;Resource\logo_piccolo.bmp;Copylib\utydata.cpy;Copylib\COLOR-CUSTOM.CPY
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Debug Mode:Source\zoom-gt.cbl]
+COPY_DEPENDENCE=c:\Acucorp\Acucbl610\AcuGT\sample\def\acugui.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\acucobol.def;c:\Acucorp\Acucbl610\AcuGT\sample\def\crtvars.def;Copylib\xzoom-common.def;Copylib\xzoom3.def;Copylib\externals.def
+ADDITIONAL_OPTIONS=-x -Fxa -Di -Ga -Zd -Za -Zn -Zz -C61
+FOLLOW_PROJECT=1
+; Standard Options
+NAME_OBJECT_FILE=.\object\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+GEN_XFD_FILE=1
+XFD_FILE_DIRECTORY=1
+NAME_XFD_FILE_DIRECTORY=.\archivi
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+INCLUDE_ALL_INFO=1
+; Miscellaneous Options
+DEBUGGING=1
+CODE_VERSION_NUMBER=16
+
+[PROJECT_COMPILE_SETTING-StudioPostura:Release Mode]
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[PROJECT_RUNTIME_SETTING-StudioPostura:Release Mode]
+; Common Options
+NAME_CONFIGURATION_FILE=\etc\cblconfi
+; Io Options
+; Debug Options
+; ThinClient Options
+REMOTE_CONFIG_NAME=myserver:5632:/etc/cblconfig
+
+[PROJECT_ENVIRONMENT_SETTING-StudioPostura:Release Mode]
+VARIABLE0=RUNNAME,Wrun32.exe
+VARIABLE1=COMPILERNAME,Ccbl32.exe
+VARIABLE2=CODE_PREFIX,%objectdir%
+VARIABLE3=ACUPATH,%acudir%\bin
+VARIABLE4=SKELETON_PATH,%totemdir%\skeleton
+VARIABLE5=COPYPATH,%screendir%;%reportdir%;%copydir%;%resdir%;%layoutdir%;%acudir%\sample\def;%totemdir%\sample
+VARIABLE6=THINNAME,AcuThin.exe
+
+[PROJECT_LIBRARY_SETTING-StudioPostura:Release Mode]
+NAME_LIBRARY_FILE=%objectdir%\@.lib
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\appuntamenti.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\blockpgm.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\browser.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\codfis.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\colors.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\docum.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\fatcli.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\garticoli.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\gclienti.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\genfiles.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\glistini.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\gparam.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\menu.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\notacr.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\schedacli.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\seldata.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\selnota.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\selprint.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\spooler.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\st-cli-det.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\st-docum.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\st-schedacli.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\tcodiva.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\ttipocli.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\utydata.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\vdocum.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[FILE_COMPILE_OPTION-StudioPostura:Release Mode:Source\zoom-gt.cbl]
+FOLLOW_PROJECT=1
+RECPMPILE=1
+; Standard Options
+NAME_OBJECT_FILE=%objectdir%\@.acu
+NAME_ERROR_FILE=@.err
+REMOTE_SERVER_NAME=myserver
+REMOTE_SERVER_PORT=5632
+REMOTE_SERVER_DIR=/
+REMOTE_OBJECT_FILE=@.acu
+; Listing Options
+NAME_LISTING_FILE=%listdir%\@.lst
+; Compatibility Options
+COMPATIBILITY_VERSION=16
+; File Options
+; Source Options
+; ReservedWord Options
+; DataStorage Options
+ALIGNMENT_DATA_BOUNDARY=4
+SYNC_BOUNDARY_LIMIT_NUMBER=4
+; Video Options
+; Mapping Options
+; Precompiler Options
+NAME_PRECOMPILE_OUTPUT_FILE=%listdir%\@.asq
+; Native Code Options
+; Debugger Options
+; Miscellaneous Options
+CODE_VERSION_NUMBER=16
+
+[SP_CUSTOMIZED_CONTROL_CONTENT]
+CUSTOMIZED_NUMS=2
+CS_0=Custom1,CsCtrl.Custom1,Label,Cust_Default_Icon,colora campi
+CS_0_EMCODE=37852,37806,37810,37855,37853,37854,37808,37807
+CS_0_EMCODE_37852=2200,Before Procedure,2202,After Procedure
+CS_0_EMCODE_37806=2200,Before Procedure,2202,After Procedure
+CS_0_EMCODE_37810=2200,Before Procedure,2202,After Procedure
+CS_0_EMCODE_37855=2200,Before Procedure,2202,After Procedure
+CS_0_EMCODE_37853=2200,Before Procedure,2202,After Procedure
+CS_0_EMCODE_37854=2202,After Procedure,2200,Before Procedure
+CS_0_EMCODE_37808=2200,Before Procedure,2202,After Procedure
+CS_0_EMCODE_37807=2200,Before Procedure,2202,After Procedure
+CS_1=blockpgm,CsCtrl.blockpgm,Label,Cust_Default_Icon,blockpgm
+CS_1_EMCODE=-1,37801
+CS_1_EMCODE_-1=10002,Before-Program,10003,After-Program
+CS_1_EMCODE_37801=-1,AfterDisplay
+
+{{@Custom1_37852_Before Procedure_2200:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-NU
+
+@}}
+Custom1_37852_Before Procedure_2200_Range=0
+
+{{@Custom1_37852_After Procedure_2202:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-OR
+@}}
+Custom1_37852_After Procedure_2202_Range=0
+
+{{@Custom1_37806_Before Procedure_2200:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-NU
+
+@}}
+Custom1_37806_Before Procedure_2200_Range=0
+
+{{@Custom1_37806_After Procedure_2202:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-OR
+@}}
+Custom1_37806_After Procedure_2202_Range=0
+
+{{@Custom1_37810_Before Procedure_2200:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-NU
+
+@}}
+Custom1_37810_Before Procedure_2200_Range=0
+
+{{@Custom1_37810_After Procedure_2202:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-OR
+@}}
+Custom1_37810_After Procedure_2202_Range=0
+
+{{@Custom1_37855_Before Procedure_2200:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-NU
+
+
+@}}
+Custom1_37855_Before Procedure_2200_Range=0
+
+{{@Custom1_37855_After Procedure_2202:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-OR
+
+@}}
+Custom1_37855_After Procedure_2202_Range=0
+
+{{@Custom1_37853_Before Procedure_2200:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-NU
+@}}
+Custom1_37853_Before Procedure_2200_Range=0
+
+{{@Custom1_37853_After Procedure_2202:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-OR
+
+@}}
+Custom1_37853_After Procedure_2202_Range=0
+
+{{@Custom1_37854_After Procedure_2202:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-OR
+@}}
+Custom1_37854_After Procedure_2202_Range=0
+
+{{@Custom1_37854_Before Procedure_2200:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-NU
+@}}
+Custom1_37854_Before Procedure_2200_Range=0
+
+{{@Custom1_37808_Before Procedure_2200:
+     modify control-handle, color = colore-nu
+@}}
+Custom1_37808_Before Procedure_2200_Range=0
+
+{{@Custom1_37808_After Procedure_2202:
+     modify control-handle, color = colore-or
+@}}
+Custom1_37808_After Procedure_2202_Range=0
+
+{{@Custom1_37807_Before Procedure_2200:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-NU
+@}}
+Custom1_37807_Before Procedure_2200_Range=0
+
+{{@Custom1_37807_After Procedure_2202:
+     MODIFY CONTROL-HANDLE COLOR = COLORE-OR
+@}}
+Custom1_37807_After Procedure_2202_Range=0
+
+{{@blockpgm_-1_Before-Program_10002:
+     move LK-BL-PROG-ID    TO COMO-PROG-ID.
+@}}
+blockpgm_-1_Before-Program_10002_Range=0
+
+{{@blockpgm_-1_After-Program_10003:
+     SET LK-BL-CANCELLAZIONE TO TRUE.
+     MOVE COMO-PROG-ID       TO LK-BL-PROG-ID.
+     CALL "BLOCKPGM"  USING LK-BLOCKPGM.
+
+@}}
+blockpgm_-1_After-Program_10003_Range=0
+
+{{@blockpgm_37801_AfterDisplay_-1:
+     SET LK-BL-SCRITTURA     TO TRUE.
+     MOVE COMO-PROG-ID       TO LK-BL-PROG-ID.
+     MOVE FORM1-HANDLE       TO LK-HND-WIN.
+     CALL "BLOCKPGM"  USING LK-BLOCKPGM.
+     CANCEL "BLOCKPGM".
+
+@}}
+blockpgm_37801_AfterDisplay_-1_Range=0
+
+{{@Custom1_DEFAULT_PROPERTY:
+Begin Label
+   Ccol              = 0
+   Cline             = 0
+   Clines            = 0
+   Clines Unit       = Default
+   Color             = 0
+   Column            = 1,00
+   Column in Pixels  = 1
+   Csize             = 0
+   Csize Unit        = Default
+   Destroy Type      = Automatic
+   Enable            = NONE
+   Font              = Default Font
+   Font Variable     = Default-Font
+   Height in Cells   = FALSE
+   Help ID           = 0
+   ID                = 0
+   Justification     = Unaligned
+   Label Offset      = 20
+   Line              = 1,00
+   Line in Pixels    = 1
+   Lines             = 0,00
+   Lines in Pixels   = 0
+   Lines Unit        = Default
+   No Key Letter     = FALSE
+   Occurs            = 0
+   Size              = 0,00
+   Size in Pixels    = 0
+   Size Unit         = Default
+   Tab Order         = 1
+   Title             = "CUSTOM CONTROL"
+   Transparent       = TRUE
+   Visible           = NONE
+   Visible Variable  = v-custom
+   Width in Cells    = FALSE
+End
+@}}
+
+{{@blockpgm_DEFAULT_PROPERTY:
+Begin Label
+   Clines            = 0
+   Clines Unit       = Default
+   Color             = 0
+   Column            = 1.00
+   Column in Pixels  = 1
+   Csize             = 0
+   Csize Unit        = Default
+   Destroy Type      = Automatic
+   Enable            = NONE
+   Font              = Default Font
+   Height in Cells   = TRUE
+   Help ID           = 0
+   ID                = -1
+   Justification     = Unaligned
+   Label Offset      = 20
+   Line              = 1.00
+   Line in Pixels    = 1
+   Lines             = 1,00
+   Lines in Pixels   = 0
+   Lines Unit        = Default
+   No Key Letter     = FALSE
+   Occurs            = 0
+   Size              = 1,00
+   Size in Pixels    = 0
+   Size Unit         = Default
+   Tab Order         = 1
+   Title             = "BlockPgm"
+   Transparent       = TRUE
+   Visible           = NONE
+   Visible Variable  = v-custom
+   Width in Cells    = TRUE
+End
+@}}

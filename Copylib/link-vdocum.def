@@ -1,0 +1,10 @@
+      *
+       01 vdocum-linkage.
+           05 vdocum-tipo      PIC  x.
+               88 vdocum-tipo-fattura VALUE IS "F". 
+               88 vdocum-tipo-corrisp VALUE IS "C". 
+               88 vdocum-tipo-nota VALUE IS "N". 
+               88 vdocum-tipo-scheda VALUE IS "S". 
+           05 vdocum-chiave.
+               10 vdocum-anno      PIC  9(4).
+               10 vdocum-numero    PIC  9(6).

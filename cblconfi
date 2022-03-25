@@ -1,0 +1,39 @@
+#----------- VARIABILI AD USO INTERNO --------#
+CODE_PREFIX .\Object\;
+
+FILE_PREFIX .\archivi;
+
+F10_IS_MENU OFF
+IO_CREATES 1
+KEYBOARD CHECK-NUMBERS=NO
+KEYSTROKE edit=next terminate=13 ^M
+KEYSTROKE Exception=1234         ^F
+KEYSTROKE Exception=4321         ^C
+KEYSTROKE Exception=5678         ^E
+MAX_FILES 256
+#Indica il valore dei file tenuti in lock (VALORE MASSIMO)
+MAX_LOCKS 8191
+PRINTER -P SPOOLER-DIRECT
+STRIP_TRAILING_SPACES 1
+#Indica la versione dei file Vision creati
+V_VERSION 4
+LOCKS_PER_FILE 5000
+STAMPANTE_ANTEPRIMA PDFCreator
+
+#-------------- DA VALORIZZARE PRIMA DELL'INSTALLAZIONE --------------#
+# Contiene il percorso del batch che richiama il comando tasklist (anche'esso da valorizzare correttamente)
+BAT_PROCESSI F:\StudioPostura\task.bat
+# Contiene il path d'installazione
+PATH_ROOT F:\StudioPostura\
+# Contiene il percorso delle immagini per il logo (gparam)
+PATH_IMMAGINI F:\StudioPostura\Logo
+# Contiene il percorso nel quale creare le cartelle clienti contenitori dei documenti (gclienti)
+PATH_CLIENTI  F:\StudioPostura\Clienti\
+# Contiene il percorso della bitmap di default per i clienti che non hanno la foto (200x170) (gclienti)
+BMP_CONTACT F:\STUDIOPOSTURA\RESOURCE\VCARD.BMP 
+# Contiene il percorso del logo da stampare sul riepilogo appuntamenti cliente
+BMP_LOGO F:\StudioPostura\Resource\logo_sp.bmp
+# Contiene il percorso di default dove posizionare le stampe
+PATH_ST F:\StudioPostura\STAMPE\                          
+# Contiene il percorso di default dove posizionare i report csv per la contabilità
+PATH_CONTABILITA F:\StudioPostura\Contabilita\

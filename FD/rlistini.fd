@@ -1,0 +1,20 @@
+       FD  rlistini.
+       01 rls-rec.
+           05 rls-chiave.
+               10 rls-codice       PIC  9(5).
+               10 rls-articolo     PIC  x(6).
+           05 rlis-dati.
+               10 rls-ricerca.
+                   15 rls-tipo         PIC  x.
+                       88 rlis-tipo-catcli VALUE IS "C". 
+                       88 rlis-tipo-individuale VALUE IS "I". 
+                   15 rls-codice-tipo  PIC  x(6).
+                   15 rls-ini-val      PIC  9(8).
+               10 rls-prezzo1      PIC  9(6)v999.
+               10 rls-prezzo2      PIC  9(6)v999.
+               10 rls-prezzo3      PIC  9(6)v999.
+               10 rls-vuoti.
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).

@@ -1,0 +1,29 @@
+       FD  rschede.
+       01 rsc-rec.
+           05 rsc-chiave.
+               10 rsc-codice       PIC  9(6).
+               10 rsc-data         PIC  9(8).
+               10 rsc-articolo     PIC  x(6).
+               10 rsc-riga         PIC  9(6).
+           05 rsc-dati.
+               10 rsc-descrizione  PIC  x(50).
+               10 rsc-cliente      PIC  x(6).
+               10 rsc-qta          PIC  9(8).
+               10 rsc-prz          PIC  9(6)v99.
+               10 rsc-sconto1      PIC  9(3)v99.
+               10 rsc-sconto2-NO   PIC  9(3)v99.
+               10 rsc-netto        PIC  9(6)v99.
+               10 rsc-note         PIC  x(150).
+               10 rsc-fattura.
+                   15 rsc-numfat       PIC  9(6).
+      *(( XFD NAME = rsc-sconto_1 ))
+                   15 rsc-datafat      PIC  9(8).
+               10 rsc-corrisp.
+                   15 rsc-numcor       PIC  9(6).
+      *(( XFD NAME = rsc-sconto_1_1 ))
+                   15 rsc-datacor      PIC  9(8).
+               10 rsc-vuoti.
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).

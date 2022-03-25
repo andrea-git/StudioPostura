@@ -1,0 +1,10 @@
+ 
+;;;DOCUMENTI FISCALI DAL 16/06/2012 AL 99/99/9999
+ 
+Num.;Documento;Data;Cliente;Importo;IVA;Totale
+ 
+        16;FATTURA   ;15/10/2012;PIPPO PIPPO                                       ;         13,50;          2,84;         16,34
+        17;FATTURA   ;15/10/2012;RESET                                             ;         95,00;          0,00;         95,00
+;;;TOTALE DEL 15/10/2012;        108,50;          2,84;        111,34
+ 
+;;;TOTALE DOCUMENTI;    109.037,90;     20.756,07;    129.793,97

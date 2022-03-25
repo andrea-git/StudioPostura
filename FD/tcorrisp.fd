@@ -1,0 +1,23 @@
+       FD  tcorrisp.
+       01 tco-rec.
+           05 tco-chiave.
+               10 tco-anno         PIC  9(4).
+               10 tco-numero       PIC  9(6).
+           05 tco-dati.
+               10 tco-cliente      PIC  x(6).
+               10 tco-data-doc     PIC  9(8).
+               10 tco-pagamento    PIC  x(20).
+               10 tco-iban         PIC  x(30).
+               10 tco-iva          PIC  x(3).
+               10 tco-importo-sub  PIC  9(9)v99.
+               10 tco-importo-iva  PIC  9(9)v99.
+               10 tco-importo-tot  PIC  9(9)v99.
+               10 tco-note.
+                   15 tco-nota         PIC  x(50)
+                              OCCURS 5 TIMES.
+               10 tco-data-creazione           PIC  9(8).
+               10 tco-vuoti.
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).

@@ -1,0 +1,5208 @@
+; CaseMaker Totem Program Structure File, Version 6.1
+; WARNING: DO NOT MODIFY THIS FILE!
+
+[MONITOR_FILE]
+
+
+[PROGRAM_CONTENT]
+QUIT_CONFIRM=0
+ANSI_FORMAT=1
+MAIN_SCREEN_NAME=Form1
+BEFORE_PROGRAM=ginqui-Ev-Before-Program
+AFTER_PROGRAM=ginqui-Ev-After-Program
+PROGRAM_UNIQUE_CODE=TOTEM-7E3B16162440-969-1446732147
+
+{{@DESCRIPTION:
+
+@}}
+
+[WORKING_STORAGE]
+m_nType=1
+m_strName=Working Storage
+m_bBlockRecords=1
+m_bRecordFixed=1
+m_bStandard=1
+{{@FD_m_strDescriptionWK
+
+@}}
+[FDITEM0_WK]
+m_strName=titolo
+m_strDefaultValue="Studio - Listini Clienti"
+m_nItemLevel=78
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM0_WK
+
+@}}
+[FDITEM1_WK]
+m_strName=RigaCambiata
+m_strRawPic=9(5)
+m_strPic=9(5)
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM1_WK
+
+@}}
+[FDITEM2_WK]
+m_strName=ColonnaCambiata
+m_strRawPic=9(5)
+m_strPic=9(5)
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM2_WK
+
+@}}
+[FDITEM3_WK]
+m_strName=Form1-Tb-1-Handle
+m_nUsage=24
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM3_WK
+
+@}}
+[FDITEM4_WK]
+m_strName=val-ini
+m_strRawPic=99/99/9999
+m_strPic=99/99/9999
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM4_WK
+
+@}}
+[FDITEM5_WK]
+m_strName=store-codice
+m_strRawPic=9(5)
+m_strPic=9(5)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM5_WK
+
+@}}
+[FDITEM6_WK]
+m_strName=toolbar-bmp
+m_strRawPic=S9(9)
+m_strPic=S9(9)
+m_nUsage=5
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM6_WK
+
+@}}
+[FDITEM7_WK]
+m_strName=E-ESCI
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=1
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM7_WK
+
+@}}
+[FDITEM8_WK]
+m_strName=E-NUOVO
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=1
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM8_WK
+
+@}}
+[FDITEM9_WK]
+m_strName=E-CANCELLA
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=1
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM9_WK
+
+@}}
+[FDITEM10_WK]
+m_strName=E-SALVA
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=1
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM10_WK
+
+@}}
+[FDITEM11_WK]
+m_strName=E-ANTEPRIMA
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM11_WK
+
+@}}
+[FDITEM12_WK]
+m_strName=E-MODIFICA
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=1
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM12_WK
+
+@}}
+[FDITEM13_WK]
+m_strName=E-STAMPA
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM13_WK
+
+@}}
+[FDITEM14_WK]
+m_strName=E-CERCA
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM14_WK
+
+@}}
+[FDITEM15_WK]
+m_strName=E-SELEZIONA
+m_strRawPic=9
+m_strPic=9
+m_strDefaultValue=1
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM15_WK
+
+@}}
+[FDITEM16_WK]
+m_strName=Form1-St-1-Handle
+m_nUsage=51
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM16_WK
+
+@}}
+[FDITEM17_WK]
+m_strName=form1-Handle
+m_nUsage=24
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM17_WK
+
+@}}
+[FDITEM18_WK]
+m_strName=como-prz1
+m_strRawPic=9(12)v99
+m_strPic=9(12)v99
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM18_WK
+
+@}}
+[FDITEM19_WK]
+m_strName=como-prz2
+m_strRawPic=9(12)v99
+m_strPic=9(12)v99
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM19_WK
+
+@}}
+[FDITEM20_WK]
+m_strName=como-prz3
+m_strRawPic=9(12)v99
+m_strPic=9(12)v99
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM20_WK
+
+@}}
+[FDITEM21_WK]
+m_strName=AUTO-ID
+m_strRawPic=9(6)
+m_strPic=9(6)
+m_strDefaultValue=0,00
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM21_WK
+
+@}}
+[FDITEM22_WK]
+m_strName=STATUS-articoli
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM22_WK
+
+@}}
+[FDITEM23_WK]
+m_strName=Valid-STATUS-articoli
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM23_WK
+
+@}}
+[FDITEM24_WK]
+m_strName=STATUS-clienti
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM24_WK
+
+@}}
+[FDITEM25_WK]
+m_strName=Valid-STATUS-clienti
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM25_WK
+
+@}}
+[FDITEM26_WK]
+m_strName=STATUS-rlistini
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM26_WK
+
+@}}
+[FDITEM27_WK]
+m_strName=Valid-STATUS-rlistini
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM27_WK
+
+@}}
+[FDITEM28_WK]
+m_strName=STATUS-tlistini
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM28_WK
+
+@}}
+[FDITEM29_WK]
+m_strName=Valid-STATUS-tlistini
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM29_WK
+
+@}}
+[FDITEM30_WK]
+m_strName=excel-bmp
+m_strRawPic=S9(9)
+m_strPic=S9(9)
+m_nUsage=5
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM30_WK
+
+@}}
+[FDITEM31_WK]
+m_strName=Form1-Tb-1-Handlea
+m_nUsage=24
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM31_WK
+
+@}}
+[FDITEM32_WK]
+m_strName=RigheIniziali
+m_strRawPic=9(3)
+m_strPic=9(3)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM32_WK
+
+@}}
+[FDITEM33_WK]
+m_strName=store-articolo
+m_strRawPic=x(6)
+m_strPic=x(6)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM33_WK
+
+@}}
+[FDITEM34_WK]
+m_strName=path-completo-cliente
+m_strRawPic=x(512)
+m_strPic=x(512)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM34_WK
+
+@}}
+[FDITEM35_WK]
+m_strName=data-val
+m_strRawPic=99/99/9999
+m_strPic=99/99/9999
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM35_WK
+
+@}}
+[FDITEM36_WK]
+m_strName=edit-prz1
+m_strRawPic=zzz.zz9,99
+m_strPic=zzz.zz9,99
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM36_WK
+
+@}}
+[FDITEM37_WK]
+m_strName=edit-prz2
+m_strRawPic=zzz.zz9,99
+m_strPic=zzz.zz9,99
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM37_WK
+
+@}}
+[FDITEM38_WK]
+m_strName=edit-prz3
+m_strRawPic=zzz.zz9,99
+m_strPic=zzz.zz9,99
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM38_WK
+
+@}}
+[FDITEM39_WK]
+m_strName=FILLER
+m_strRawPic=9
+m_strPic=9
+m_nItemLevel=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM39_WK
+
+@}}
+[FDITEM40_WK]
+m_strName=RigaVuota
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue=1
+m_strFalse=0
+{{@DataItem_m_strDescriptionFDITEM40_WK
+
+@}}
+[FDITEM41_WK]
+m_strName=save-key
+m_nItemLevel=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM41_WK
+
+@}}
+[FDITEM42_WK]
+m_strName=save-codice
+m_strRawPic=9(5)
+m_strPic=9(5)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM42_WK
+
+@}}
+[FDITEM43_WK]
+m_strName=como-old-rls-articolo
+m_strRawPic=x(6)
+m_strPic=x(6)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM43_WK
+
+@}}
+[FDITEM44_WK]
+m_strName=rec-grid
+m_nItemLevel=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM44_WK
+
+@}}
+[FDITEM45_WK]
+m_strName=col-art
+m_strRawPic=x(6)
+m_strPic=x(6)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM45_WK
+
+@}}
+[FDITEM46_WK]
+m_strName=col-des
+m_strRawPic=x(50)
+m_strPic=x(50)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM46_WK
+
+@}}
+[FDITEM47_WK]
+m_strName=col-prz1
+m_strRawPic=zzz.zz9,99
+m_strPic=zzz.zz9,99
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM47_WK
+
+@}}
+[FDITEM48_WK]
+m_strName=col-prz2
+m_strRawPic=zzz.zz9,99
+m_strPic=zzz.zz9,99
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM48_WK
+
+@}}
+[FDITEM49_WK]
+m_strName=col-prz3
+m_strRawPic=zzz.zz9,99
+m_strPic=zzz.zz9,99
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM49_WK
+
+@}}
+[FDITEM50_WK]
+m_strName=old-rec-grid
+m_nItemLevel=1
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM50_WK
+
+@}}
+[FDITEM51_WK]
+m_strName=old-col-art
+m_strRawPic=x(6)
+m_strPic=x(6)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM51_WK
+
+@}}
+[FDITEM52_WK]
+m_strName=old-col-des
+m_strRawPic=x(50)
+m_strPic=x(50)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM52_WK
+
+@}}
+[FDITEM53_WK]
+m_strName=old-col-prz1
+m_strRawPic=zzz.zz9,99
+m_strPic=zzz.zz9,99
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM53_WK
+
+@}}
+[FDITEM54_WK]
+m_strName=old-col-prz2
+m_strRawPic=zzz.zz9,99
+m_strPic=zzz.zz9,99
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM54_WK
+
+@}}
+[FDITEM55_WK]
+m_strName=old-col-prz3
+m_strRawPic=zzz.zz9,99
+m_strPic=zzz.zz9,99
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM55_WK
+
+@}}
+[FDITEM56_WK]
+m_strName=STATUS-tipocli
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM56_WK
+
+@}}
+[FDITEM57_WK]
+m_strName=Valid-STATUS-tipocli
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM57_WK
+
+@}}
+[FDITEM58_WK]
+m_strName=Calibri14-Occidentale
+m_nUsage=26
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM58_WK
+
+@}}
+[FDITEM59_WK]
+m_strName=Calibri14B-Occidentale
+m_nUsage=26
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM59_WK
+
+@}}
+[FDITEM60_WK]
+m_strName=lab-tipo-buf
+m_strRawPic=x(50)
+m_strPic=x(50)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM60_WK
+
+@}}
+[FDITEM61_WK]
+m_strName=Verdana12-Occidentale
+m_nUsage=26
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM61_WK
+
+@}}
+[FDITEM62_WK]
+m_strName=StatusCode
+m_nUsage=17
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM62_WK
+
+@}}
+[FDITEM63_WK]
+m_strName=LOGO_PICCOLO-BMP
+m_strRawPic=S9(9)
+m_strPic=S9(9)
+m_nUsage=5
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM63_WK
+
+@}}
+[FDITEM64_WK]
+m_strName=cancella_singolo-bmp
+m_strRawPic=S9(9)
+m_strPic=S9(9)
+m_nUsage=5
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM64_WK
+
+@}}
+[FDITEM65_WK]
+m_strName=Small-Font
+m_nUsage=37
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM65_WK
+
+@}}
+[FDITEM66_WK]
+m_strName=wstampa
+m_strRawPic=X(256)
+m_strPic=X(256)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM66_WK
+
+@}}
+[FDITEM67_WK]
+m_strName=STATUS-lineseq
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM67_WK
+
+@}}
+[FDITEM68_WK]
+m_strName=Valid-STATUS-lineseq
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM68_WK
+
+@}}
+
+
+[LINKAGE_SECTION]
+m_nType=1
+m_strName=Linkage Section
+m_bBlockRecords=1
+m_bRecordFixed=1
+m_bStandard=1
+{{@FD_m_strDescriptionLK
+
+@}}
+[FDITEM0_LK]
+m_strName=LK-BLOCKPGM
+m_nItemLevel=1
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM0_LK
+
+@}}
+[FDITEM1_LK]
+m_strName=LK-BL-PROG-ID
+m_strRawPic=X(15)
+m_strPic=X(15)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM1_LK
+
+@}}
+[FDITEM2_LK]
+m_strName=LK-BL-DATA
+m_strRawPic=9(8)
+m_strPic=9(8)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM2_LK
+
+@}}
+[FDITEM3_LK]
+m_strName=LK-BL-ORA
+m_strRawPic=9(8)
+m_strPic=9(8)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM3_LK
+
+@}}
+[FDITEM4_LK]
+m_strName=LK-BL-TIPO-OP
+m_strRawPic=9(1)
+m_strPic=9(1)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM4_LK
+
+@}}
+[FDITEM5_LK]
+m_strName=LK-BL-LETTURA
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM5_LK
+
+@}}
+[FDITEM6_LK]
+m_strName=LK-BL-SCRITTURA
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue=2
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM6_LK
+
+@}}
+[FDITEM7_LK]
+m_strName=LK-BL-CANCELLAZIONE
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue=3
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM7_LK
+
+@}}
+[FDITEM8_LK]
+m_strName=LK-BL-USO
+m_strRawPic=9(1)
+m_strPic=9(1)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM8_LK
+
+@}}
+[FDITEM9_LK]
+m_strName=LK-BL-IN-USO
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM9_LK
+
+@}}
+[FDITEM10_LK]
+m_strName=LK-HND-WIN
+m_strRawPic=S9(9)
+m_strPic=S9(9)
+m_nUsage=5
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM10_LK
+
+@}}
+
+
+{{@SCREEN:
+*   Screen Painter Data
+*   Schema 6.0
+*
+BEGIN-SPDATA-6.1A
+
+GRAPHICAL-SCREEN
+
+Begin Screen Form1
+   PREFIX            = Screen1
+   IMPORTED-SCREEN   = FALSE
+   LOCK-CONTROL      = TRUE
+   LEVEL             = 1
+   (Name)            = Form1
+   Absolute Column   = 2
+   Absolute Line     = 2
+   Action            = (None)
+   Auto Minimize     = TRUE
+   Auto Resize       = FALSE
+   Bind To Thread    = FALSE
+   Boxed             = FALSE
+   Cell              = FALSE
+   Cell Height       = 23
+   Cell Width        = 10
+   Color             = 131329
+   Confirm Delete    = TRUE
+   Confirm Insert    = FALSE
+   Confirm Update    = FALSE
+   Controls Uncropped = FALSE
+   Data Set          = DataSet1
+   Erase Screen      = FALSE
+   Font              = Calibri/14/C0/@Occidentale
+   Font Variable     = Calibri14-Occidentale
+   Handle Variable   = form1-Handle
+   Height in Cells   = TRUE
+   Help ID           = 0
+   Label Offset      = 23
+   Lines             = 24,74
+   Link To Thread    = TRUE
+   Max Lines         = 0,00
+   Max Size          = 0,00
+   Message Process   = (Type = 0, Color = 0)
+   Min Lines         = 0,00
+   Min Size          = 0,00
+   Modeless          = TRUE
+   Operation Mode    = Interactive Mode
+   Resizable         = FALSE
+   Scroll            = FALSE
+   Size              = 102,30
+   System Menu       = TRUE
+   Title Bar         = TRUE
+   Title Variable    = titolo
+   Unit              = Cells
+   User Gray         = TRUE
+   User White        = TRUE
+   Visible           = NONE
+   Width in Cells    = TRUE
+   Window Type       = Independent
+   Wrap              = FALSE
+   Event Procedure   = Screen1-Event-Proc
+   Begin Data.Entry-Field ef-codice
+      SCREEN-COL        = 16,00
+      SCREEN-LINE       = 1,57
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = ef-codice
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Border            = Boxed
+      Case              = Mixed
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 513
+      Column            = 16,00
+      Csize             = 0
+      Csize Unit        = Default
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Enable Variable   = mod-k
+      Field Edited (Style) = 1
+      Field Edited Format = 9(5)
+      Field Picture     = 9(5)
+      Field Variable    = tls-codice
+      File              = tlistini
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      Hint              = .
+      ID                = 0
+      ID Variable       = AUTO-ID
+      Justification     = Right
+      Line              = 1,57
+      Lines             = 1,31
+      Lines Unit        = Default
+      Max Lines         = 0
+      Max Text          = 5
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Occurs            = 0
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 11,00
+      Size Unit         = Default
+      Style             = Singleline
+      Tab Order         = 1
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Visible           = NONE
+      Width in Cells    = TRUE
+      My Property       = "CONTROLLO="
+      Before Procedure  = Screen1-DaEf-1-BeforeProcedure
+      After Procedure   = Screen1-DaEf-1-AfterProcedure
+   End
+   Begin Data.Entry-Field ef-descrizione
+      SCREEN-COL        = 16,00
+      SCREEN-LINE       = 3,83
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = ef-descrizione
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Border            = Boxed
+      Case              = Mixed
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 513
+      Column            = 16,00
+      Csize             = 0
+      Csize Unit        = Default
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Enable Variable   = mod
+      Field Edited (Style) = 0
+      Field Edited Format = x(50)
+      Field Picture     = x(50)
+      Field Variable    = tls-descrizione
+      File              = tlistini
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      Hint              = .
+      ID                = 14
+      ID Variable       = AUTO-ID
+      Justification     = Unaligned
+      Line              = 3,83
+      Lines             = 1,30
+      Lines Unit        = Default
+      Max Lines         = 0
+      Max Text          = 50
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Occurs            = 0
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 60,00
+      Size Unit         = Default
+      Style             = Singleline
+      Tab Order         = 2
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Visible           = NONE
+      Width in Cells    = TRUE
+      My Property       = "CONTROLLO-OLD=;CONTROLLO="
+      Before Procedure  = ef-nome-BeforeProcedure
+      After Procedure   = ef-nome-AfterProcedure
+   End
+   Begin Data.Entry-Field ef-ini-val
+      SCREEN-COL        = 16,00
+      SCREEN-LINE       = 5,39
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = ef-ini-val
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Border            = Boxed
+      Case              = Mixed
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 513
+      Column            = 16,00
+      Csize             = 0
+      Csize Unit        = Default
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Enable Variable   = mod
+      Field Edited (Style) = 1
+      Field Edited Format = 99/99/9999
+      Field Picture     = 9(8)
+      Field Variable    = tls-ini-val
+      File              = tlistini
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      Hint              = .
+      ID                = 6
+      ID Variable       = AUTO-ID
+      Justification     = Center
+      Line              = 5,39
+      Lines             = 1,30
+      Lines Unit        = Default
+      Max Lines         = 0
+      Max Text          = 10
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Occurs            = 0
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 11,00
+      Size Unit         = Default
+      Style             = Singleline
+      Tab Order         = 3
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Visible           = NONE
+      Width in Cells    = TRUE
+      My Property       = "CONTROLLO-OLD=;CONTROLLO="
+      Before Procedure  = ef-ini-dpo-BeforeProcedure
+      After Procedure   = ef-ini-dpo-AfterProcedure
+   End
+   Begin Data.Radio-Button rb-cat
+      SCREEN-COL        = 16,00
+      SCREEN-LINE       = 6,96
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = rb-cat
+      Bitmap Frame      = FALSE
+      Bitmap Number     = 1
+      Bitmap Square     = TRUE
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 16,00
+      Copy Resource     = TRUE
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Enable Variable   = mod
+      Exception Value   = 0
+      Field Variable    = tls-tipo
+      File              = tlistini
+      Flat              = TRUE
+      Font              = Default Font
+      Group             = 1
+      Group Value       = 1
+      Height in Cells   = TRUE
+      Help ID           = 0
+      Hint              = .
+      ID                = 3
+      ID Variable       = AUTO-ID
+      Left Text         = FALSE
+      Line              = 6,96
+      Lines             = 1,30
+      Lines Unit        = Default
+      No Group Tab      = FALSE
+      No Tab            = FALSE
+      Notify            = FALSE
+      Occurs            = 0
+      Radio On Value    = "C"
+      Self Act          = FALSE
+      Size              = 1,50
+      Size Unit         = Default
+      Tab Order         = 4
+      Termination Value = 0
+      Value             = 1
+      Visible           = NONE
+      Width in Cells    = TRUE
+      Before Procedure  = Screen1-DaRb-1-BeforeProcedure
+      After Procedure   = Screen1-DaRb-1-AfterProcedure
+   End
+   Begin Data.Radio-Button rb-ind
+      SCREEN-COL        = 30,00
+      SCREEN-LINE       = 6,96
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = rb-ind
+      Bitmap Frame      = FALSE
+      Bitmap Number     = 1
+      Bitmap Square     = TRUE
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 30,00
+      Copy Resource     = TRUE
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Enable Variable   = mod
+      Exception Value   = 0
+      Field Variable    = tls-tipo
+      File              = tlistini
+      Flat              = TRUE
+      Font              = Default Font
+      Group             = 1
+      Group Value       = 2
+      Height in Cells   = TRUE
+      Help ID           = 0
+      Hint              = .
+      ID                = 4
+      ID Variable       = AUTO-ID
+      Left Text         = FALSE
+      Line              = 6,96
+      Lines             = 1,30
+      Lines Unit        = Default
+      No Group Tab      = FALSE
+      No Tab            = FALSE
+      Notify            = FALSE
+      Occurs            = 0
+      Radio On Value    = "I"
+      Self Act          = FALSE
+      Size              = 1,50
+      Size Unit         = Default
+      Tab Order         = 5
+      Termination Value = 0
+      Value             = 0
+      Visible           = NONE
+      Width in Cells    = TRUE
+      Before Procedure  = Screen1-DaRb-1-BeforeProcedure
+      After Procedure   = Screen1-DaRb-1-AfterProcedure
+   End
+   Begin Data.Entry-Field ef-tipo
+      SCREEN-COL        = 50,90
+      SCREEN-LINE       = 6,96
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = ef-tipo
+      Auto              = FALSE
+      Auto Decimal      = 0
+      Border            = Boxed
+      Case              = Mixed
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 513
+      Column            = 50,90
+      Csize             = 0
+      Csize Unit        = Default
+      Cursor            = 0
+      Cursor Col        = 0
+      Cursor Row        = 0
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Enable Variable   = mod
+      Field Edited (Style) = 1
+      Field Edited Format = x(6)
+      Field Picture     = x(6)
+      Field Variable    = tls-codice-tipo
+      File              = tlistini
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      Hint              = .
+      ID                = 5
+      ID Variable       = AUTO-ID
+      Justification     = Unaligned
+      Line              = 6,96
+      Lines             = 1,30
+      Lines Unit        = Default
+      Max Lines         = 0
+      Max Text          = 6
+      Max Value         = 0
+      Min Value         = 0
+      No AutoSel        = FALSE
+      No Tab            = FALSE
+      Notify Change     = FALSE
+      Numeric           = FALSE
+      Occurs            = 0
+      Read Only         = FALSE
+      Required          = FALSE
+      Secure            = FALSE
+      Size              = 9,00
+      Size Unit         = Default
+      Style             = Singleline
+      Tab Order         = 6
+      Use Return        = FALSE
+      Use Tab           = FALSE
+      Value Multiple    = FALSE
+      Visible           = NONE
+      Width in Cells    = TRUE
+      My Property       = "CONTROLLO-OLD=;CONTROLLO=;ZOOM="
+      Before Procedure  = ef-ini-dpo-BeforeProcedure
+      After Procedure   = ef-ini-dpo-AfterProcedure
+   End
+   Begin Grid gd1
+      SCREEN-COL        = 3,00
+      SCREEN-LINE       = 8,83
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = gd1
+      Action            = (None)
+      Adjustable Columns = TRUE
+      Border            = Boxed
+      Cells' Setting    = ( X = 1, Y = 1, Color = 299 )
+      Cells' Setting    = ( Font = Calibri/14/B/C0/@Occidentale, Font Variable = Calibri14B-Occidentale )
+      Cells' Setting    = ( Data = "Articolo" )
+      Cells' Setting    = ( X = 2, Y = 1, Color = 299 )
+      Cells' Setting    = ( Font = Calibri/14/B/C0/@Occidentale, Font Variable = Calibri14B-Occidentale )
+      Cells' Setting    = ( Data = "Descrizione" )
+      Cells' Setting    = ( X = 3, Y = 1, Color = 299 )
+      Cells' Setting    = ( Font = Calibri/14/B/C0/@Occidentale, Font Variable = Calibri14B-Occidentale )
+      Cells' Setting    = ( Data = "Prezzo 1" )
+      Cells' Setting    = ( X = 4, Y = 1, Color = 299 )
+      Cells' Setting    = ( Font = Calibri/14/B/C0/@Occidentale, Font Variable = Calibri14B-Occidentale )
+      Cells' Setting    = ( Data = "Prezzo 2" )
+      Cells' Setting    = ( X = 5, Y = 1, Color = 299 )
+      Cells' Setting    = ( Font = Calibri/14/B/C0/@Occidentale, Font Variable = Calibri14B-Occidentale )
+      Cells' Setting    = ( Data = "Prezzo 3" )
+      Centered Headings = TRUE
+      Color             = 0
+      Column            = 3,00
+      Column Headings   = TRUE
+      Columns' Setting  = ( X = 1, Name = col-art, READONLY = 0 )
+      Columns' Setting  = ( PIC = "x(6)", TYPE = "x(6)", EDITEDSTYLE = "F", FMT = "X(08)", ALIGN = "C" )
+      Columns' Setting  = ( DISP = 10, SEPA = 5, DIVI = 1 )
+      Columns' Setting  = ( X = 2, Name = col-des, READONLY = 0 )
+      Columns' Setting  = ( PIC = "x(50)", TYPE = "x(50)", EDITEDSTYLE = "F", FMT = "X(08)", ALIGN = "U" )
+      Columns' Setting  = ( DISP = 50, SEPA = 5, DIVI = 1 )
+      Columns' Setting  = ( X = 3, Name = col-prz1, READONLY = 0 )
+      Columns' Setting  = ( PIC = "zzz.zz9,99", TYPE = "zzz.zz9,99", EDITEDSTYLE = "F", FMT = "X(08)", ALIGN = "R" )
+      Columns' Setting  = ( DISP = 12, SEPA = 5, DIVI = 1 )
+      Columns' Setting  = ( X = 4, Name = col-prz2, READONLY = 0 )
+      Columns' Setting  = ( PIC = "zzz.zz9,99", TYPE = "zzz.zz9,99", EDITEDSTYLE = "F", FMT = "X(08)", ALIGN = "R" )
+      Columns' Setting  = ( DISP = 12, SEPA = 5, DIVI = 1 )
+      Columns' Setting  = ( X = 5, Name = col-prz3, READONLY = 0 )
+      Columns' Setting  = ( PIC = "zzz.zz9,99", TYPE = "zzz.zz9,99", EDITEDSTYLE = "F", FMT = "X(08)", ALIGN = "R" )
+      Columns' Setting  = ( DISP = 12, SEPA = 5, DIVI = 1 )
+      Cursor Color      = 0
+      Cursor Frame Width = 2
+      Cursor X          = 0
+      Cursor Y          = 0
+      Destroy Type      = Automatic
+      Divider Color     = 1
+      Drag Color        = 0
+      Enable            = NONE
+      End Color         = 0
+      Font              = Default Font
+      Heading Color     = 257
+      Heading Divider Color = 1
+      Heading Font      = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      Hscroll           = FALSE
+      ID                = 26
+      ID Variable       = AUTO-ID
+      Last Row          = 0
+      Line              = 8,83
+      Lines             = 15,30
+      Lines Unit        = Default
+      No Tab            = FALSE
+      Num Col Headings  = 1
+      Num Columns       = 5
+      Num Rows          = 0
+      Occurs            = 0
+      Paged             = FALSE
+      Row Dividers      = 1
+      Row Headings      = FALSE
+      Size              = 97,90
+      Size Unit         = Default
+      Tab Order         = 7
+      Tiled Headings    = TRUE
+      Use Tab           = FALSE
+      Virtual Width     = 96
+      Visible           = NONE
+      Vpadding          = 5
+      Vscroll           = TRUE
+      Width in Cells    = TRUE
+      Event Procedure   = Screen1-Gd-1-Event-Proc
+      Msg-Begin-Drag    = gd1-Ev-Msg-Begin-Drag
+      Msg-Begin-Entry   = gd1-Ev-Msg-Begin-Entry
+      Msg-End-Drag      = gd1-Ev-Msg-End-Drag
+      Msg-Finish-Entry  = gd1-Ev-Msg-Finish-Entry
+      Msg-Goto-Cell     = gd1-Ev-Msg-Goto-Cell
+      Msg-Goto-Cell-Drag = gd1-Ev-Msg-Goto-Cell-Drag
+      Msg-Goto-Cell-Mouse = gd1-Ev-Msg-Goto-Cell-Mouse
+   End
+   Begin Label Screen1-La-1
+      SCREEN-COL        = 3,00
+      SCREEN-LINE       = 1,57
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = Screen1-La-1
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 3,00
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      ID                = 100
+      Justification     = Unaligned
+      Label Offset      = 20
+      Line              = 1,57
+      Lines             = 1,31
+      Lines Unit        = Default
+      No Key Letter     = FALSE
+      Occurs            = 0
+      Size              = 11,00
+      Size Unit         = Default
+      Tab Order         = 8
+      Title             = "ID Volantino"
+      Transparent       = TRUE
+      Visible           = NONE
+      Width in Cells    = TRUE
+   End
+   Begin Bar Screen1-Br-1
+      SCREEN-COL        = 1,00
+      SCREEN-LINE       = 3,26
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = Screen1-Br-1
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 1,00
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Height in Cells   = TRUE
+      Help ID           = 0
+      ID                = 22
+      Kind              = Horizontal
+      Line              = 3,26
+      Line Styles       = Solid
+      Occurs            = 0
+      Position Shift    = 0
+      COLORS            = ( 9, 9 )
+      Size (Lines)      = 102,30
+      Size (Lines) in Pixels = 1023
+      Size (Lines) Unit = Default
+      Tab Order         = 9
+      Visible           = NONE
+      Width             = 2
+      Width in Cells    = TRUE
+   End
+   Begin Data.Label lab-nome
+      SCREEN-COL        = 28,00
+      SCREEN-LINE       = 1,57
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = lab-nome
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 11
+      Column            = 28,00
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Field Edited (Style) = 0
+      Field Edited Format = x(50)
+      Field Picture     = x(50)
+      Field Variable    = tls-descrizione
+      File              = tlistini
+      Font              = Calibri/14/B/C0/@Occidentale
+      Font Variable     = Calibri14B-Occidentale
+      Height in Cells   = TRUE
+      Help ID           = 0
+      ID                = 23
+      Justification     = Unaligned
+      Label Offset      = 20
+      Line              = 1,57
+      Lines             = 1,31
+      Lines Unit        = Default
+      No Key Letter     = FALSE
+      Occurs            = 0
+      Size              = 69,00
+      Size Unit         = Default
+      Tab Order         = 10
+      Transparent       = TRUE
+      Visible           = NONE
+      Width in Cells    = TRUE
+   End
+   Begin Label Screen1-La-3
+      SCREEN-COL        = 3,00
+      SCREEN-LINE       = 5,39
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = Screen1-La-3
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 3,00
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      ID                = 7
+      Justification     = Unaligned
+      Label Offset      = 20
+      Line              = 5,39
+      Lines             = 1,30
+      Lines Unit        = Default
+      No Key Letter     = FALSE
+      Occurs            = 0
+      Size              = 11,00
+      Size Unit         = Default
+      Tab Order         = 11
+      Title             = "Inizio Validità"
+      Transparent       = TRUE
+      Visible           = NONE
+      Width in Cells    = TRUE
+   End
+   Begin Label Screen1-La-7
+      SCREEN-COL        = 3,00
+      SCREEN-LINE       = 3,83
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = Screen1-La-7
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 3,00
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      ID                = 13
+      Justification     = Unaligned
+      Label Offset      = 20
+      Line              = 3,83
+      Lines             = 1,22
+      Lines Unit        = Default
+      No Key Letter     = FALSE
+      Occurs            = 0
+      Size              = 11,00
+      Size Unit         = Default
+      Tab Order         = 12
+      Title             = "Descrizione"
+      Transparent       = TRUE
+      Visible           = NONE
+      Width in Cells    = TRUE
+   End
+   Begin CsCtrl.blockpgm Label Screen1-blockpgm-1
+      CUST-SYMBOL       = blockpgm
+      CUST-MODIFYFLAG   = 000000000000000000000000000000000000000000000000000
+      SCREEN-COL        = 83,70
+      SCREEN-LINE       = 1,00
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = Screen1-blockpgm-1
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 83,70
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      ID                = 10
+      Justification     = Unaligned
+      Label Offset      = 20
+      Line              = 1,00
+      Lines             = 0,61
+      Lines Unit        = Default
+      No Key Letter     = FALSE
+      Occurs            = 0
+      Size              = 1,50
+      Size Unit         = Default
+      Tab Order         = 13
+      Title             = "BlockPgm"
+      Transparent       = TRUE
+      Visible           = NONE
+      Visible Variable  = v-custom
+      Width in Cells    = TRUE
+   End
+   Begin CsCtrl.Custom1 Label Screen1-Custom1-1
+      CUST-SYMBOL       = Custom1
+      CUST-MODIFYFLAG   = 000000000000110000000000000000000000000000000000000
+      SCREEN-COL        = 90,70
+      SCREEN-LINE       = 1,00
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = Screen1-Custom1-1
+      Ccol              = 0
+      Cline             = 0
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 90,70
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Font              = Default Font
+      Height in Cells   = FALSE
+      Help ID           = 0
+      ID                = 12
+      Justification     = Unaligned
+      Label Offset      = 20
+      Line              = 1,00
+      Lines             = 0,52
+      Lines Unit        = Default
+      No Key Letter     = FALSE
+      Occurs            = 0
+      Size              = 0,80
+      Size Unit         = Default
+      Tab Order         = 14
+      Title             = "CUSTOM CONTROL"
+      Transparent       = TRUE
+      Visible           = NONE
+      Visible Variable  = v-custom
+      Width in Cells    = FALSE
+   End
+   Begin Label Screen1-La-2
+      SCREEN-COL        = 3,00
+      SCREEN-LINE       = 6,96
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = Screen1-La-2
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 3,00
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      ID                = 2
+      Justification     = Unaligned
+      Label Offset      = 20
+      Line              = 6,96
+      Lines             = 1,30
+      Lines Unit        = Default
+      No Key Letter     = FALSE
+      Occurs            = 0
+      Size              = 11,00
+      Size Unit         = Default
+      Tab Order         = 15
+      Title             = "TIpologia"
+      Transparent       = TRUE
+      Visible           = NONE
+      Width in Cells    = TRUE
+   End
+   Begin Label Screen1-La-4
+      SCREEN-COL        = 19,00
+      SCREEN-LINE       = 6,96
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = Screen1-La-4
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 19,00
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      ID                = 8
+      Justification     = Unaligned
+      Label Offset      = 20
+      Line              = 6,96
+      Lines             = 1,30
+      Lines Unit        = Default
+      No Key Letter     = FALSE
+      Occurs            = 0
+      Size              = 10,00
+      Size Unit         = Default
+      Tab Order         = 16
+      Title             = "Categoria"
+      Transparent       = TRUE
+      Visible           = NONE
+      Width in Cells    = TRUE
+   End
+   Begin Label Screen1-La-4a
+      SCREEN-COL        = 33,00
+      SCREEN-LINE       = 6,96
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = Screen1-La-4a
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 33,00
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      ID                = 9
+      Justification     = Unaligned
+      Label Offset      = 20
+      Line              = 6,96
+      Lines             = 1,30
+      Lines Unit        = Default
+      No Key Letter     = FALSE
+      Occurs            = 0
+      Size              = 10,00
+      Size Unit         = Default
+      Tab Order         = 17
+      Title             = "Individuale"
+      Transparent       = TRUE
+      Visible           = NONE
+      Width in Cells    = TRUE
+   End
+   Begin Label Screen1-La-3a
+      SCREEN-COL        = 44,00
+      SCREEN-LINE       = 6,96
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = Screen1-La-3a
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 0
+      Column            = 44,00
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Font              = Default Font
+      Height in Cells   = TRUE
+      Help ID           = 0
+      ID                = 11
+      Justification     = Unaligned
+      Label Offset      = 20
+      Line              = 6,96
+      Lines             = 1,30
+      Lines Unit        = Default
+      No Key Letter     = FALSE
+      Occurs            = 0
+      Size              = 6,00
+      Size Unit         = Default
+      Tab Order         = 18
+      Title             = "Codice"
+      Transparent       = TRUE
+      Visible           = NONE
+      Width in Cells    = TRUE
+   End
+   Begin Label lab-tipo
+      SCREEN-COL        = 61,00
+      SCREEN-LINE       = 6,96
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = lab-tipo
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 11
+      Column            = 61,00
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Enable            = NONE
+      Font              = Calibri/14/B/C0/@Occidentale
+      Font Variable     = Calibri14B-Occidentale
+      Height in Cells   = TRUE
+      Help ID           = 0
+      ID                = 16
+      Justification     = Unaligned
+      Label Offset      = 20
+      Line              = 6,96
+      Lines             = 2,00
+      Lines Unit        = Default
+      No Key Letter     = FALSE
+      Occurs            = 0
+      Size              = 39,00
+      Size Unit         = Default
+      Tab Order         = 19
+      Title Picture     = x(50)
+      Title Variable    = lab-tipo-buf
+      Transparent       = TRUE
+      Visible           = NONE
+      Width in Cells    = TRUE
+   End
+   Begin Toolbar Form1-Tb-1
+      SCREEN-LINE       = 1,00
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 1
+      (Name)            = Form1-Tb-1
+      Cell              = FALSE
+      Color             = 0
+      Font              = Calibri/14/C0/@Occidentale
+      Font Variable     = Calibri14-Occidentale
+      Handle Variable   = Form1-Tb-1-Handle
+      Help ID           = 0
+      Lines             = 3,35
+      Tab Order         = 20
+      Begin Push-Button TOOL-ESCI
+         SCREEN-COL        = 1,00
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = TOOL-ESCI
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 1
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 1,00
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Enable Variable   = E-ESCI
+         Exception Value   = 27
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 72
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Escape Button
+         Tab Order         = 1
+         Termination Value = 0
+         Title             = "Esci (Esc)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+      End
+      Begin Push-Button TOOL-NUOVO
+         SCREEN-COL        = 6,30
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = TOOL-NUOVO
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 2
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 6,30
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Enable Variable   = E-NUOVO
+         Exception Value   = 2
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 73
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 2
+         Termination Value = 0
+         Title             = "Nuovo (F2)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Additional Properties = "BITMAP-NUMBER BitmapNumNew"
+         Link To           = NUOVO-LinkTo
+      End
+      Begin Push-Button TOOL-CANCELLA
+         SCREEN-COL        = 16,90
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = TOOL-CANCELLA
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 4
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 16,90
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Enable Variable   = E-CANCELLA
+         Exception Value   = 4
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 74
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 3
+         Termination Value = 0
+         Title             = "Cancella (F4)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Additional Properties = "BITMAP-NUMBER BitmapNumDelete"
+         Link To           = CANCELLA-LinkTo
+      End
+      Begin Push-Button TOOL-SALVA
+         SCREEN-COL        = 11,60
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = TOOL-SALVA
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 3
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 11,60
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Enable Variable   = E-SALVA
+         Exception Value   = 3
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 75
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 4
+         Termination Value = 0
+         Title             = "Salva (F3)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Additional Properties = "BITMAP-NUMBER BitmapNumSave"
+         Link To           = TOOL-SALVA-LinkTo
+      End
+      Begin Push-Button TOOL-ANTEPRIMA
+         SCREEN-COL        = 27,50
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = TOOL-ANTEPRIMA
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 17
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 27,50
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Enable Variable   = E-ANTEPRIMA
+         Exception Value   = 6
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 76
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 5
+         Termination Value = 0
+         Title             = "Anteprima (F6)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = ANTEPRIMA-LinkTo
+      End
+      Begin Check-Box TOOL-MODIFICA
+         SCREEN-COL        = 22,20
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = TOOL-MODIFICA
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 5
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Color             = 0
+         Column            = 22,20
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Enable Variable   = E-MODIFICA
+         Exception Value   = 150
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 77
+         Left Text         = FALSE
+         Line              = 1,09
+         Lines             = 2,13
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Tab            = FALSE
+         Notify            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 3,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Tab Order         = 6
+         Termination Value = 0
+         Title             = "Modifica (F5)"
+         Value             = 0:FALSE
+         Value Variable    = MOD
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Additional Properties = "BITMAP-NUMBER BitmapNumEdit"
+         Before Procedure  = TOOL-MODIFICA-BeforeProcedure
+         After Procedure   = TOOL-MODIFICA-AfterProcedure
+         Link To           = TOOL-MODIFICA-LinkTo
+      End
+      Begin Push-Button TOOL-STAMPA
+         SCREEN-COL        = 32,80
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = TOOL-STAMPA
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 18
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 32,80
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Enable Variable   = E-STAMPA
+         Exception Value   = 7
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 110
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 7
+         Termination Value = 0
+         Title             = "Stampa (F7)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = STAMPA-LinkTo
+      End
+      Begin Push-Button TOOL-CERCA
+         SCREEN-COL        = 38,10
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = TOOL-CERCA
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 8
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 38,10
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Enable Variable   = E-CERCA
+         Exception Value   = 8
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 111
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 8
+         Termination Value = 0
+         Title             = "Cerca (F8)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Additional Properties = "BITMAP-NUMBER BitmapNumZoom"
+         Link To           = TOOL-CERCA-LinkTo
+      End
+      Begin Push-Button TOOL-SELEZIONA
+         SCREEN-COL        = 43,40
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = TOOL-SELEZIONA
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 9
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 43,40
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Enable Variable   = E-SELEZIONA
+         Exception Value   = 9
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 112
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 9
+         Termination Value = 0
+         Title             = "Seleziona (F9)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = TOOL-SELEZIONA-LinkTo
+      End
+      Begin Push-Button Form1-Pb-1a
+         SCREEN-COL        = 48,70
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = Form1-Pb-1a
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 10
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 48,70
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 1002
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 113
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 10
+         Termination Value = 0
+         Title             = "&Primo"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = TOOL-PRIMO
+      End
+      Begin Push-Button Form1-Pb-1b
+         SCREEN-COL        = 54,00
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = Form1-Pb-1b
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 11
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 54,00
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 67
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 114
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 11
+         Termination Value = 0
+         Title             = "Precedente (PgDn)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = TOOL-PRECEDENTE
+      End
+      Begin Push-Button Form1-Pb-1c
+         SCREEN-COL        = 59,30
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = Form1-Pb-1c
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 12
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 59,30
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 68
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 115
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 12
+         Termination Value = 0
+         Title             = "Successivo (PgUp)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = TOOL-SUCCESSIVO
+      End
+      Begin Push-Button Form1-Pb-1d
+         SCREEN-COL        = 64,60
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = Form1-Pb-1d
+         Bitmap            = "..\resource\toolbar.bmp"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = toolbar-bmp
+         Bitmap Number     = 13
+         Bitmap Square     = TRUE
+         Ccol              = 0
+         Cline             = 0
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 64,60
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 1006
+         Flat              = TRUE
+         Font              = Calibri/14/C0/@Occidentale
+         Font Variable     = Calibri14-Occidentale
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 116
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 13
+         Termination Value = 0
+         Title             = "&Ultimo"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = TOOL-ULTIMO
+      End
+      Begin Bitmap Form1-Bt-1
+         SCREEN-COL        = 98,50
+         SCREEN-LINE       = 1,00
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = Form1-Bt-1
+         Bitmap            = "..\RESOURCE\LOGO_PICCOLO.BMP"
+         Bitmap End        = 0
+         Bitmap Handle     = LOGO_PICCOLO-BMP
+         Bitmap Number     = 1
+         Bitmap Start      = 0
+         Bitmap Timer      = 0
+         Column            = 98,50
+         Copy Resource     = TRUE
+         Destroy Type      = Automatic
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 123
+         Line              = 1,00
+         Lines             = 2,78
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         Occurs            = 0
+         Size              = 4,80
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Tab Order         = 14
+         Transparent Color = 0
+         Visible           = NONE
+         Width in Cells    = FALSE
+      End
+      Begin Push-Button pb-excell
+         SCREEN-COL        = 70,00
+         SCREEN-LINE       = 1,09
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-excell
+         Bitmap            = "..\RESOURCE\EXCEL.BMP"
+         Bitmap Frame      = FALSE
+         Bitmap Handle     = EXCEL-BMP
+         Bitmap Number     = 1
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 70,00
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 1000
+         Flat              = TRUE
+         Font              = Small Font
+         Font Variable     = Small-Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 15
+         Line              = 1,09
+         Lines             = 2,59
+         Lines in Pixels   = 64
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = TRUE
+         Size              = 4,60
+         Size in Pixels    = 48
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 15
+         Termination Value = 0
+         Title             = "Esporta il Listino in CSV"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Before Procedure  = pb-excell-BeforeProcedure
+         After Procedure   = pb-excell-AfterProcedure
+         Link To           = pb-excell-LinkTo
+      End
+   End
+   Begin Status-Bar Form1-St-1
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 1
+      (Name)            = Form1-St-1
+      Font              = Calibri/14/C0/@Occidentale
+      Font Variable     = Calibri14-Occidentale
+      Grip              = TRUE
+      Handle Variable   = Form1-St-1-Handle
+      PANEL-WIDTHS      = ( 55, 25, 999 )
+      PANEL-STYLE       = ( 1, 1, 1 )
+      Tab Order         = 21
+   End
+End
+
+END-SPDATA
+
+@}}
+
+{{@REPORT:
+*   Report Writer Data
+*   Schema 6.0
+*
+BEGIN-RWDATA-6.0A
+
+END-RWDATA
+
+@}}
+
+{{@EMBEDDING_CODE:
+BEGIN-DATA
+   BASETYPE          = 13
+   NODESTYLE         = 13
+   PARAGRAPH         = Other Working
+BEGIN-TEXT
+       78  78-col-art        value 1. 
+       78  78-col-des        value 2. 
+       78  78-col-prz1       value 3. 
+       78  78-col-prz2       value 4. 
+       78  78-col-prz3       value 5. 
+
+       78  78-max-colonne    value 5.
+
+       77  como-riga         pic 9(4).
+
+       01                    pic 9.
+           88 controllo-finale  value 1 false zero.
+
+       01                 pic 9.
+           88 s-excell    value 1.
+           88 s-stampa    value 2.
+           88 s-anteprima value 3.
+
+       77  messaggio      pic x(200).  
+
+
+       01 OLD-tls-rec.
+           05 OLD-tls-chiave.
+               10 OLD-tls-codice          PIC 9(5).
+           05 OLD-tls-dati.
+               10 OLD-tls-descrizione     PIC X(50).
+               10 OLD-tls-ricerca.
+                  15 OLD-tls-tipo         PIC X.
+                     88 OLD-tls-tipo-categoria   VALUE IS "C".
+                     88 OLD-tls-tipo-individuale VALUE IS "I".
+                  15 OLD-tls-codice-tipo  PIC x(6).
+                  15 OLD-tls-ini-val      PIC 9(8).
+               10 OLD-tls-vuoti.
+                   15 FILLER           PIC 9(18).
+                   15 FILLER           PIC 9(18).
+                   15 FILLER           PIC 9(18).
+                   15 FILLER           PIC x(500).
+
+       01 OLD-rls-rec.
+           05 OLD-rls-chiave.
+               10 OLD-rls-codice      PIC 9(5).
+               10 OLD-rls-articolo    PIC X(6).
+           05 OLD-rlis-dati.
+               10 OLD-rls-ricerca.
+                   15 OLD-rls-tipo         PIC X.
+                       88 OLD-rls-tipo-catcli      VALUE "C". 
+                       88 OLD-rls-tipo-individuale VALUE "I". 
+                   15 OLD-rls-codice-tipo  PIC X(6).
+                   15 OLD-rls-ini-val      PIC 9(8).
+               10 OLD-rls-prezzo1      PIC 9(6)v999.
+               10 OLD-rls-prezzo2      PIC 9(6)v999.
+               10 OLD-rls-prezzo3      PIC 9(6)v999.
+               10 OLD-rls-vuoti.
+                   15 FILLER           PIC 9(18).
+                   15 FILLER           PIC 9(18).
+                   15 FILLER           PIC 9(18).
+                   15 FILLER           PIC X(500).
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 6
+   NODESTYLE         = 7
+   PARAGRAPH         = DeletedCode
+BEGIN-TEXT
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 1
+   NODESTYLE         = 2
+   PARENT            = Form1
+   ACTOBJ            = Form1
+   TEXTMODE          = 0
+   ENTRYPOINT        = AfterDisplay
+BEGIN-TEXT
+      *<<** Customized_Default, SP-G, Screen1-blockpgm-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 1
+   NODESTYLE         = 2
+   PARENT            = Form1
+   ACTOBJ            = Form1
+   TEXTMODE          = 0
+   ENTRYPOINT        = BeforeAccept
+BEGIN-TEXT
+           perform INIT.
+           perform ABILITA-TOOLBAR.
+           perform ABILITAZIONI.
+           perform STATUS-BAR-MSG.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 1
+   NODESTYLE         = 0
+   PARENT            = glistini
+   ACTOBJ            = glistini
+   ENTRYPOINT        = BeforeDeclarative
+BEGIN-TEXT
+       tlistini-ERROR SECTION.
+           use after error procedure on tlistini.
+           set RecLocked to false.
+           evaluate status-tlistini
+           when "35"
+                display message "File [tlistini] not found!"
+                           title titolo
+                            icon 3
+                set errori to true
+           when "39"
+                display message "File [tlistini] Mismatch size!"
+                           title titolo
+                            icon 3
+                set errori to true
+           when "98"
+                display message "[tlistini] Indexed file corrupt!"
+                           title titolo
+                            icon 3
+                set errori to true
+           when "99"
+           when "93"
+                set RecLocked to true
+                set errori    to true
+                move 0 to mod
+                modify tool-modifica, value = mod
+                move 1 to mod-k
+                display form1
+                set StatusVisua to true
+                perform STATUS-BAR-MSG
+                move "00" to status-tlistini
+                if ReadSecca
+                   read tlistini       no lock 
+                        invalid      continue
+                        not invalid  perform FORM1-IUD-DISPLAY
+                   end-read
+                end-if
+                display message box MSG-Record-gia-in-uso
+                        title = tit-err
+                        icon is mb-error-icon
+           when "23"
+                move 1 to mod-k
+                move 0 to mod
+                modify tool-modifica, value = mod
+                set StatusVisua to true
+                perform STATUS-BAR-MSG 
+                if nuovo              
+                   initialize tls-dati of tlistini
+                              replacing numeric data by zeroes
+                                   alphanumeric data by spaces
+                   perform FORM1-FLD-TO-BUF
+                   display form1-tb-1
+                   set vecchio to true
+                end-if      
+                perform ABILITAZIONI
+                display form1
+                |RISETTO IL VALORE A "23" PERCHE DENTRO AL PAR. CLEAR-SCREEN
+                |CON L'OPERAZIONE UNLOCK VIENE RISETTATO A ZERO COSICCHÈ 
+                |QUANDO TORNA DENTRO AI PAR. DI SCORRIMENTO DI TOTEM SI 
+                |TROVA IN UNA SITUAZIONE CORRETTA E PROSEGUE CON LA READ
+                |USCENDO CON UN MESSAGGIO DI ERRORE DI TIPO "46"
+                move "23" to status-tlistini
+           end-evaluate.
+ 
+      ***---
+       rlistini-ERR SECTION.
+           use after error procedure on rlistini.
+           set tutto-ok  to true.
+           evaluate status-rlistini
+           when "35"
+                display message "File [rlistini] not found!"
+                           title titolo
+                            icon 3
+                set errori to true
+           when "39"
+                display message "File [rlistini] Mismatch size!"
+                           title titolo
+                            icon 3
+                set errori to true
+           when "98"
+                display message "[rlistini] Indexed file corrupt!"
+                           title titolo
+                            icon 3
+                set errori to true
+           end-evaluate.  
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 1
+   NODESTYLE         = 2
+   PARENT            = Form1
+   ACTOBJ            = Form1
+   TEXTMODE          = 0
+   ENTRYPOINT        = AfterFldToBuf
+BEGIN-TEXT
+           move tls-codice to ef-codice-buf.
+           display ef-codice.
+
+           perform ABILITAZIONI.
+           
+           if tls-tipo-categoria
+              move spaces to tcl-descrizione
+              move tls-codice-tipo to tcl-codice
+              read tipocli no lock invalid continue end-read
+              move tcl-descrizione to lab-tipo-buf
+           else                             
+              move spaces to cli-ragsoc cli-nome
+              move tls-codice-tipo to cli-codice
+              read clienti no lock invalid continue end-read
+              perform DESCRIZIONE-CLIENTE
+           end-if.
+
+           move tls-ini-val of tlistini to como-data.
+           perform DATE-TO-SCREEN.
+           move como-data to ef-ini-val-buf.
+
+           Perform VALORIZZA-OLD.
+
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 1
+   NODESTYLE         = 2
+   PARENT            = Form1
+   ACTOBJ            = Form1
+   TEXTMODE          = 0
+   ENTRYPOINT        = AfterAccept
+BEGIN-TEXT
+           evaluate key-status
+           when 5 |MODIFICA
+                inquire tool-modifica, enabled in e-modifica
+                if e-modifica = 1
+                   if mod = zero 
+                      move 1    to mod
+                   else          
+                      move zero to mod
+                   end-if
+                   modify tool-modifica, value = mod
+                   perform MODIFICA
+                end-if
+           end-evaluate.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 1
+   NODESTYLE         = 2
+   PARENT            = Form1
+   ACTOBJ            = Form1
+   TEXTMODE          = 0
+   ENTRYPOINT        = BeforeExit
+BEGIN-TEXT
+           perform SALV-MOD.
+
+           if errori
+              move 26 to key-status
+              exit paragraph
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 1
+   NODESTYLE         = 2
+   PARENT            = Form1
+   ACTOBJ            = Form1
+   TEXTMODE          = 0
+   ENTRYPOINT        = AfterBufToFld
+BEGIN-TEXT
+           move ef-codice-buf to tls-codice.
+
+           move ef-ini-val-buf to como-data.
+           perform DATE-TO-FILE.
+           move como-data to tls-ini-val.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = PARAGRAFO-COPY
+BEGIN-TEXT
+           copy "abilita-toolbar.cpy".
+           copy "color-custom.cpy".
+           copy "status.cpy".
+           copy "utydata.cpy".
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = ABILITAZIONI
+BEGIN-TEXT
+           if mod = 1              
+              move BitmapDeleteEnabled to BitmapNumDelete
+              move BitmapSaveEnabled   to BitmapNumSave
+              move 1 to e-salva e-cancella
+           else           
+              move BitmapDeleteDisabled to BitmapNumDelete
+              move BitmapSaveDisabled   to BitmapNumSave
+              move 0 to e-salva e-cancella
+           end-if.      
+
+
+           modify tool-cancella, enabled = e-cancella.
+           modify tool-salva,    enabled = e-salva.
+       
+      * ISACCO (SERVE SEMPRE PER LA MODIFICA PRCEDENTE E PER RIPRISTINARE
+      * LE BITMAP DISABILITATE. - 10/11/2003
+      *     perform FORM1-DISPLAY.
+           display tool-nuovo, tool-salva, tool-cancella, tool-modifica.
+      * FINE.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = ANTEPRIMA
+BEGIN-TEXT
+           set s-anteprima to true.
+           perform STAMPA-ANTEPRIMA.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = CANCELLA
+BEGIN-TEXT
+           if mod = 0 exit paragraph end-if.
+      *
+           display message box MSG-Cancellare-il-record-corrente
+                   title   titolo
+                   type    mb-yes-no 
+                   default mb-no
+                   giving  scelta
+
+           if scelta = mb-yes
+              perform RIEMPI-CHIAVE
+              delete tlistini record 
+                     invalid  continue
+                 not invalid  perform DELETE-RIGHE
+              end-delete
+
+              move 0   to mod
+              move 1   to mod-k
+              perform FORM1-CLEAR
+              set vecchio to true
+              perform CANCELLA-COLORE
+              perform INIT-OLD-REC
+              perform RESETTA-GRID
+              
+              display message box MSG-Cancellazione-avvenuta-con-successo
+                      title titolo                         
+
+              unlock tlistini all records
+
+              perform PRIMO 
+              move 78-ID-ef-codice to control-id     
+              move 4               to accept-control 
+
+              set Statusvisua to true
+              perform STATUS-BAR-MSG
+              modify TOOL-MODIFICA value = mod
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = CERCA
+BEGIN-TEXT
+           evaluate CONTROL-ID
+           when 78-ID-ef-tipo
+                if Form1-RADIO-1-BUF = 1
+                   inquire ef-tipo, value in tcl-codice
+                   move "tipocli"      to Como-File
+                   call   "zoom-gt" using como-file, tcl-rec
+                                   giving stato-zoom
+                   cancel "zoom-gt"
+                   if stato-zoom = 0
+                      move tcl-codice      to ef-tipo-buf
+                      move tcl-descrizione to lab-tipo-buf
+                      display ef-tipo lab-tipo
+                      move 4 to accept-control
+                   end-if
+                else
+                   inquire ef-tipo, value in cli-codice
+                   move "clienti"      to Como-File
+                   call   "zoom-gt" using como-file, cli-rec
+                                   giving stato-zoom
+                   cancel "zoom-gt"
+                   if stato-zoom = 0
+                      move cli-codice      to ef-tipo-buf
+                      perform DESCRIZIONE-CLIENTE
+                      display ef-tipo lab-tipo
+                      move 4 to accept-control
+                   end-if
+                end-if
+      *
+           when 78-ID-gd1
+                perform X-Y
+                evaluate colonna
+                when 78-col-art
+                     inquire gd1(riga, 78-col-art), 
+                                               cell-data in art-codice
+                     move "articoli"     to Como-File
+                     call   "zoom-gt" using  como-file, art-rec
+                                      giving stato-zoom
+                     cancel "zoom-gt"
+                     if stato-zoom = 0
+                        perform CONTROLLA-ARTICOLO-GIA-INSERITO
+                        if not trovato
+                           move art-codice        to col-art
+                           move art-descrizione   to col-des
+                           modify gd1(riga, 78-col-art), 
+                                                     cell-data = col-art
+                           modify gd1(riga, 78-col-des), 
+                                                     cell-data = col-des
+                           perform CONTROLLO-RIGA
+                        end-if
+                     end-if
+                end-evaluate
+           end-evaluate. 
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = COLORE-RIGA
+BEGIN-TEXT
+           modify gd1, start-x = 1,
+                             x = 78-max-colonne,
+                       start-y = riga,
+                             y = riga,
+                  region-color = 257,
+                  cursor-color = colore-nu.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = CLEAR-SCREEN
+BEGIN-TEXT
+           move tls-chiave to old-tls-chiave.
+
+           initialize tls-dati of tlistini 
+                     replacing numeric data by zeroes
+                          alphanumeric data by spaces.
+                         
+           perform FORM1-FLD-TO-BUF. 
+
+           perform INIT-OLD-REC.
+
+           display form1. 
+
+           perform RESETTA-GRID.
+  
+           unlock tlistini all records.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = CHECK-INSERIMENTO
+BEGIN-TEXT
+      * MODIFICA LA STATUS-BAR
+      * CONTROLLO SE DA INSERIMENTO SCORRO. ALLORA DEVO SEGNALARE CHE
+      * SONO TORNATO IN MODIFICA.
+           inquire tool-modifica, value in mod.
+
+           evaluate mod
+           when 1  
+                set StatusModifica to true
+           when 0
+                set StatusVisua    to true   
+           end-evaluate.
+      
+           perform STATUS-BAR-MSG.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = CONTROLLA-ARTICOLO-GIA-INSERITO
+BEGIN-TEXT
+           set trovato  to false.
+
+           perform varying store-riga from 2 by 1 until
+                           store-riga > tot-righe
+              inquire gd1(store-riga, 1), cell-data in store-articolo
+              if store-articolo  = art-codice and 
+                 store-riga  not = riga
+                 set trovato to true
+                 subtract 1 from store-riga
+                 display message "Articolo già inserito a riga: " store-riga
+                           title tit-err
+                            icon 2
+                 set errori to true
+                 move spaces to col-des
+                 modify gd1(riga, 2), cell-data = col-des
+                 exit perform
+              end-if
+           end-perform.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = CONTROLLO
+BEGIN-TEXT
+           set tutto-ok to true. 
+      
+           evaluate CONTROL-ID
+           when 78-ID-ef-codice
+                perform RIEMPI-CHIAVE           
+                if ef-codice-buf not = 0
+                   read tlistini no lock
+                        invalid
+                        if vecchio
+                           display message MSG-record-inesistente
+                                     title tit-err
+                                      icon 2
+                           perform CLEAR-SCREEN
+                           set errori to true
+                        end-if
+                    not invalid      
+                        if old-tls-chiave not = tls-chiave or
+                         ( tls-codice = 0 and mod = 0 )
+                           perform CURRENT-RECORD 
+                        end-if
+                   end-read
+                   move 78-ID-ef-codice to control-id
+                   move 4               to accept-control
+      
+                else
+                   set errori to true  
+                   move 78-ID-ef-codice to control-id
+                   display message box MSG-record-inesistente
+                           title = tit-err
+                           icon mb-warning-icon
+                end-if
+
+           when 78-ID-ef-descrizione
+                inquire ef-descrizione, value in ef-descrizione-buf
+                if ef-descrizione-buf = spaces
+                   set errori to true
+                   display message "Descrizione obbligatoria"
+                             title tit-err
+                              icon 2
+                end-if
+      
+           when 78-ID-ef-ini-val
+                inquire ef-ini-val, value in como-data
+                perform DATE-FORMAT
+                move como-data to ef-ini-val-buf
+                display ef-ini-val
+      
+           when 78-ID-ef-tipo
+                if form1-radio-1-buf = 1
+                   inquire ef-tipo, value in tcl-codice
+                   read tipocli no lock 
+                        invalid
+                        set errori to true
+                        move spaces to tcl-descrizione
+                        display message "Codice non valido"
+                                  title tit-err
+                                   icon 2
+                   end-read
+                   move tcl-descrizione to lab-tipo-buf
+                else
+                   inquire ef-tipo, value in cli-codice
+                   read clienti no lock 
+                        invalid
+                        set errori to true
+                        move spaces to cli-ragsoc cli-nome
+                        display message "Codice non valido"
+                                  title tit-err
+                                   icon 2
+                   end-read
+                   perform DESCRIZIONE-CLIENTE
+                end-if
+                display lab-tipo
+      
+           end-evaluate.
+      
+           if errori
+              perform CANCELLA-COLORE
+              move CONTROL-ID to store-id
+              move 4          to ACCEPT-CONTROL
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = CONTROLLO-RIGA
+BEGIN-TEXT
+           set tutto-ok to true.
+           if mod = 0 
+              exit paragraph 
+           end-if.
+      
+           evaluate colonna
+           when 78-col-art
+                move col-art to art-codice
+                read articoli no lock
+                     invalid
+                     set errori to true
+                     display message "Articolo NON valido"
+                               title tit-err
+                                icon 2
+                     move spaces to art-descrizione
+                end-read
+                modify gd1(riga, 78-col-des), cell-data art-descrizione
+      
+           end-evaluate.                         
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = CURRENT-RECORD
+BEGIN-TEXT
+           perform RIEMPI-CHIAVE.
+           set tutto-ok  to true.
+           set ReadSecca to true.
+           if nuovo move 0 to mod end-if.
+      
+           if mod = 1
+              read tlistini lock 
+                 invalid
+                    set errori to true 
+              end-read
+           else
+              read tlistini no lock 
+                 invalid 
+                    set errori to true 
+              end-read
+           end-if.                    
+           set ReadSecca to false.
+      
+           if RecLocked
+              set RecLocked to false
+           else
+              if tutto-ok
+                 perform CANCELLA-COLORE
+                 if nuovo
+                    move 0      to mod
+                    move 1      to mod-k
+                    move 78-ID-ef-codice to control-id
+                    move 4      to accept-control
+                 else
+                    move 78-ID-ef-descrizione to control-id
+                    move 4      to accept-control
+                 end-if   
+                 perform FORM1-IUD-DISPLAY
+                 set vecchio to true
+                 if mod = 1
+                    set StatusModifica to true
+                 else                         
+                    set StatusVisua    to true
+                 end-if
+                 perform STATUS-BAR-MSG 
+                 perform VALORIZZA-OLD
+                 perform RIEMPI-GRID
+              else
+                 move 0 to mod
+                 move 1 to mod-k
+                 if vecchio
+                    perform CLEAR-SCREEN
+                    if YesMessage
+                       move 78-ID-ef-codice to CONTROL-ID
+                       move 4               to accept-control
+                       display message MSG-Record-inesistente
+                                 title tit-err
+                                  icon 2
+                    end-if
+                 end-if
+              end-if
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = DELETE-RIGHE
+BEGIN-TEXT
+           move tls-codice to rls-codice.
+           move low-value  to rls-articolo.
+           start rlistini key >= rls-chiave
+                 invalid continue
+             not invalid
+                 perform until 1 = 2
+                    read rlistini next at end exit perform end-read
+                    if rls-codice not = tls-codice
+                       exit perform 
+                    end-if
+                    delete rlistini record invalid continue end-delete
+                 end-perform
+           end-start.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = DESCRIZIONE-CLIENTE
+BEGIN-TEXT
+           initialize lab-tipo-buf.
+           inspect cli-ragsoc replacing trailing spaces by low-value.
+           string  cli-ragsoc delimited low-value
+                   " "        delimited size
+                   cli-nome   delimited size
+                   into lab-tipo-buf
+           end-string.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = INIT
+BEGIN-TEXT
+           move 0 to StatusHelp.
+           move 1 to mod-k.
+           set StatusVisua    to true. 
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = INIT-OLD-REC
+BEGIN-TEXT
+           initialize old-tls-rec replacing numeric data by zeroes
+                                       alphanumeric data by spaces.
+
+           initialize old-rls-rec replacing numeric data by zeroes
+                                       alphanumeric data by spaces.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = MODIFICA
+BEGIN-TEXT
+           move 5 to key-status.
+           inquire tool-modifica, value in mod.
+           set tutto-ok to true.
+
+           if nuovo
+              move 1   to mod                  
+              modify tool-modifica, value mod
+           else
+      *  SE L'UTENTE E' ABILITATO PUO' MODIFICARE UN RECORD
+              if mod = 1
+                 set YesMessage to true
+                 perform CURRENT-RECORD
+                 if tutto-ok
+                    move 0   to mod-k
+                    move 1   to mod
+                    set StatusModifica to true
+                    perform STATUS-BAR-MSG
+                 end-if
+              else
+                 move 1 to mod
+                 perform SALV-MOD            
+                 move 0 to mod
+                 move 1 to mod-k
+                 if errori
+                    move 1 to mod
+                    move 0 to mod-k
+                 else
+                    move 78-ID-ef-codice to control-id
+                    set NoMessage to true
+                    perform CURRENT-RECORD
+                    set StatusVisua to true
+                    perform STATUS-BAR-MSG 
+                    unlock tlistini all records
+                 end-if
+              end-if
+
+              display form1
+              modify tool-modifica,  value mod
+              perform CANCELLA-COLORE 
+
+              move 4 to ACCEPT-CONTROL
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = NUOVO
+BEGIN-TEXT
+           perform SALV-MOD.
+
+           if tutto-ok  
+              move 78-ID-ef-descrizione to control-id       
+              move 4               to accept-control   
+              move 1               to mod mod-k
+              modify tool-modifica,  value = mod
+              perform CANCELLA-COLORE                  
+              perform VALORIZZA-NUOVO
+
+              perform INIT-OLD-REC
+              move tls-chiave to old-tls-chiave
+              set StatusIns to true
+              perform STATUS-BAR-MSG  
+              set nuovo to true
+           end-if.
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = PRECEDENTE
+BEGIN-TEXT
+           perform SALV-MOD.           
+           if tutto-ok     
+              perform CHECK-INSERIMENTO
+              unlock tlistini all records 
+      
+              perform RIEMPI-CHIAVE
+      
+              start tlistini key < tls-chiave
+                    invalid  set errori to true
+                not invalid 
+                    read tlistini previous no lock
+                       at end set errori to true 
+                    end-read
+              end-start
+
+              if tutto-ok
+                 if nuovo
+                    perform CANCELLA-COLORE
+                    move 78-ID-ef-codice to control-id
+                    move 4               to accept-control
+                 end-if
+                 move tls-codice         to ef-codice-buf
+                 display ef-codice
+                 set ReadSecca           to false
+                 perform CURRENT-RECORD
+              else
+                 display message "File [TLISTINI]"
+                          x"0d0a""Raggiunto inizio file"
+                           title titolo
+              end-if
+      
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = PRIMO
+BEGIN-TEXT
+           perform SALV-MOD.
+           if tutto-ok
+              perform CHECK-INSERIMENTO
+              unlock tlistini all records 
+      
+              move low-value   to tls-chiave of tlistini
+              start tlistini key >= tls-chiave of tlistini
+                 invalid  
+                    set errori to true
+                 not invalid 
+                    read tlistini next no lock
+                       at end
+                          set errori to true 
+                    end-read
+              end-start
+      
+              if tutto-ok
+                 if nuovo
+                    perform CANCELLA-COLORE
+                    move 78-ID-ef-codice to control-id
+                    move 4               to accept-control
+                 end-if
+                 move tls-codice of tlistini to ef-codice-buf
+                 display ef-codice
+                 set  ReadSecca            to false
+                 perform CURRENT-RECORD
+              else
+                 perform CLEAR-SCREEN
+                 display message "File [TLISTINI]"
+                          x"0d0a""Archivio vuoto"
+                           title titolo
+                 perform CANCELLA-COLORE
+                 move 78-ID-ef-codice to control-id
+                 move 4               to accept-control
+              end-if
+      
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = PUNTA-CELLA
+BEGIN-TEXT
+           move 78-ID-gd1    to control-id store-id.
+           move 4            to accept-control.
+           modify gd1,       cursor-y riga, 
+                             cursor-x colonna.
+           perform COLORE-RIGA.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = RESETTA-GRID
+BEGIN-TEXT
+           modify gd1, reset-grid = 1.
+           perform GD1-CONTENT.
+           initialize rec-grid.
+           modify gd1, insert-rows = 999.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = RIEMPI-CHIAVE
+BEGIN-TEXT
+           inquire ef-codice, value in ef-codice-buf.
+           move ef-codice-buf to tls-codice.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = RIEMPI-GRID
+BEGIN-TEXT
+           modify gd1, mass-update = 1.
+           perform RESETTA-GRID.
+           move tls-codice to rls-codice.
+      
+           set tutto-ok   to true
+           move low-value to rls-articolo
+           start rlistini key >= rls-chiave
+                 invalid  set errori  to true
+           end-start.
+      
+           if tutto-ok
+              move 2 to riga
+              perform until 1 = 2
+                 read rlistini next no lock 
+                    at end 
+                       exit perform 
+                 end-read
+                 if rls-codice not = tls-codice
+                    exit perform
+                 end-if
+                 move rls-articolo to art-codice col-art
+                 read articoli no lock 
+                      invalid move "** NON TROVATO **" to art-descrizione
+                 end-read
+                 move art-descrizione        to col-des
+                 move rls-prezzo1            to col-prz1
+                 move rls-prezzo2            to col-prz2
+                 move rls-prezzo3            to col-prz3
+      
+                 modify gd1(riga, 78-col-art),  cell-data col-art       
+                 modify gd1(riga, 78-col-des),  cell-data col-des       
+                 modify gd1(riga, 78-col-prz1), cell-data col-prz1      
+                 modify gd1(riga, 78-col-prz2), cell-data col-prz2      
+                 modify gd1(riga, 78-col-prz3), cell-data col-prz3
+                 add 1 to riga
+              end-perform
+              subtract 2 from riga giving RigheIniziali
+           end-if.
+           modify gd1, mass-update = 0.
+           move 2 to riga.
+           move 1 to colonna.
+           perform PUNTA-CELLA.
+           perform VALORE-RIGA.
+           move rls-rec      to old-rls-rec.
+           move rls-articolo to como-old-rls-articolo
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = SALVA
+BEGIN-TEXT
+           if mod = 0 
+              exit paragraph 
+           end-if.
+
+           set tutto-ok to true.
+
+           set controllo-finale to true.
+           perform varying control-id from 78-ID-ef-codice by 1
+                     until control-id > 78-ID-ef-tipo
+              perform CONTROLLO
+              if errori 
+                 exit perform
+              end-if
+           end-perform.
+      
+           if tutto-ok
+              perform X-Y
+              if tot-righe = 1
+                 set errori to true
+                 display message "Nessun articolo inserito"
+                           title tit-err
+                            icon 2
+                 move 78-ID-gd1 to control-id
+                 move 1 to colonna
+              else
+                 perform DELETE-RIGHE
+                 perform FORM1-BUF-TO-FLD
+                 perform varying riga from 2 by 1 
+                           until riga > tot-righe
+                    perform VALORE-RIGA
+                    perform SCRIVI-RIGA
+                 end-perform
+              end-if
+           end-if.
+
+           set controllo-finale to false
+      
+           if errori
+              perform ABILITAZIONI
+              if store-id = 78-ID-gd1
+                 perform CANCELLA-COLORE
+                 perform PUNTA-CELLA
+              else
+                 move store-id to control-id
+                 move 4        to accept-control
+              end-if
+           else
+
+              perform FORM1-BUF-TO-FLD
+              perform CANCELLA-COLORE
+
+              write tls-rec invalid rewrite tls-rec end-write 
+
+              set vecchio to true
+
+              set vecchio      to true
+              set stampa       to true
+
+              perform TORNA-IN-VISUA
+              perform VALORIZZA-OLD
+
+           end-if.
+
+           display form1.
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = SALV-MOD
+BEGIN-TEXT
+           set tutto-ok to true.
+           perform FORM1-CONTROLLO-OLD.
+
+           if SiSalvato and mod = 1
+              if RigaCambiata not = 0 or ColonnaCambiata not = 0
+                 set NoSalvato  to true
+                 move 78-ID-gd1 to store-id
+                 move ColonnaCambiata to colonna
+                 move RigaCambiata    to riga
+              end-if
+           end-if.    
+
+           if SiSalvato and mod = 1
+              inquire gd1, last-row in tot-righe
+              subtract 1 from tot-righe
+              if tot-righe not = RigheIniziali |or inserito-extra
+                 add 2 to RigheIniziali giving riga
+                 set NoSalvato  to true
+                 move 78-ID-gd1 to store-id
+                 move 1 to colonna
+              end-if
+           end-if.
+
+           |Specifico per il programma dei promo
+           if SiSalvato and mod = 1
+              perform X-Y
+              |non lascio una testa di un volantino senza righe 
+              if tot-righe = 1
+                 perform RIEMPI-CHIAVE
+                 delete tlistini record invalid continue end-delete
+              end-if
+           end-if.
+           ||||
+      
+           if NoSalvato
+              display message MSG-Salvare-le-modifiche
+                        title titolo
+                         type mb-yes-no-cancel 
+                       giving scelta       
+       
+              evaluate scelta
+              when mb-yes 
+                   perform SALVA
+              when mb-no  
+                   continue
+                   if nuovo
+                      perform RIEMPI-CHIAVE
+                      delete tlistini record invalid continue end-delete
+                   end-if
+              when other                
+                   perform CANCELLA-COLORE
+                   set errori to true
+                   evaluate store-id
+                   when 78-ID-gd1     
+                        perform PUNTA-CELLA
+                   when other
+                      move store-id to control-id       
+                      move 4        to accept-control   
+                   end-evaluate
+              end-evaluate
+           else
+              if nuovo
+                 perform RIEMPI-CHIAVE
+                 delete tlistini record invalid continue end-delete
+              end-if
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = SCRIVI-RIGA
+BEGIN-TEXT
+           if rls-articolo = spaces
+              exit paragraph
+           end-if.
+
+           move tls-codice  to rls-codice.
+           move tls-ricerca to rls-ricerca.
+           move col-art     to rls-articolo.
+           move col-prz1    to rls-prezzo1.
+           move col-prz2    to rls-prezzo2.
+           move col-prz3    to rls-prezzo3.
+
+           write rls-rec invalid rewrite rls-rec end-write.
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = SELEZIONA
+BEGIN-TEXT
+      *****     set tutto-ok to true.
+      *****     move zero   to link-fornitore
+      *****     perform SEL-LISTINI.
+      *****
+      ********---
+      ***** SEL-LISTINI.
+      *****     call   "sel-listini" using link-codice 
+      *****                                link-articolo 
+      *****                                link-fornitore.
+      *****     cancel "sel-listini".
+      *****
+      *****     if link-codice not = 0
+      *****
+      *****        if link-codice not = tls-codice of tlistini
+      *****           perform SALV-MOD
+      *****        end-if
+      *****
+      *****        if tutto-ok
+      *****           set  ReadSecca   to true
+      *****           move link-codice to tls-codice of tlistini 
+      *****           move link-codice to ef-codice-buf
+      *****           display ef-codice
+      *****           perform CURRENT-RECORD
+      *****           if link-articolo = 0
+      *****              move 2 to riga
+      *****           else
+      *****              move store-riga to riga
+      *****           end-if
+      *****           move 1 to colonna
+      *****           perform PUNTA-CELLA
+      *****           perform CANCELLA-COLORE
+      *****           if link-articolo = 0
+      *****              move 78-ID-ef-codice to control-id
+      *****              move 4               to accept-control
+      *****           end-if
+      *****        end-if
+      *****
+      *****     end-if.
+      *****
+      *****
+      ********---
+      ***** SELEZIONA-NUMERICO.
+      *****     if tls-codice of tlistini not > 0
+      *****        set errori to true
+      *****        move 78-ID-ef-codice to control-id
+      *****        display message box msg-codice-obbligatorio
+      *****                title tit-err
+      *****                icon  mb-warning-icon
+      *****     else           
+      *****        read tlistini no lock
+      *****             invalid
+      *****             if vecchio
+      *****                display message MSG-record-inesistente
+      *****                          title tit-err
+      *****                           icon 2
+      *****                perform CLEAR-SCREEN
+      *****                set errori to true
+      *****             end-if
+      *****         not invalid      
+      *****             if old-tls-chiave not = tls-chiave of tlistini or
+      *****              ( tls-codice of tlistini = 0 and mod = 0 )
+      *****                perform CURRENT-RECORD 
+      *****             end-if
+      *****        end-read
+      *****     end-if.
+      *****
+      ********---
+      ***** SELEZIONA-ALFA.
+      ****** LA SECONDA CHIAVE E' ALFANUMERICA E LA VALUE VARIABLE CONTIENE
+      ****** ANCORA GLI ZERI DAVANTI CHE ELIMINO
+      *****     inspect ef-codice-buf replacing leading ZERO by SPACES.
+      *****     move ef-codice-buf to cli-ragsoc-1.
+      *****
+      *****
+      ****** POI GIUSTIFICO A SINISTRA E MI POSIZIONO SULLO ZOOM PER CHIAVE
+      ****** ALTERNATA
+      *****     call "C$JUSTIFY" using cli-ragsoc-1, "L".
+      *****     move low-value to cli-codice
+      *****                  
+      *****     set cli-tipo-F to true.
+      *****     start clienti key not < cli-k1
+      *****        invalid 
+      *****           initialize cli-rec
+      *****        not invalid 
+      *****           read clienti next 
+      *****              if cli-tipo-C
+      *****                 initialize cli-rec
+      *****              end-if
+      *****     end-start.
+      *****     set cli-tipo-F to true.
+      *****
+      *****     if cli-ragsoc-1 = ef-codice-buf
+      *****        move cli-codice   to link-fornitore
+      *****        perform SEL-LISTINI
+      *****     else
+      *****        move "clienti-alfa-all" to como-file
+      *****        call "zoom-gt"  using  como-file, cli-rec
+      *****                        giving  stato-zoom
+      *****        cancel "zoom-gt"
+      *****        if stato-zoom = 0
+      *****           move cli-codice    to link-fornitore
+      *****           perform SEL-LISTINI
+      *****        end-if
+      ******     else
+      ******        set errori           to true
+      ******        move 78-ID-ef-codice to CONTROL-ID
+      *****     end-if.
+      *****
+
+           inquire ef-codice, value in tls-codice.
+           move "tlistini"     to Como-File
+           call   "zoom-gt" using  como-file, tls-rec
+                            giving stato-zoom
+           cancel "zoom-gt"
+           if stato-zoom = 0
+              if old-tls-chiave not = tls-chiave or
+               ( tls-codice = 0 and mod = 0 )
+                 move tls-chiave to save-key
+                 perform SALV-MOD
+                 if tutto-ok
+                    move save-key to cli-chiave
+                    set ReadSecca to true
+                    modify ef-codice, value tls-codice
+                    perform CURRENT-RECORD
+                    perform CANCELLA-COLORE
+                    move 78-ID-ef-descrizione to CONTROL-ID       
+                    move 4                    to ACCEPT-CONTROL   
+                 end-if                                  
+              end-if
+           end-if.
+       
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = SPOSTAMENTO
+BEGIN-TEXT
+           set tutto-ok to true.
+           perform X-Y.
+      
+           if event-data-2 not = riga
+      
+              perform VALORE-RIGA
+
+              if not RigaVuota
+                 perform varying colonna from 78-col-art by 1
+                           until colonna > 78-max-colonne|78-col-tipo-imp
+                    perform CONTROLLO-RIGA
+                    if errori exit perform end-if
+                 end-perform
+              end-if
+      
+              if tutto-ok and mod = 1
+                 perform SCRIVI-RIGA
+              end-if
+
+              if tutto-ok
+                 evaluate true
+                 when event-data-2 < 2 
+                      move 2            to riga
+                      move event-data-1 to colonna
+      
+                 when event-data-2 > tot-righe
+                      add  1                to tot-righe giving riga
+                      set event-action      to event-action-fail
+                      move 1                to colonna
+                      perform PUNTA-CELLA
+                 when other
+                      move event-data-2 to riga
+                      move event-data-1 to colonna
+                 end-evaluate
+                 perform VALORE-RIGA
+                 if art-codice = 0
+                    initialize rls-rec 
+                               replacing numeric data by zeroes
+                                    alphanumeric data by spaces
+                 end-if
+                 move rls-rec to old-rls-rec
+                 move rls-articolo   to como-old-rls-articolo
+              else
+                 set event-action    to event-action-fail
+                 perform PUNTA-CELLA
+              end-if
+           else
+              if event-data-1 not = colonna
+                 inquire gd1(riga, 1), cell-data in art-codice
+                 if art-codice = 0
+                    set event-action to event-action-fail
+                    move 1 to colonna event-data-1
+                    perform PUNTA-CELLA
+                 end-if
+              end-if
+              move event-data-1 to colonna
+           end-if.
+      
+           perform COLORE-RIGA.
+           move 0 to StatusHelp.
+           if mod = 1 and colonna = 78-col-art
+              move 1 to StatusHelp
+           end-if.
+           perform STATUS-HELP.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = STAMPA
+BEGIN-TEXT
+           set s-stampa to true.
+           perform STAMPA-ANTEPRIMA.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = STAMPA-ANTEPRIMA
+BEGIN-TEXT
+      *****     if nuovo
+      *****        display message "Occorre salvare il volantino"
+      *****                        " per poterlo stampare"
+      *****                  title titolo
+      *****                   icon 2
+      *****     else
+      *****        inquire ef-codice, value in tls-codice of tlistini
+      *****        read tlistini no lock
+      *****              invalid
+      *****              display message "Volantino NON valido"
+      *****                      title tit-err
+      *****                      icon 2
+      *****          not invalid
+      *****              call "W$MOUSE" using set-mouse-shape, wait-pointer
+      *****
+      *****              move tls-chiave of tlistini  to stls-lis-chiave
+      *****
+      *****              evaluate true
+      *****              when s-stampa
+      *****                   set stls-printer  to true
+      *****              when s-excell
+      *****                   set stls-excell   to true
+      *****              when other
+      *****                   set stls-anteprima   to true
+      *****              end-evaluate
+      *****              move user-codi to stls-user
+      *****     
+      *****              call   "stlistini" using stlistini-linkage
+      *****              cancel "stlistini"
+      *****
+      *****
+      ******              evaluate true
+      ******              when s-excell
+      ******                   set stls-excell   to true
+      ******                   call   "stlistini" using stlistini-linkage
+      ******                   cancel "stlistini"
+      ******              when other
+      ******                   display message "In attesa di layout"
+      ******                           title titolo
+      ******                           icon 2
+      ******              end-evaluate
+      *****     
+      *****             call "W$MOUSE" using set-mouse-shape, arrow-pointer
+      *****        end-read
+      *****     end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = SUCCESSIVO
+BEGIN-TEXT
+           perform SALV-MOD.           
+           if tutto-ok     
+              perform CHECK-INSERIMENTO
+              unlock tlistini all records 
+      
+              perform RIEMPI-CHIAVE
+      
+              start tlistini key > tls-chiave of tlistini
+                 invalid  
+                    set errori to true
+                 not invalid 
+                    read tlistini next no lock
+                       at end   
+                          set errori to true 
+                    end-read
+              end-start
+      
+              if tutto-ok
+                 if nuovo
+                    perform CANCELLA-COLORE
+                    move 78-ID-ef-codice to control-id
+                    move 4               to accept-control
+                 end-if
+                 move tls-codice of tlistini to ef-codice-buf
+                 display ef-codice
+                 set ReadSecca             to false
+                 perform CURRENT-RECORD
+              else
+                 display message "File [TLISTINI]"
+                          x"0d0a""Raggiunta fine file"
+                           title titolo
+              end-if
+      
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = TORNA-IN-VISUA
+BEGIN-TEXT
+           move 0 to mod.
+           move 1 to mod-k.
+           move 78-ID-ef-codice to CONTROL-ID.
+           set NoMessage to true.
+           perform ABILITAZIONI.
+           set StatusVisua to true.
+           perform STATUS-BAR-MSG.
+           unlock tlistini all records.
+                        
+           modify tool-modifica,  value mod.
+           perform CANCELLA-COLORE.
+           move 4 to ACCEPT-CONTROL.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = ULTIMO
+BEGIN-TEXT
+           perform SALV-MOD.           
+           if tutto-ok                 
+              perform CHECK-INSERIMENTO
+              unlock tlistini all records 
+      
+              move high-value to tls-chiave of tlistini
+              start tlistini key < tls-chiave of tlistini
+                 invalid  
+                    set errori to true
+                 not invalid 
+                    read tlistini previous no lock
+                       at end   
+                          set errori to true 
+                    end-read
+              end-start
+      
+              if tutto-ok
+                 if nuovo
+                    perform CANCELLA-COLORE
+                    move 78-ID-ef-codice to control-id
+                    move 4               to accept-control
+                 end-if
+                 move tls-codice of tlistini to ef-codice-buf
+                 display ef-codice
+                 set  ReadSecca            to false
+                 perform CURRENT-RECORD
+              else
+                 perform CLEAR-SCREEN
+                 display message "File [TLISTINI]"
+                          x"0d0a""Archivio vuoto"
+                           title titolo
+                 perform CANCELLA-COLORE
+                 move 78-ID-ef-codice to control-id
+                 move 4               to accept-control
+              end-if
+      
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = VALORE-RIGA
+BEGIN-TEXT
+           inquire gd1(riga, 78-col-art),   cell-data col-art.
+           inquire gd1(riga, 78-col-des),   cell-data col-des.
+           inquire gd1(riga, 78-col-prz1),  cell-data col-prz1.
+           inquire gd1(riga, 78-col-prz2),  cell-data col-prz2.
+           inquire gd1(riga, 78-col-prz3),  cell-data col-prz3.
+
+           move col-prz1 to como-prz1.
+           move col-prz2 to como-prz2.
+           move col-prz3 to como-prz3.
+
+           if col-art   = spaces and
+              col-des   = spaces and
+              como-prz1 = 0 and
+              como-prz2 = 0 and
+              como-prz3 = 0
+              set RigaVuota to true
+           else
+              set RigaVuota to false
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = VALORIZZA-OLD
+BEGIN-TEXT
+           move tls-rec to old-tls-rec.
+
+           set vecchio to true.
+
+           move 0 to StatusHelp
+           perform STATUS-HELP.
+
+           inquire gd1, last-row in tot-righe.
+           subtract 1 from tot-righe giving RigheIniziali.
+           move 0 to RigaCambiata ColonnaCambiata.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = VALORIZZA-NUOVO
+BEGIN-TEXT
+           move high-value to tls-codice of tlistini.
+
+           start tlistini key <=   tls-codice of tlistini
+                 invalid move 1 to tls-codice of tlistini
+             not invalid
+                 read tlistini previous with no lock
+                       at end move 1 to tls-codice of tlistini
+                   not at end add  1 to tls-codice of tlistini
+                 end-read
+           end-start.
+           
+           move "00"    to status-tlistini.
+
+           initialize tls-dati of tlistini 
+                      replacing numeric data by zeroes
+                           alphanumeric data by spaces.
+
+           initialize rls-rec replacing numeric data by zeroes
+                                    alphanumeric data by spaces.
+
+           write tls-rec invalid rewrite tls-rec end-write.
+           read tlistini lock invalid continue end-read.
+           
+           set tls-tipo-categoria     to true.
+           set OLD-tls-tipo-categoria to true.
+           perform FORM1-IUD-DISPLAY.
+
+           perform RESETTA-GRID.
+
+           move 0 to RigheIniziali.
+           move 0 to RigaCambiata ColonnaCambiata.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = X-Y
+BEGIN-TEXT
+           inquire gd1, cursor-y in riga,
+                        cursor-x in colonna,
+                        last-row in tot-righe.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = NUOVO-LinkTo
+BEGIN-TEXT
+           INQUIRE TOOL-NUOVO, ENABLED IN E-NUOVO.
+
+           IF E-NUOVO = 1
+              PERFORM NUOVO
+           END-IF.                   
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = CANCELLA-LinkTo
+BEGIN-TEXT
+           INQUIRE TOOL-MODIFICA, VALUE IN MOD.
+                              
+           INQUIRE TOOL-CANCELLA, ENABLED IN E-CANCELLA
+           IF E-CANCELLA = 1
+              PERFORM CANCELLA
+           END-IF.                                               
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = TOOL-SALVA-LinkTo
+BEGIN-TEXT
+           INQUIRE TOOL-MODIFICA, VALUE IN MOD           
+
+           INQUIRE TOOL-SALVA, ENABLED IN E-SALVA
+           IF E-SALVA = 1
+              PERFORM SALVA
+           END-IF           
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = ANTEPRIMA-LinkTo
+BEGIN-TEXT
+           INQUIRE TOOL-ANTEPRIMA, ENABLED IN E-ANTEPRIMA.
+           IF E-ANTEPRIMA = 1
+              PERFORM ANTEPRIMA
+           END-IF.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = TOOL-MODIFICA-BeforeProcedure
+BEGIN-TEXT
+      *<<** Customized_Default, SP-G, Screen1-Custom1-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = TOOL-MODIFICA-AfterProcedure
+BEGIN-TEXT
+      *<<** Customized_Default, SP-G, Screen1-Custom1-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = TOOL-MODIFICA-LinkTo
+BEGIN-TEXT
+           INQUIRE TOOL-MODIFICA, ENABLED IN E-MODIFICA.
+
+           IF E-MODIFICA = 1
+              PERFORM MODIFICA
+           END-IF.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = STAMPA-LinkTo
+BEGIN-TEXT
+           INQUIRE TOOL-STAMPA, ENABLED IN E-STAMPA
+           IF E-STAMPA = 1
+              PERFORM STAMPA
+           END-IF.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = TOOL-CERCA-LinkTo
+BEGIN-TEXT
+           inquire tool-cerca, enabled in e-cerca
+           if e-cerca = 1
+              perform CERCA
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = TOOL-SELEZIONA-LinkTo
+BEGIN-TEXT
+           inquire tool-seleziona, enabled in e-seleziona
+           if e-seleziona = 1
+              perform SELEZIONA
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = TOOL-PRIMO
+BEGIN-TEXT
+           PERFORM PRIMO.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = TOOL-PRECEDENTE
+BEGIN-TEXT
+           if nuovo             
+              perform PRIMO
+           else
+              perform PRECEDENTE
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = TOOL-SUCCESSIVO
+BEGIN-TEXT
+           if nuovo             
+              perform ULTIMO
+           else
+              perform SUCCESSIVO
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = TOOL-ULTIMO
+BEGIN-TEXT
+           PERFORM ULTIMO.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = ginqui-Ev-Before-Program
+BEGIN-TEXT
+      *<<** Customized_Default, SP-G, Screen1-blockpgm-1 **>>  
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = ginqui-Ev-After-Program
+BEGIN-TEXT
+           set environment "KEYSTROKE" to "DATA=44 44".
+           set environment "KEYSTROKE" to "DATA=46 46".
+      *<<** Customized_Default, SP-G, Screen1-blockpgm-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = Screen1-DaEf-1-BeforeProcedure
+BEGIN-TEXT
+           move ZERO to StatusHelp.
+           perform STATUS-HELP.
+      *<<** Customized_Default, SP-G, Screen1-Custom1-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = Screen1-DaEf-1-AfterProcedure
+BEGIN-TEXT
+      *<<** Default_Code **>>
+      *<<** Customized_Default, SP-G, Screen1-Custom1-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = ef-ini-dpo-BeforeProcedure
+BEGIN-TEXT
+      *<<** Customized_Default, SP-G, Screen1-Custom1-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = ef-nome-BeforeProcedure
+BEGIN-TEXT
+      *<<** Customized_Default, SP-G, Screen1-Custom1-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = ef-ini-dpo-AfterProcedure
+BEGIN-TEXT
+      *<<** Default_Code **>>
+      *<<** Customized_Default, SP-G, Screen1-Custom1-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = ef-nome-AfterProcedure
+BEGIN-TEXT
+      *<<** Default_Code **>>
+      *<<** Customized_Default, SP-G, Screen1-Custom1-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = gd1-Ev-Msg-Begin-Drag
+BEGIN-TEXT
+           perform SPOSTAMENTO.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = gd1-Ev-Msg-End-Drag
+BEGIN-TEXT
+           perform SPOSTAMENTO.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = gd1-Ev-Msg-Goto-Cell
+BEGIN-TEXT
+           perform SPOSTAMENTO.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = gd1-Ev-Msg-Goto-Cell-Drag
+BEGIN-TEXT
+           perform SPOSTAMENTO.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = gd1-Ev-Msg-Goto-Cell-Mouse
+BEGIN-TEXT
+           perform SPOSTAMENTO.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = gd1-Ev-Msg-Begin-Entry
+BEGIN-TEXT
+           if mod = 0
+              set event-action to event-action-fail
+           else
+              perform X-Y
+              inquire gd1(riga, 78-col-art), cell-data OLD-col-art       
+
+              if OLD-col-art = spaces and colonna not = 1
+                 set event-action to event-action-fail
+              end-if
+
+              inquire gd1(riga, 78-col-des),  cell-data OLD-col-des       
+              inquire gd1(riga, 78-col-prz1), cell-data OLD-col-prz1
+              inquire gd1(riga, 78-col-prz2), cell-data OLD-col-prz2
+              inquire gd1(riga, 78-col-prz3), cell-data OLD-col-prz3
+              
+              evaluate colonna
+      
+              when 78-col-art
+                   continue
+              when 78-col-des
+                   set event-action to event-action-fail 
+              when other
+                   set environment "KEYSTROKE" to "DATA=44 46"    
+              end-evaluate
+           end-if.
+
+
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = gd1-Ev-Msg-Finish-Entry
+BEGIN-TEXT
+           set tutto-ok to true.
+           perform X-Y.
+           perform VALORE-RIGA.
+
+           evaluate colonna
+           when 78-col-art
+                if col-art = spaces
+                   if not RigaVuota
+                      display message "Cancellare la riga?"
+                                title titolo
+                                 type mb-yes-no
+                              default mb-no
+                            giving scelta
+                      if scelta = mb-no
+                         set errori to true
+                      else
+                         move ef-codice-buf    to rls-codice
+                         move old-rls-articolo to rls-articolo
+                         delete rlistini record 
+                                invalid  continue 
+                         end-delete
+                         initialize rec-grid 
+                                    replacing numeric data by zeroes
+                                         alphanumeric data by spaces
+
+                         move riga to store-riga
+                         add 1 to riga
+                         perform VALORE-RIGA
+                         move rls-rec to old-rls-rec
+                         move store-riga to riga
+                 
+                         modify gd1, record-to-delete = riga
+                         modify gd1, insert-rows = 1
+                      end-if
+                   end-if
+                else
+                   move col-art to art-codice
+                   perform CONTROLLA-ARTICOLO-GIA-INSERITO
+                   if not trovato
+                      perform CONTROLLO-RIGA
+                   end-if
+                end-if
+                if tutto-ok
+                   if rls-articolo not = old-rls-articolo
+                      move riga to RigaCambiata
+                      move 1    to ColonnaCambiata
+                   end-if
+                end-if
+
+           when 78-col-prz1
+                if col-prz1 not = old-col-prz1
+                   move riga         to RigaCambiata
+                   move 78-col-prz1  to ColonnaCambiata
+                end-if
+                perform CONTROLLO-RIGA
+                modify gd1(riga, 78-col-prz1), cell-data col-prz1
+
+           when 78-col-prz2
+                if col-prz2 not = old-col-prz2
+                   move riga         to RigaCambiata
+                   move 78-col-prz2  to ColonnaCambiata
+                end-if
+                perform CONTROLLO-RIGA
+                modify gd1(riga, 78-col-prz2), cell-data col-prz2
+
+           when 78-col-prz3
+                if col-prz3 not = old-col-prz3
+                   move riga         to RigaCambiata
+                   move 78-col-prz3  to ColonnaCambiata
+                end-if
+                perform CONTROLLO-RIGA
+                modify gd1(riga, 78-col-prz3), cell-data col-prz3
+           end-evaluate.
+
+           if errori
+              move 78-ID-gd1 to store-id
+              set event-action to event-action-fail
+           else
+              set environment "KEYSTROKE" to "DATA=44 44"
+              set environment "KEYSTROKE" to "DATA=46 46"
+           end-if.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = Screen1-DaRb-1-AfterProcedure
+BEGIN-TEXT
+      *<<** Customized_Default, SP-G, Screen1-Custom1-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = Screen1-DaRb-1-BeforeProcedure
+BEGIN-TEXT
+      *<<** Customized_Default, SP-G, Screen1-Custom1-1 **>>
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-excell-BeforeProcedure
+BEGIN-TEXT
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-excell-AfterProcedure
+BEGIN-TEXT
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-excell-LinkTo
+BEGIN-TEXT
+           if nuovo
+              display message "Salvare prima il documento"
+                        title tit-err
+                         icon 2
+           else
+              if tls-codice = 0
+                 display message "Selezionare un listino valido"
+                           title tit-err
+                            icon 2
+                 exit paragraph
+              end-if
+
+              display message "Esportare in Excel?"
+                        title titolo
+                         type mb-yes-no
+                         icon 2
+                       giving scelta
+              if scelta = mb-yes
+                 initialize wstampa
+                 accept  wstampa  from environment "PATH_ST"            
+                 inspect lab-nome-buf replacing trailing spaces by low-value
+                 inspect wstampa  replacing trailing spaces by low-value
+                 accept como-data from century-date
+                 accept como-ora  from time
+                 string wstampa      delimited low-value
+                        "LISTINO_"   delimited size
+                        lab-nome-buf delimited low-value
+                        "_"          delimited size
+                        como-data    delimited size
+                        "_"          delimited size
+                        como-ora     delimited size
+                        ".csv"       delimited size
+                        into wstampa
+                 end-string
+                 inspect lab-nome-buf replacing trailing low-value by spaces
+                 open output lineseq
+                 initialize line-riga
+                 string "LISTINO"    delimited size
+                        ";"          delimited size
+                        lab-nome-buf delimited size
+                        into line-riga
+                 end-string
+                 write line-riga
+                 write line-riga from spaces
+                 move tls-ini-val to como-data
+                 perform DATE-TO-SCREEN
+                 move como-data   to data-val
+                 initialize line-riga
+                 string "VALIDO PER"   delimited size
+                        ";"            delimited size
+                        lab-tipo-buf   delimited size
+                        ";"            delimited size
+                        "VALIDO DAL"   delimited size
+                        ";"            delimited size
+                        data-val       delimited size
+                        into line-riga
+                 end-string
+                 write line-riga
+                 write line-riga from spaces
+                 initialize line-riga
+                 string "ARTICOLO"     delimited size
+                        ";"            delimited size
+                        "DESCRIZIONE " delimited size
+                        ";"            delimited size
+                        "PREZZO 1"     delimited size
+                        ";"            delimited size
+                        "PREZZO 2"     delimited size
+                        ";"            delimited size
+                        "PREZZO 3"     delimited size
+                        into line-riga
+                 end-string
+                 write line-riga
+
+                 move low-value  to rls-rec
+                 move tls-codice to rls-codice
+                 start rlistini key >= rls-chiave
+                       invalid continue
+                   not invalid
+                       perform until 1 = 2
+                          read rlistini next at end exit perform end-read
+                          if rls-codice not = tls-codice
+                             exit perform
+                          end-if
+                          move rls-articolo to art-codice
+                          read articoli no lock
+                               invalid move "*** NON TROVATO ***" to art-descrizione
+                          end-read      
+                          move rls-prezzo1 to edit-prz1
+                          move rls-prezzo2 to edit-prz2
+                          move rls-prezzo3 to edit-prz3
+                          initialize line-riga
+                          string rls-articolo    delimited size
+                                 ";"             delimited size
+                                 art-descrizione delimited size
+                                 ";"             delimited size
+                                 edit-prz1       delimited size
+                                 ";"             delimited size
+                                 edit-prz2       delimited size
+                                 ";"             delimited size
+                                 edit-prz3       delimited size                                 
+                                 into line-riga
+                          end-string
+                          write line-riga
+                       end-perform
+                 end-start
+
+                 close lineseq
+
+                 initialize path-completo-cliente
+                 string "START "       delimited size
+                       x"22222022"     delimited size
+                        wstampa        delimited size
+                       x"22"           delimited size
+                       into path-completo-cliente
+                 end-string
+                 call "C$SYSTEM" using path-completo-cliente, 64
+                                giving StatusCode
+              end-if
+           end-if.
+END-TEXT
+END-DATA
+
+@}}
+
+[KEY_STATUS_FIELD_FORMAT]
+PIC=9(5)
+USAGE=[None]
+
+[KEYSTATUS_CONTENT:KS1]
+CONDITION=Enter-Pushed
+VALUE=13
+
+[KEYSTATUS_CONTENT:KS2]
+CONDITION=Exit-Pushed
+VALUE=27
+
+[KEYSTATUS_CONTENT:KS3]
+CONDITION=Message-Received
+VALUE=95
+
+[KEYSTATUS_CONTENT:KS4]
+CONDITION=Event-Occurred
+VALUE=96
+
+[KEYSTATUS_CONTENT:KS5]
+CONDITION=Screen-No-Input-Field
+VALUE=97
+
+[KEYSTATUS_CONTENT:KS6]
+CONDITION=Screen-Time-Out
+VALUE=99
+
+[COBOLAID_DATASET_INFO]
+COUNT=1
+NAME_0=DataSet1
+
+[DRAW_DOCUMENT_INDEX]
+OBJ_NAME_0=8001
+OBJ_ID_0=1760106106
+
+[MULTIPLE_KEY_0]
+COUNT=1
+KEY_0=tls-chiave
+
+[DRAW_DOCUMENT_8001_1760106106]
+OBJ_NAME=8001
+OBJ_ID=1760106106
+TYPE=2
+VERSION=
+DOC_SIZE_X=5100
+DOC_SIZE_Y=5160
+PAGE_LEFT=150
+PAGE_TOP=150
+PAGE_RIGHT=1850
+PAGE_BOTTOM=2730
+MARGIN_LEFT=150
+MARGIN_TOP=150
+MARGIN_RIGHT=150
+MARGIN_BOTTOM=150
+PROP_DOCU_TYPE=ø
+PROP_DOCU_TYPE2=ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+PROP_DOCU_NAME=DataSet - DataSet1[glistini(StudioPostura)]
+PROP_DOCU_OWNER=Person A
+PROP_DOCU_CDATE=09/08/03
+PROP_DOCU_MODIFIER=Person B
+PROP_DOCU_MDATE=09/08/03
+PROP_DOCU_DESCR=Caseaid DocuCaseaid Document
+PROP_DOCU_HEADER=Caseaid Document
+PROP_DOCU_FOOTER=Page # 
+PROP_DOCU_DIM_H=2
+PROP_DOCU_DIM_W=3
+PROP_DOCU_LOC_H=1
+PROP_DOCU_LOC_W=1
+PROP_DOCU_EDGE_T=150
+PROP_DOCU_EDGE_B=150
+PROP_DOCU_EDGE_L=150
+PROP_DOCU_EDGE_R=150
+PROP_DOCU_ZOOM=75
+PROP_DOCU_SIZE_TYPE=0
+PROP_DOCU_SIZE_PAPER=1
+PROP_DOCU_SIZE_H=2580
+PROP_DOCU_SIZE_W=1700
+PROP_DOCU_RULER_EBL=0
+PROP_DOCU_GRID_EBL=0
+PROP_DOCU_GRID=20
+PROP_DOCU_ALIGN=0
+REL_SYM_SIZE=40
+REL_SYM_INFO_L=6
+REL_SYM_INFO_X0=2301
+REL_SYM_INFO_Y0=1466127458
+REL_SYM_INFO_X1=2301
+REL_SYM_INFO_Y1=1918957790
+REL_SYM_INFO_X2=2301
+REL_SYM_INFO_Y2=1365300158
+REL_SYM_INFO_X3=2301
+REL_SYM_INFO_Y3=1536053060
+REL_SYM_INFO_X4=2301
+REL_SYM_INFO_Y4=1184080362
+REL_SYM_INFO_X5=2301
+REL_SYM_INFO_Y5=1400465247
+
+[DRAW_BASESYMBOL_2301_1466127458]
+OBJ_NAME=2301
+OBJ_ID=1466127458
+KIND=1
+{{@LABEL_2301_1466127458
+rlistini
+@}}
+WK_STEP=0
+BK_POINT=0
+CENTER_X=0
+CENTER_Y=0
+LEFT=16
+TOP=323
+RIGHT=416
+BOTTOM=545
+PROP_OBJ_TYPE=
+PROP_OBJ_TYPE2=
+PROP_FILL_PT=0
+PROP_FILL_FG=0
+PROP_FILL_BG=16777215
+PROP_FONT_HEIGHT=-35
+PROP_FONT_WIDTH=0
+PROP_FONT_ESCAPE=0
+PROP_FONT_ORIENT=0
+PROP_FONT_WEIGHT=400
+PROP_FONT_ITALIC=0
+PROP_FONT_UDLINE=0
+PROP_FONT_SKOUT=0
+PROP_FONT_CHARSET=0
+PROP_FONT_OUTPREC=3
+PROP_FONT_CLIPPREC=2
+PROP_FONT_QUALITY=1
+PROP_FONT_PCH_FAM=18
+PROP_FONT_FACE_NAME=Times New Roman
+PROP_FONT_CR=0
+PROP_LINE_PT=0
+PROP_LINE_WG=1
+PROP_LINE_CR=0
+PROP_SHAD_PT=0
+PROP_SHAD_FG=12632256
+PROP_SHAD_BG=12632256
+PROP_SHAD_EBL=0
+PROP_SHAD_POS=4
+PROP_SHAD_POINT=0
+PROP_TRACK_COLOR=12632256
+REL_SYM_SIZE=4
+REL_SYM_INFO_L=0
+
+[DRAW_BASESYMBOL_2301_1918957790]
+OBJ_NAME=2301
+OBJ_ID=1918957790
+KIND=1
+{{@LABEL_2301_1918957790
+tlistini
+@}}
+WK_STEP=0
+BK_POINT=0
+CENTER_X=0
+CENTER_Y=0
+LEFT=16
+TOP=16
+RIGHT=416
+BOTTOM=238
+PROP_OBJ_TYPE=
+PROP_OBJ_TYPE2=
+PROP_FILL_PT=0
+PROP_FILL_FG=0
+PROP_FILL_BG=16777215
+PROP_FONT_HEIGHT=-35
+PROP_FONT_WIDTH=0
+PROP_FONT_ESCAPE=0
+PROP_FONT_ORIENT=0
+PROP_FONT_WEIGHT=400
+PROP_FONT_ITALIC=0
+PROP_FONT_UDLINE=0
+PROP_FONT_SKOUT=0
+PROP_FONT_CHARSET=0
+PROP_FONT_OUTPREC=3
+PROP_FONT_CLIPPREC=2
+PROP_FONT_QUALITY=1
+PROP_FONT_PCH_FAM=18
+PROP_FONT_FACE_NAME=Times New Roman
+PROP_FONT_CR=0
+PROP_LINE_PT=0
+PROP_LINE_WG=1
+PROP_LINE_CR=0
+PROP_SHAD_PT=0
+PROP_SHAD_FG=12632256
+PROP_SHAD_BG=12632256
+PROP_SHAD_EBL=0
+PROP_SHAD_POS=4
+PROP_SHAD_POINT=0
+PROP_TRACK_COLOR=12632256
+REL_SYM_SIZE=4
+REL_SYM_INFO_L=0
+
+[DRAW_BASESYMBOL_2301_1365300158]
+OBJ_NAME=2301
+OBJ_ID=1365300158
+KIND=1
+{{@LABEL_2301_1365300158
+clienti
+@}}
+WK_STEP=0
+BK_POINT=0
+CENTER_X=0
+CENTER_Y=0
+LEFT=917
+TOP=16
+RIGHT=1317
+BOTTOM=238
+PROP_OBJ_TYPE=
+PROP_OBJ_TYPE2=
+PROP_FILL_PT=0
+PROP_FILL_FG=0
+PROP_FILL_BG=16777215
+PROP_FONT_HEIGHT=-35
+PROP_FONT_WIDTH=0
+PROP_FONT_ESCAPE=0
+PROP_FONT_ORIENT=0
+PROP_FONT_WEIGHT=400
+PROP_FONT_ITALIC=0
+PROP_FONT_UDLINE=0
+PROP_FONT_SKOUT=0
+PROP_FONT_CHARSET=0
+PROP_FONT_OUTPREC=3
+PROP_FONT_CLIPPREC=2
+PROP_FONT_QUALITY=1
+PROP_FONT_PCH_FAM=18
+PROP_FONT_FACE_NAME=Times New Roman
+PROP_FONT_CR=0
+PROP_LINE_PT=0
+PROP_LINE_WG=1
+PROP_LINE_CR=0
+PROP_SHAD_PT=0
+PROP_SHAD_FG=12632256
+PROP_SHAD_BG=12632256
+PROP_SHAD_EBL=0
+PROP_SHAD_POS=4
+PROP_SHAD_POINT=0
+PROP_TRACK_COLOR=12632256
+REL_SYM_SIZE=4
+REL_SYM_INFO_L=0
+
+[DRAW_BASESYMBOL_2301_1536053060]
+OBJ_NAME=2301
+OBJ_ID=1536053060
+KIND=1
+{{@LABEL_2301_1536053060
+tipocli
+@}}
+WK_STEP=0
+BK_POINT=0
+CENTER_X=0
+CENTER_Y=0
+LEFT=912
+TOP=277
+RIGHT=1312
+BOTTOM=499
+PROP_OBJ_TYPE=
+PROP_OBJ_TYPE2=
+PROP_FILL_PT=0
+PROP_FILL_FG=0
+PROP_FILL_BG=16777215
+PROP_FONT_HEIGHT=-35
+PROP_FONT_WIDTH=0
+PROP_FONT_ESCAPE=0
+PROP_FONT_ORIENT=0
+PROP_FONT_WEIGHT=400
+PROP_FONT_ITALIC=0
+PROP_FONT_UDLINE=0
+PROP_FONT_SKOUT=0
+PROP_FONT_CHARSET=0
+PROP_FONT_OUTPREC=3
+PROP_FONT_CLIPPREC=2
+PROP_FONT_QUALITY=1
+PROP_FONT_PCH_FAM=18
+PROP_FONT_FACE_NAME=Times New Roman
+PROP_FONT_CR=0
+PROP_LINE_PT=0
+PROP_LINE_WG=1
+PROP_LINE_CR=0
+PROP_SHAD_PT=0
+PROP_SHAD_FG=12632256
+PROP_SHAD_BG=12632256
+PROP_SHAD_EBL=0
+PROP_SHAD_POS=4
+PROP_SHAD_POINT=0
+PROP_TRACK_COLOR=12632256
+REL_SYM_SIZE=4
+REL_SYM_INFO_L=0
+
+[DRAW_BASESYMBOL_2301_1184080362]
+OBJ_NAME=2301
+OBJ_ID=1184080362
+KIND=1
+{{@LABEL_2301_1184080362
+articoli
+@}}
+WK_STEP=0
+BK_POINT=0
+CENTER_X=0
+CENTER_Y=0
+LEFT=916
+TOP=577
+RIGHT=1316
+BOTTOM=799
+PROP_OBJ_TYPE=
+PROP_OBJ_TYPE2=
+PROP_FILL_PT=0
+PROP_FILL_FG=0
+PROP_FILL_BG=16777215
+PROP_FONT_HEIGHT=-35
+PROP_FONT_WIDTH=0
+PROP_FONT_ESCAPE=0
+PROP_FONT_ORIENT=0
+PROP_FONT_WEIGHT=400
+PROP_FONT_ITALIC=0
+PROP_FONT_UDLINE=0
+PROP_FONT_SKOUT=0
+PROP_FONT_CHARSET=0
+PROP_FONT_OUTPREC=3
+PROP_FONT_CLIPPREC=2
+PROP_FONT_QUALITY=1
+PROP_FONT_PCH_FAM=18
+PROP_FONT_FACE_NAME=Times New Roman
+PROP_FONT_CR=0
+PROP_LINE_PT=0
+PROP_LINE_WG=1
+PROP_LINE_CR=0
+PROP_SHAD_PT=0
+PROP_SHAD_FG=12632256
+PROP_SHAD_BG=12632256
+PROP_SHAD_EBL=0
+PROP_SHAD_POS=4
+PROP_SHAD_POINT=0
+PROP_TRACK_COLOR=12632256
+REL_SYM_SIZE=4
+REL_SYM_INFO_L=0
+
+[DRAW_BASESYMBOL_2301_1400465247]
+OBJ_NAME=2301
+OBJ_ID=1400465247
+KIND=1
+{{@LABEL_2301_1400465247
+lineseq
+@}}
+WK_STEP=0
+BK_POINT=0
+CENTER_X=0
+CENTER_Y=0
+LEFT=1585
+TOP=16
+RIGHT=1985
+BOTTOM=238
+PROP_OBJ_TYPE=
+PROP_OBJ_TYPE2=
+PROP_FILL_PT=0
+PROP_FILL_FG=0
+PROP_FILL_BG=16777215
+PROP_FONT_HEIGHT=-35
+PROP_FONT_WIDTH=0
+PROP_FONT_ESCAPE=0
+PROP_FONT_ORIENT=0
+PROP_FONT_WEIGHT=400
+PROP_FONT_ITALIC=0
+PROP_FONT_UDLINE=0
+PROP_FONT_SKOUT=0
+PROP_FONT_CHARSET=0
+PROP_FONT_OUTPREC=3
+PROP_FONT_CLIPPREC=2
+PROP_FONT_QUALITY=1
+PROP_FONT_PCH_FAM=18
+PROP_FONT_FACE_NAME=Times New Roman
+PROP_FONT_CR=0
+PROP_LINE_PT=0
+PROP_LINE_WG=1
+PROP_LINE_CR=0
+PROP_SHAD_PT=0
+PROP_SHAD_FG=12632256
+PROP_SHAD_BG=12632256
+PROP_SHAD_EBL=0
+PROP_SHAD_POS=4
+PROP_SHAD_POINT=0
+PROP_TRACK_COLOR=12632256
+REL_SYM_SIZE=4
+REL_SYM_INFO_L=0
+
+[DMD_DOCUMENT_0_1760106106]
+OBJ_NAME=0
+OBJ_ID=1760106106
+FILE_TITLE_TYPE=8136
+FILE_SHOW_ITEM=0
+FILE_SHOW_KEY=0
+FILE_SHOW_PIC=0
+FILE_SHOW_HEAD=0
+FILE_SHOW_LEVEL=0
+FILE_SHOW_TREE=0
+FILE_SHOW_CLPS=0
+FILE_SHOW_BMP=0
+FILE_SHOW_LINE=0
+FILE_SHOW_MINIZE=0
+
+[DMD_FILE_0_1466127458]
+OBJ_NAME=0
+OBJ_ID=1466127458
+REL_M_OBJ_ID=0
+ENTITY=rlistini
+LINK=0
+LINK_NAME=
+DSN_SIZE=42
+FD_SIZE=0
+SL_SIZE=0
+DSN_INFO_OPEN_MODE=2
+DSN_INFO_LOCK_OPTION=0
+DSN_INFO_KEY_IS=rls-chiave
+DSN_INFO_DATA_ORDER=0
+DSN_INFO_START_VALUE=
+DSN_INFO_END_VALUE=
+{{@DSN_INFO_CONDITION_1466127458
+
+@}}
+DSN_INFO_PRIMARY=0
+DSN_INFO_OPEN=1
+DSN_INFO_CLOSE=1
+DSN_INFO_EXCLUSIVE=0
+DSN_INFO_IS_LOGICAL=0
+DSN_INFO_LOGICAL_FDNAME=
+DSN_INFO_ORIGINAL_FDNAME=
+DSN_INFO_REPLACEBY_FILESTATUS=
+DSN_INFO_REPLACEBY_RELATIVEKEY=
+DSN_INFO_REPLACEBY_FDDATA=
+DSN_INFO_REPLACEBY_SLDATA=
+
+[DMD_FILE_0_1918957790]
+OBJ_NAME=0
+OBJ_ID=1918957790
+REL_M_OBJ_ID=0
+ENTITY=tlistini
+LINK=0
+LINK_NAME=
+DSN_SIZE=42
+FD_SIZE=0
+SL_SIZE=0
+DSN_INFO_OPEN_MODE=2
+DSN_INFO_LOCK_OPTION=0
+DSN_INFO_KEY_IS=tls-chiave
+DSN_INFO_DATA_ORDER=0
+DSN_INFO_START_VALUE=
+DSN_INFO_END_VALUE=
+{{@DSN_INFO_CONDITION_1918957790
+
+@}}
+DSN_INFO_PRIMARY=1
+DSN_INFO_OPEN=1
+DSN_INFO_CLOSE=1
+DSN_INFO_EXCLUSIVE=0
+DSN_INFO_IS_LOGICAL=0
+DSN_INFO_LOGICAL_FDNAME=
+DSN_INFO_ORIGINAL_FDNAME=
+DSN_INFO_REPLACEBY_FILESTATUS=
+DSN_INFO_REPLACEBY_RELATIVEKEY=
+DSN_INFO_REPLACEBY_FDDATA=
+DSN_INFO_REPLACEBY_SLDATA=
+
+[DMD_FILE_0_1365300158]
+OBJ_NAME=0
+OBJ_ID=1365300158
+REL_M_OBJ_ID=0
+ENTITY=clienti
+LINK=0
+LINK_NAME=
+DSN_SIZE=42
+FD_SIZE=0
+SL_SIZE=0
+DSN_INFO_OPEN_MODE=0
+DSN_INFO_LOCK_OPTION=0
+DSN_INFO_KEY_IS=cli-chiave
+DSN_INFO_DATA_ORDER=0
+DSN_INFO_START_VALUE=
+DSN_INFO_END_VALUE=
+{{@DSN_INFO_CONDITION_1365300158
+
+@}}
+DSN_INFO_PRIMARY=0
+DSN_INFO_OPEN=1
+DSN_INFO_CLOSE=1
+DSN_INFO_EXCLUSIVE=0
+DSN_INFO_IS_LOGICAL=0
+DSN_INFO_LOGICAL_FDNAME=
+DSN_INFO_ORIGINAL_FDNAME=
+DSN_INFO_REPLACEBY_FILESTATUS=
+DSN_INFO_REPLACEBY_RELATIVEKEY=
+DSN_INFO_REPLACEBY_FDDATA=
+DSN_INFO_REPLACEBY_SLDATA=
+
+[DMD_FILE_0_1536053060]
+OBJ_NAME=0
+OBJ_ID=1536053060
+REL_M_OBJ_ID=0
+ENTITY=tipocli
+LINK=0
+LINK_NAME=
+DSN_SIZE=42
+FD_SIZE=0
+SL_SIZE=0
+DSN_INFO_OPEN_MODE=0
+DSN_INFO_LOCK_OPTION=0
+DSN_INFO_KEY_IS=tcl-chiave
+DSN_INFO_DATA_ORDER=0
+DSN_INFO_START_VALUE=
+DSN_INFO_END_VALUE=
+{{@DSN_INFO_CONDITION_1536053060
+
+@}}
+DSN_INFO_PRIMARY=0
+DSN_INFO_OPEN=1
+DSN_INFO_CLOSE=1
+DSN_INFO_EXCLUSIVE=0
+DSN_INFO_IS_LOGICAL=0
+DSN_INFO_LOGICAL_FDNAME=
+DSN_INFO_ORIGINAL_FDNAME=
+DSN_INFO_REPLACEBY_FILESTATUS=
+DSN_INFO_REPLACEBY_RELATIVEKEY=
+DSN_INFO_REPLACEBY_FDDATA=
+DSN_INFO_REPLACEBY_SLDATA=
+
+[DMD_FILE_0_1184080362]
+OBJ_NAME=0
+OBJ_ID=1184080362
+REL_M_OBJ_ID=0
+ENTITY=articoli
+LINK=0
+LINK_NAME=
+DSN_SIZE=42
+FD_SIZE=0
+SL_SIZE=0
+DSN_INFO_OPEN_MODE=0
+DSN_INFO_LOCK_OPTION=0
+DSN_INFO_KEY_IS=art-chiave
+DSN_INFO_DATA_ORDER=0
+DSN_INFO_START_VALUE=
+DSN_INFO_END_VALUE=
+{{@DSN_INFO_CONDITION_1184080362
+
+@}}
+DSN_INFO_PRIMARY=0
+DSN_INFO_OPEN=1
+DSN_INFO_CLOSE=1
+DSN_INFO_EXCLUSIVE=0
+DSN_INFO_IS_LOGICAL=0
+DSN_INFO_LOGICAL_FDNAME=
+DSN_INFO_ORIGINAL_FDNAME=
+DSN_INFO_REPLACEBY_FILESTATUS=
+DSN_INFO_REPLACEBY_RELATIVEKEY=
+DSN_INFO_REPLACEBY_FDDATA=
+DSN_INFO_REPLACEBY_SLDATA=
+
+[DMD_FILE_0_1400465247]
+OBJ_NAME=0
+OBJ_ID=1400465247
+REL_M_OBJ_ID=0
+ENTITY=lineseq
+LINK=0
+LINK_NAME=
+DSN_SIZE=32
+FD_SIZE=0
+SL_SIZE=0
+DSN_INFO_OPEN_MODE=1
+DSN_INFO_LOCK_OPTION=0
+DSN_INFO_KEY_IS=
+DSN_INFO_DATA_ORDER=0
+DSN_INFO_START_VALUE=
+DSN_INFO_END_VALUE=
+{{@DSN_INFO_CONDITION_1400465247
+
+@}}
+DSN_INFO_PRIMARY=0
+DSN_INFO_OPEN=0
+DSN_INFO_CLOSE=0
+DSN_INFO_EXCLUSIVE=0
+DSN_INFO_IS_LOGICAL=0
+DSN_INFO_LOGICAL_FDNAME=
+DSN_INFO_ORIGINAL_FDNAME=
+DSN_INFO_REPLACEBY_FILESTATUS=
+DSN_INFO_REPLACEBY_RELATIVEKEY=
+DSN_INFO_REPLACEBY_FDDATA=
+DSN_INFO_REPLACEBY_SLDATA=

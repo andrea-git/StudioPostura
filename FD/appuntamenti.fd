@@ -1,0 +1,27 @@
+       FD  appuntamenti.
+       01 app-rec.
+           03 app-chiave.
+               05 app-inser.
+                   10 app-data         PIC  9(8).
+                   10 app-ora          PIC  9(4).
+               05 app-cliente      PIC  x(6).
+               05 app-prog         PIC  9(18).
+           03 app-dati.
+               05 app-pagato       PIC  x.
+                   88 app-pagato-si VALUE IS "S". 
+                   88 app-pagato-ft VALUE IS "F", "N". 
+                   88 app-pagato-vuoto VALUE IS " ". 
+               05 app-stato        PIC  x.
+                   88 app-inizio VALUE IS "I". 
+                   88 app-assente VALUE IS "A". 
+                   88 app-presente VALUE IS "P". 
+                   88 app-recupero VALUE IS "R". 
+                   88 app-test VALUE IS "T". 
+                   88 app-vuoto VALUE IS " ". 
+                   88 app-terapia VALUE IS "L". 
+               05 app-recup.
+                   10 app-recup-data   PIC  9(8).
+                   10 app-recup-ora    PIC  9(4).
+      *(( XFD NAME = app-recup-ora_1 ))
+                   10 app-recup-prog   PIC  9(2).
+               05 FILLER           PIC  x(2000).

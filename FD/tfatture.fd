@@ -1,0 +1,23 @@
+       FD  tfatture.
+       01 tfa-rec.
+           05 tfa-chiave.
+               10 tfa-anno         PIC  9(4).
+               10 tfa-numero       PIC  9(6).
+           05 tfa-dati.
+               10 tfa-cliente      PIC  x(6).
+               10 tfa-data-doc     PIC  9(8).
+               10 tfa-pagamento    PIC  x(20).
+               10 tfa-iban         PIC  x(30).
+               10 tfa-iva          PIC  x(3).
+               10 tfa-importo-sub  PIC  9(9)v99.
+               10 tfa-importo-iva  PIC  9(9)v99.
+               10 tfa-importo-tot  PIC  9(9)v99.
+               10 tfa-note.
+                   15 tfa-nota         PIC  x(50)
+                              OCCURS 5 TIMES.
+               10 tfa-data-creazione           PIC  9(8).
+               10 tfa-vuoti.
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).

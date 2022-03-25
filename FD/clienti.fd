@@ -1,0 +1,48 @@
+       FD  clienti.
+       01 cli-rec.
+           05 cli-chiave.
+               10 cli-codice       PIC  x(6).
+           05 cli-dati.
+               10 cli-ragsoc       PIC  x(50).
+               10 cli-cognome REDEFINES cli-ragsoc  PIC  x(50).
+               10 cli-nome         PIC  x(50).
+               10 cli-dati-residenza.
+                   15 cli-indirizzo    PIC  x(50).
+                   15 cli-localita     PIC  X(50).
+                   15 cli-prov         PIC  x(2).
+                   15 cli-cittadinanza PIC  x(3).
+                   15 cli-cap          PIC  9(5).
+               10 cli-dati-nascita.
+                   15 cli-prov-n       PIC  xx.
+                   15 cli-data-n       PIC  9(8).
+                   15 cli-luogo-n      PIC  x(50).
+               10 cli-email        PIC  x(50).
+               10 cli-tel          PIC  x(20).
+               10 cli-cell         PIC  x(20).
+               10 cli-fax          PIC  x(20).
+               10 cli-fotografia   PIC  x(256).
+               10 cli-sesso        PIC  x.
+                   88 cli-sesso-M VALUE IS "M". 
+                   88 cli-sesso-F VALUE IS "F". 
+               10 cli-piva         PIC  x(11).
+               10 cli-codfis       PIC  x(16).
+               10 cli-piva-cee     PIC  x(11).
+               10 cli-iva-esente   PIC  x(3).
+               10 cli-sconto1      PIC  9(3)v99.
+               10 cli-sconto2-NO   PIC  9(3)v99.
+               10 cli-tipologia    PIC  x(6).
+               10 cli-note         PIC  x(200).
+               10 cli-righe-default.
+                   15 cli-riga         PIC  x(50)
+                              OCCURS 15 TIMES.
+               10 cli-dichiarazione-730        PIC  9.
+                   88 cli-dichiarazione-730-si VALUE IS 1. 
+                   88 cli-dichiarazione-730-no VALUE IS 0. 
+               10 cli-unico        PIC  9.
+                   88 cli-unico-si VALUE IS 1. 
+                   88 cli-unico-no VALUE IS 0. 
+               10 cli-vuoti.
+                   15 FILLER           PIC  9(16).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).

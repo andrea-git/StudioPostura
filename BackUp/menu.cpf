@@ -1,0 +1,1477 @@
+; CaseMaker Totem Program Structure File, Version 6.1
+; WARNING: DO NOT MODIFY THIS FILE!
+
+[PROGRAM_CONTENT]
+DIRTY_AFTER_GEN=1
+QUIT_CONFIRM=0
+ANSI_FORMAT=1
+MAIN_SCREEN_NAME=Screen1
+BEFORE_PROGRAM=menu-Ev-Before-Program
+PROGRAM_UNIQUE_CODE=TOTEM-7E541D131030-207-42204479
+
+{{@DESCRIPTION:
+
+@}}
+
+[WORKING_STORAGE]
+m_nType=1
+m_strName=Working Storage
+m_bBlockRecords=1
+m_bRecordFixed=1
+m_bStandard=1
+{{@FD_m_strDescriptionWK
+
+@}}
+[FDITEM0_WK]
+m_strName=HND-WIN-ATTIVA
+m_nUsage=24
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM0_WK
+
+@}}
+[FDITEM1_WK]
+m_strName=Screen1-Handle
+m_nUsage=24
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM1_WK
+
+@}}
+[FDITEM2_WK]
+m_strName=titolo
+m_strDefaultValue="Studio - Menu Principale"
+m_nItemLevel=78
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM2_WK
+
+@}}
+[FDITEM3_WK]
+m_strName=Screen1-Bt-1-Handle
+m_strRawPic=S9(9)
+m_strPic=S9(9)
+m_nUsage=5
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM3_WK
+
+@}}
+[FDITEM4_WK]
+m_strName=QUADRATO_MEDIO2-BMP
+m_strRawPic=S9(9)
+m_strPic=S9(9)
+m_nUsage=5
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM4_WK
+
+@}}
+[FDITEM5_WK]
+m_strName=Small-Font
+m_nUsage=37
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM5_WK
+
+@}}
+[FDITEM6_WK]
+m_strName=strip-menu-bmp
+m_strRawPic=S9(9)
+m_strPic=S9(9)
+m_nUsage=5
+m_strDefaultValue=0
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM6_WK
+
+@}}
+[FDITEM7_WK]
+m_strName=Calibri16-Occidentale
+m_nUsage=26
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM7_WK
+
+@}}
+[FDITEM8_WK]
+m_strName=tit-frame
+m_strRawPic=x(50)
+m_strPic=x(50)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM8_WK
+
+@}}
+[FDITEM9_WK]
+m_strName=Calibri20-Occidentale
+m_nUsage=26
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM9_WK
+
+@}}
+[FDITEM10_WK]
+m_strName=NomeProgramma
+m_strRawPic=x(20)
+m_strPic=x(20)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM10_WK
+
+@}}
+[FDITEM11_WK]
+m_strName=link-status
+m_nUsage=17
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM11_WK
+
+@}}
+[FDITEM12_WK]
+m_strName=sessioni
+m_strRawPic=99
+m_strPic=99
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM12_WK
+
+@}}
+[FDITEM13_WK]
+m_strName=comando
+m_strRawPic=x(200)
+m_strPic=x(200)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM13_WK
+
+@}}
+[FDITEM14_WK]
+m_strName=STATUS-param
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM14_WK
+
+@}}
+[FDITEM15_WK]
+m_strName=Valid-STATUS-param
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM15_WK
+
+@}}
+[FDITEM16_WK]
+m_strName=LK-BLOCKPGM
+m_nItemLevel=1
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM16_WK
+
+@}}
+[FDITEM17_WK]
+m_strName=LK-BL-PROG-ID
+m_strRawPic=X(15)
+m_strPic=X(15)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM17_WK
+
+@}}
+[FDITEM18_WK]
+m_strName=LK-BL-DATA
+m_strRawPic=9(8)
+m_strPic=9(8)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM18_WK
+
+@}}
+[FDITEM19_WK]
+m_strName=LK-BL-ORA
+m_strRawPic=9(8)
+m_strPic=9(8)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM19_WK
+
+@}}
+[FDITEM20_WK]
+m_strName=LK-BL-TIPO-OP
+m_strRawPic=9(1)
+m_strPic=9(1)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM20_WK
+
+@}}
+[FDITEM21_WK]
+m_strName=LK-BL-LETTURA
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM21_WK
+
+@}}
+[FDITEM22_WK]
+m_strName=LK-BL-SCRITTURA
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue=2
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM22_WK
+
+@}}
+[FDITEM23_WK]
+m_strName=LK-BL-CANCELLAZIONE
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue=3
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM23_WK
+
+@}}
+[FDITEM24_WK]
+m_strName=LK-BL-USO
+m_strRawPic=9(1)
+m_strPic=9(1)
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM24_WK
+
+@}}
+[FDITEM25_WK]
+m_strName=LK-BL-IN-USO
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM25_WK
+
+@}}
+[FDITEM26_WK]
+m_strName=LK-HND-WIN
+m_strRawPic=S9(9)
+m_strPic=S9(9)
+m_nUsage=5
+m_nItemLevel=5
+m_nSync=-1
+m_bFixed=1
+m_strCopyEntry=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_strCopyFile=blockpgm.lks
+m_strCopyFilePathName=F:\STUDIOPOSTURA\COPYLIB\BLOCKPGM.LKS
+m_nCopyFileLevel=1
+{{@DataItem_m_strDescriptionFDITEM26_WK
+
+@}}
+[FDITEM27_WK]
+m_strName=wstampa
+m_strRawPic=X(256)
+m_strPic=X(256)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM27_WK
+
+@}}
+[FDITEM28_WK]
+m_strName=STATUS-lineseq
+m_strRawPic=X(2)
+m_strPic=X(2)
+m_nItemLevel=77
+m_nSync=-1
+m_bFixed=1
+{{@DataItem_m_strDescriptionFDITEM28_WK
+
+@}}
+[FDITEM29_WK]
+m_strName=Valid-STATUS-lineseq
+m_nItemLevel=88
+m_nSync=-1
+m_bFixed=1
+m_strTrue="00" THRU "09"
+{{@DataItem_m_strDescriptionFDITEM29_WK
+
+@}}
+
+
+[LINKAGE_SECTION]
+m_nType=1
+m_strName=Linkage Section
+m_bBlockRecords=1
+m_bRecordFixed=1
+m_bStandard=1
+{{@FD_m_strDescriptionLK
+
+@}}
+
+
+{{@SCREEN:
+*   Screen Painter Data
+*   Schema 6.0
+*
+BEGIN-SPDATA-6.1A
+
+GRAPHICAL-SCREEN
+
+Begin Screen Screen1
+   PREFIX            = Screen1
+   IMPORTED-SCREEN   = FALSE
+   LOCK-CONTROL      = TRUE
+   LEVEL             = 1
+   (Name)            = Screen1
+   Absolute Column   = 0
+   Absolute Line     = 0
+   Action            = (None)
+   Auto Minimize     = TRUE
+   Auto Resize       = FALSE
+   Bind To Thread    = FALSE
+   Boxed             = FALSE
+   Cell              = FALSE
+   Cell Height       = 33
+   Cell Width        = 14
+   Color             = 131329
+   Confirm Delete    = TRUE
+   Confirm Insert    = FALSE
+   Confirm Update    = FALSE
+   Controls Uncropped = FALSE
+   Data Set          = "(None)"
+   Erase Screen      = FALSE
+   Font              = Calibri/20/C0/@Occidentale
+   Font Variable     = Calibri20-Occidentale
+   Handle Variable   = Screen1-Handle
+   Height in Cells   = TRUE
+   Help ID           = 0
+   Label Offset      = 20
+   Lines             = 21,00
+   Link To Thread    = TRUE
+   Max Lines         = 0,00
+   Max Size          = 0,00
+   Message Process   = (Type = 0, Color = 0)
+   Min Lines         = 0,00
+   Min Size          = 0,00
+   Modeless          = TRUE
+   Operation Mode    = Interactive Mode
+   Resizable         = FALSE
+   Scroll            = FALSE
+   Size              = 65,14
+   System Menu       = TRUE
+   Title Bar         = TRUE
+   Title Variable    = titolo
+   Unit              = Cells
+   User Gray         = TRUE
+   User White        = TRUE
+   Visible           = NONE
+   Width in Cells    = TRUE
+   Window Type       = Initial
+   Wrap              = FALSE
+   Event Procedure   = Screen1-Event-Proc
+   Begin Frame frame-menu
+      SCREEN-COL        = 2,00
+      SCREEN-LINE       = 1,39
+      LOCK-CONTROL      = TRUE
+      LEVEL             = 5
+      (Name)            = frame-menu
+      3D Style          = Normal
+      Alternate         = FALSE
+      Clines            = 0
+      Clines Unit       = Default
+      Color             = 11
+      Column            = 2,00
+      Csize             = 0
+      Csize Unit        = Default
+      Destroy Type      = Automatic
+      Font              = Default Font
+      Full Height       = FALSE
+      Height in Cells   = TRUE
+      Help ID           = 0
+      High Color        = 0
+      ID                = 1
+      Line              = 1,39
+      Lines             = 20,21
+      Lines Unit        = Default
+      Low Color         = 0
+      Size              = 63,07
+      Size Unit         = Default
+      Tab Order         = 1
+      Thickness         = Heavy
+      Title Picture     = x(50)
+      Title Position    = 2:Top center
+      Title Variable    = tit-frame
+      Visible           = NONE
+      Width in Cells    = TRUE
+      Begin Push-Button pb-clienti
+         SCREEN-COL        = 3,79
+         SCREEN-LINE       = 2,66
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-clienti
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 1
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 2,79
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 1
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 3
+         Line              = 2,27
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 1
+         Termination Value = 0
+         Title             = "Gestione Clienti (F1)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = pb-clienti-LinkTo
+      End
+      Begin Push-Button pb-articoli
+         SCREEN-COL        = 24,07
+         SCREEN-LINE       = 2,66
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-articoli
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 2
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 23,07
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 2
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 4
+         Line              = 2,27
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 2
+         Termination Value = 0
+         Title             = "Anagrafica Articoli (F2)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = pb-articoli-LinkTo
+      End
+      Begin Push-Button pb-iva
+         SCREEN-COL        = 44,36
+         SCREEN-LINE       = 2,66
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-iva
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 3
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 43,36
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 3
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 5
+         Line              = 2,27
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 3
+         Termination Value = 0
+         Title             = "Tabella IVA (F3)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = pb-iva-LinkTo
+      End
+      Begin Push-Button pb-catcli
+         SCREEN-COL        = 3,50
+         SCREEN-LINE       = 7,33
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-catcli
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 4
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 2,50
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 4
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 6
+         Line              = 6,94
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 4
+         Termination Value = 0
+         Title             = "Categorie Clienti (F4)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = pb-catcli-LinkTo
+      End
+      Begin Push-Button pb-param
+         SCREEN-COL        = 24,07
+         SCREEN-LINE       = 7,33
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-param
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 5
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 23,07
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 5
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 7
+         Line              = 6,94
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 5
+         Termination Value = 0
+         Title             = "Parametri Ditta (F5)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = pb-param-LinkTo
+      End
+      Begin Push-Button pb-listini
+         SCREEN-COL        = 44,36
+         SCREEN-LINE       = 7,33
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-listini
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 6
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 43,36
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 6
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 8
+         Line              = 6,94
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 6
+         Termination Value = 0
+         Title             = "Listini Clienti (F6)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = pb-listini-LinkTo
+      End
+      Begin Push-Button pb-schede
+         SCREEN-COL        = 3,50
+         SCREEN-LINE       = 12,03
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-schede
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 7
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 2,50
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 7
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 9
+         Line              = 11,64
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 7
+         Termination Value = 0
+         Title             = "Schede Clienti (F7)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = pb-schede-LinkTo
+      End
+      Begin Push-Button pb-fatture
+         SCREEN-COL        = 24,07
+         SCREEN-LINE       = 12,03
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-fatture
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 8
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 23,07
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 8
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 10
+         Line              = 11,64
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 8
+         Termination Value = 0
+         Title             = "Fatture / Corrispettivi (F8)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = pb-fatture-LinkTo
+      End
+      Begin Push-Button pb-report
+         SCREEN-COL        = 3,50
+         SCREEN-LINE       = 16,75
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-report
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 9
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 2,50
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 10
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 11
+         Line              = 16,36
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 9
+         Termination Value = 0
+         Title             = "Reportistica Fatturati (F10)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = pb-report-LinkTo
+      End
+      Begin Push-Button pb-note
+         SCREEN-COL        = 44,36
+         SCREEN-LINE       = 12,03
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-note
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 10
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 43,36
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 9
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 12
+         Line              = 11,64
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 10
+         Termination Value = 0
+         Title             = "Note Credito (F9)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = pb-note-LinkTo
+      End
+      Begin Push-Button pb-exit
+         SCREEN-COL        = 44,36
+         SCREEN-LINE       = 16,75
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-exit
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 11
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 43,36
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 27
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 13
+         Line              = 16,36
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Escape Button
+         Tab Order         = 11
+         Termination Value = 0
+         Title             = "Esce dal programma (Esc)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+      End
+      Begin Push-Button pb-appuntamenti
+         SCREEN-COL        = 24,07
+         SCREEN-LINE       = 16,75
+         LOCK-CONTROL      = TRUE
+         LEVEL             = 5
+         (Name)            = pb-appuntamenti
+         Bitmap            = "..\RESOURCE\STRIP-MENU.BMP"
+         Bitmap Frame      = TRUE
+         Bitmap Handle     = STRIP-MENU-BMP
+         Bitmap Number     = 12
+         Bitmap Square     = TRUE
+         Clines            = 0
+         Clines Unit       = Default
+         Column            = 23,07
+         Copy Resource     = TRUE
+         Csize             = 0
+         Csize Unit        = Default
+         Destroy Type      = Automatic
+         Enable            = NONE
+         Exception Value   = 11
+         Flat              = FALSE
+         Font              = Default Font
+         Height in Cells   = FALSE
+         Help ID           = 0
+         ID                = 14
+         Line              = 16,36
+         Lines             = 3,65
+         Lines in Pixels   = 130
+         Lines Unit        = Default
+         No Auto Default   = FALSE
+         No Tab            = FALSE
+         Occurs            = 0
+         Self Act          = FALSE
+         Size              = 18,14
+         Size in Pixels    = 260
+         Size Unit         = Default
+         Style             = Other
+         Tab Order         = 12
+         Termination Value = 0
+         Title             = "Gestione appuntamenti (F11)"
+         Visible           = NONE
+         Width in Cells    = FALSE
+         Link To           = pb-appuntamenti-LinkTo
+      End
+   End
+End
+
+END-SPDATA
+
+@}}
+
+{{@REPORT:
+*   Report Writer Data
+*   Schema 6.0
+*
+BEGIN-RWDATA-6.0A
+
+END-RWDATA
+
+@}}
+
+{{@EMBEDDING_CODE:
+BEGIN-DATA
+   BASETYPE          = 6
+   NODESTYLE         = 7
+   PARAGRAPH         = DeletedCode
+BEGIN-TEXT
+
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 1
+   NODESTYLE         = 2
+   PARENT            = Screen1
+   ACTOBJ            = Screen1
+   TEXTMODE          = 0
+   ENTRYPOINT        = BeforeAccept
+BEGIN-TEXT
+           move spaces to prm-chiave.
+           read param no lock invalid continue end-read.
+           move prm-ragsoc to tit-frame.
+           modify frame-menu, title tit-frame.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 1
+   NODESTYLE         = 0
+   PARENT            = menu
+   ACTOBJ            = menu
+   ENTRYPOINT        = BeforeDeclarative
+BEGIN-TEXT
+       LINESEQ-ERR SECTION.
+           use after error procedure on lineseq.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 3
+   PARAGRAPH         = CALL-PROGRAM
+BEGIN-TEXT
+           set lk-bl-lettura to true.
+           perform I-O-BLOCCO.
+           if not lk-bl-in-uso
+              set lk-bl-scrittura to true
+              initialize lk-hnd-win
+              perform I-O-BLOCCO
+              call thread NomeProgramma using lk-blockpgm
+              cancel      NomeProgramma
+           else
+              move lk-hnd-win    to hnd-win-attiva
+              set i-o window     to hnd-win-attiva
+           end-if.
+
+
+      ***---
+       I-O-BLOCCO.
+           accept como-data from century-date.
+           MOVE NomeProgramma    TO LK-BL-PROG-ID.
+           MOVE COMO-DATA        TO LK-BL-DATA.
+           if lk-bl-ora = 0
+              MOVE COMO-ORA         TO LK-BL-ORA
+           end-if.
+           CALL   "BLOCKPGM"  USING LK-BLOCKPGM.
+           CANCEL "BLOCKPGM" 
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-param-LinkTo
+BEGIN-TEXT
+           move "gparam" to NomeProgramma.
+           perform CALL-PROGRAM.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = menu-Ev-Before-Program
+BEGIN-TEXT
+           initialize comando.
+           accept comando from environment "BAT_PROCESSI".
+           call "C$SYSTEM"   using comando, 32
+                            giving link-status.
+           move "task.txt" to wstampa.
+           call "C$SLEEP" using 2.
+           perform until 1 = 2
+              open input lineseq
+              if status-lineseq = "00"
+                 exit perform
+              end-if
+           end-perform.
+           set trovato to false.
+           move 0 to sessioni.
+           perform until 1 = 2
+              read lineseq next at end exit perform end-read
+              if line-riga(1:10) = "wrun32.exe"
+                 add 1 to sessioni
+                 |Una volta è quella in esecuzione
+                 if sessioni > 1
+                    display message "Studio già in esecuzione!"
+                              title titolo
+                               icon 2
+                    set trovato to true
+                    exit perform
+                 end-if
+              end-if
+           end-perform.
+           close       lineseq.
+           delete file lineseq.
+
+           if trovato
+              goback
+           end-if.
+
+           call   "genfiles" using link-status
+           cancel "genfiles".
+
+           if link-status = -1
+              goback
+           end-if.
+           
+           call   "colors".
+           cancel "colors".
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-iva-LinkTo
+BEGIN-TEXT
+           move "tcodiva" to NomeProgramma.
+           perform CALL-PROGRAM.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-catcli-LinkTo
+BEGIN-TEXT
+           move "ttipocli" to NomeProgramma.
+           perform CALL-PROGRAM.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-clienti-LinkTo
+BEGIN-TEXT
+           move "gclienti" to NomeProgramma.
+           perform CALL-PROGRAM.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-articoli-LinkTo
+BEGIN-TEXT
+           move "garticoli" to NomeProgramma.
+           perform CALL-PROGRAM.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-listini-LinkTo
+BEGIN-TEXT
+           move "glistini" to NomeProgramma.
+           perform CALL-PROGRAM.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-schede-LinkTo
+BEGIN-TEXT
+           move "schedacli" to NomeProgramma.
+           perform CALL-PROGRAM.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-fatture-LinkTo
+BEGIN-TEXT
+           move "fatcli" to NomeProgramma.
+           perform CALL-PROGRAM.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-report-LinkTo
+BEGIN-TEXT
+           move "docum" to NomeProgramma.
+           perform CALL-PROGRAM.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-note-LinkTo
+BEGIN-TEXT
+           move "selnota" to NomeProgramma.
+           perform CALL-PROGRAM.
+END-TEXT
+END-DATA
+BEGIN-DATA
+   BASETYPE          = 2
+   PARAGRAPH         = pb-appuntamenti-LinkTo
+BEGIN-TEXT
+           move "appuntamenti" to NomeProgramma.
+           perform CALL-PROGRAM.
+END-TEXT
+END-DATA
+
+@}}
+
+[KEY_STATUS_FIELD_FORMAT]
+PIC=9(5)
+USAGE=[None]
+
+[KEYSTATUS_CONTENT:KS1]
+CONDITION=Enter-Pushed
+VALUE=13
+
+[KEYSTATUS_CONTENT:KS2]
+CONDITION=Exit-Pushed
+VALUE=27
+
+[KEYSTATUS_CONTENT:KS3]
+CONDITION=Message-Received
+VALUE=95
+
+[KEYSTATUS_CONTENT:KS4]
+CONDITION=Event-Occurred
+VALUE=96
+
+[KEYSTATUS_CONTENT:KS5]
+CONDITION=Screen-No-Input-Field
+VALUE=97
+
+[KEYSTATUS_CONTENT:KS6]
+CONDITION=Screen-Time-Out
+VALUE=99
+
+[COBOLAID_DATASET_INFO]
+COUNT=1
+NAME_0=DataSet1
+
+[DRAW_DOCUMENT_INDEX]
+OBJ_NAME_0=8001
+OBJ_ID_0=1606275748
+
+[MULTIPLE_KEY_0]
+COUNT=1
+KEY_0=prm-chiave
+
+[DRAW_DOCUMENT_8001_1606275748]
+OBJ_NAME=8001
+OBJ_ID=1606275748
+TYPE=2
+VERSION=
+DOC_SIZE_X=5100
+DOC_SIZE_Y=5160
+PAGE_LEFT=150
+PAGE_TOP=150
+PAGE_RIGHT=1850
+PAGE_BOTTOM=2730
+MARGIN_LEFT=150
+MARGIN_TOP=150
+MARGIN_RIGHT=150
+MARGIN_BOTTOM=150
+PROP_DOCU_TYPE=ø
+PROP_DOCU_TYPE2=ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+PROP_DOCU_NAME=DataSet - DataSet1[menu(StudioPostura)]
+PROP_DOCU_OWNER=Person A
+PROP_DOCU_CDATE=05/09/12
+PROP_DOCU_MODIFIER=Person B
+PROP_DOCU_MDATE=05/09/12
+PROP_DOCU_DESCR=Caseaid DocuCaseaid Document
+PROP_DOCU_HEADER=Caseaid Document
+PROP_DOCU_FOOTER=Page # 
+PROP_DOCU_DIM_H=2
+PROP_DOCU_DIM_W=3
+PROP_DOCU_LOC_H=1
+PROP_DOCU_LOC_W=1
+PROP_DOCU_EDGE_T=150
+PROP_DOCU_EDGE_B=150
+PROP_DOCU_EDGE_L=150
+PROP_DOCU_EDGE_R=150
+PROP_DOCU_ZOOM=75
+PROP_DOCU_SIZE_TYPE=0
+PROP_DOCU_SIZE_PAPER=1
+PROP_DOCU_SIZE_H=2580
+PROP_DOCU_SIZE_W=1700
+PROP_DOCU_RULER_EBL=0
+PROP_DOCU_GRID_EBL=0
+PROP_DOCU_GRID=20
+PROP_DOCU_ALIGN=0
+REL_SYM_SIZE=16
+REL_SYM_INFO_L=2
+REL_SYM_INFO_X0=2301
+REL_SYM_INFO_Y0=1653013487
+REL_SYM_INFO_X1=2301
+REL_SYM_INFO_Y1=643566636
+
+[DRAW_BASESYMBOL_2301_1653013487]
+OBJ_NAME=2301
+OBJ_ID=1653013487
+KIND=1
+{{@LABEL_2301_1653013487
+param
+@}}
+WK_STEP=0
+BK_POINT=0
+CENTER_X=0
+CENTER_Y=0
+LEFT=16
+TOP=119
+RIGHT=416
+BOTTOM=341
+PROP_OBJ_TYPE=
+PROP_OBJ_TYPE2=
+PROP_FILL_PT=0
+PROP_FILL_FG=0
+PROP_FILL_BG=16777215
+PROP_FONT_HEIGHT=-35
+PROP_FONT_WIDTH=0
+PROP_FONT_ESCAPE=0
+PROP_FONT_ORIENT=0
+PROP_FONT_WEIGHT=400
+PROP_FONT_ITALIC=0
+PROP_FONT_UDLINE=0
+PROP_FONT_SKOUT=0
+PROP_FONT_CHARSET=0
+PROP_FONT_OUTPREC=3
+PROP_FONT_CLIPPREC=2
+PROP_FONT_QUALITY=1
+PROP_FONT_PCH_FAM=18
+PROP_FONT_FACE_NAME=Times New Roman
+PROP_FONT_CR=0
+PROP_LINE_PT=0
+PROP_LINE_WG=1
+PROP_LINE_CR=0
+PROP_SHAD_PT=0
+PROP_SHAD_FG=12632256
+PROP_SHAD_BG=12632256
+PROP_SHAD_EBL=0
+PROP_SHAD_POS=4
+PROP_SHAD_POINT=0
+PROP_TRACK_COLOR=12632256
+REL_SYM_SIZE=4
+REL_SYM_INFO_L=0
+
+[DRAW_BASESYMBOL_2301_643566636]
+OBJ_NAME=2301
+OBJ_ID=643566636
+KIND=1
+{{@LABEL_2301_643566636
+lineseq
+@}}
+WK_STEP=0
+BK_POINT=0
+CENTER_X=0
+CENTER_Y=0
+LEFT=16
+TOP=502
+RIGHT=416
+BOTTOM=724
+PROP_OBJ_TYPE=
+PROP_OBJ_TYPE2=
+PROP_FILL_PT=0
+PROP_FILL_FG=0
+PROP_FILL_BG=16777215
+PROP_FONT_HEIGHT=-35
+PROP_FONT_WIDTH=0
+PROP_FONT_ESCAPE=0
+PROP_FONT_ORIENT=0
+PROP_FONT_WEIGHT=400
+PROP_FONT_ITALIC=0
+PROP_FONT_UDLINE=0
+PROP_FONT_SKOUT=0
+PROP_FONT_CHARSET=0
+PROP_FONT_OUTPREC=3
+PROP_FONT_CLIPPREC=2
+PROP_FONT_QUALITY=1
+PROP_FONT_PCH_FAM=18
+PROP_FONT_FACE_NAME=Times New Roman
+PROP_FONT_CR=0
+PROP_LINE_PT=0
+PROP_LINE_WG=1
+PROP_LINE_CR=0
+PROP_SHAD_PT=0
+PROP_SHAD_FG=12632256
+PROP_SHAD_BG=12632256
+PROP_SHAD_EBL=0
+PROP_SHAD_POS=4
+PROP_SHAD_POINT=0
+PROP_TRACK_COLOR=12632256
+REL_SYM_SIZE=4
+REL_SYM_INFO_L=0
+
+[DMD_DOCUMENT_0_1606275748]
+OBJ_NAME=0
+OBJ_ID=1606275748
+FILE_TITLE_TYPE=8136
+FILE_SHOW_ITEM=0
+FILE_SHOW_KEY=0
+FILE_SHOW_PIC=0
+FILE_SHOW_HEAD=0
+FILE_SHOW_LEVEL=0
+FILE_SHOW_TREE=0
+FILE_SHOW_CLPS=0
+FILE_SHOW_BMP=0
+FILE_SHOW_LINE=0
+FILE_SHOW_MINIZE=0
+
+[DMD_FILE_0_1653013487]
+OBJ_NAME=0
+OBJ_ID=1653013487
+REL_M_OBJ_ID=0
+ENTITY=param
+LINK=0
+LINK_NAME=
+DSN_SIZE=42
+FD_SIZE=0
+SL_SIZE=0
+DSN_INFO_OPEN_MODE=0
+DSN_INFO_LOCK_OPTION=0
+DSN_INFO_KEY_IS=prm-chiave
+DSN_INFO_DATA_ORDER=0
+DSN_INFO_START_VALUE=
+DSN_INFO_END_VALUE=
+{{@DSN_INFO_CONDITION_1653013487
+
+@}}
+DSN_INFO_PRIMARY=1
+DSN_INFO_OPEN=1
+DSN_INFO_CLOSE=1
+DSN_INFO_EXCLUSIVE=0
+DSN_INFO_IS_LOGICAL=0
+DSN_INFO_LOGICAL_FDNAME=
+DSN_INFO_ORIGINAL_FDNAME=
+DSN_INFO_REPLACEBY_FILESTATUS=
+DSN_INFO_REPLACEBY_RELATIVEKEY=
+DSN_INFO_REPLACEBY_FDDATA=
+DSN_INFO_REPLACEBY_SLDATA=
+
+[DMD_FILE_0_643566636]
+OBJ_NAME=0
+OBJ_ID=643566636
+REL_M_OBJ_ID=0
+ENTITY=lineseq
+LINK=0
+LINK_NAME=
+DSN_SIZE=32
+FD_SIZE=0
+SL_SIZE=0
+DSN_INFO_OPEN_MODE=0
+DSN_INFO_LOCK_OPTION=0
+DSN_INFO_KEY_IS=
+DSN_INFO_DATA_ORDER=0
+DSN_INFO_START_VALUE=
+DSN_INFO_END_VALUE=
+{{@DSN_INFO_CONDITION_643566636
+
+@}}
+DSN_INFO_PRIMARY=0
+DSN_INFO_OPEN=0
+DSN_INFO_CLOSE=0
+DSN_INFO_EXCLUSIVE=0
+DSN_INFO_IS_LOGICAL=0
+DSN_INFO_LOGICAL_FDNAME=
+DSN_INFO_ORIGINAL_FDNAME=
+DSN_INFO_REPLACEBY_FILESTATUS=
+DSN_INFO_REPLACEBY_RELATIVEKEY=
+DSN_INFO_REPLACEBY_FDDATA=
+DSN_INFO_REPLACEBY_SLDATA=

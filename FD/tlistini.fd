@@ -1,0 +1,17 @@
+       FD  tlistini.
+       01 tls-rec.
+           05 tls-chiave.
+               10 tls-codice       PIC  9(5).
+           05 tls-dati.
+               10 tls-descrizione  PIC  x(50).
+               10 tls-ricerca.
+                   15 tls-tipo         PIC  x.
+                       88 tls-tipo-categoria VALUE IS "C". 
+                       88 tls-tipo-individuale VALUE IS "I". 
+                   15 tls-codice-tipo  PIC  x(6).
+                   15 tls-ini-val      PIC  9(8).
+               10 tls-vuoti.
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  9(18).
+                   15 FILLER           PIC  x(500).
